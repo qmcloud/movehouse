@@ -1,0 +1,60 @@
+<form id="rest" class="form-horizontal" data-toggle="validator" method="POST" action="config/rest">
+    <div class="form-group">
+    <label class="control-label col-sm-2 ">小程序客服电话:</label>
+    <div class="col-sm-3">
+        <input type="number" class="form-control" name="row[service_tel]"  data-tip="小程序客服电话"  {present name="$setting['service_tel']"} value="{$setting['service_tel']}" {/present}>
+    </div>
+</div>
+    <div class="form-group">
+        <label class="control-label col-sm-2 ">订单抽成比例:</label>
+        <div class="col-sm-3">
+            <div class="input-group">
+                <input type="number" class="form-control" name="row[order_ratio]"  data-tip="平台抽成订单金额百分比" data-target="#commission" {present name="$setting['order_ratio']"} value="{$setting['order_ratio']}" {/present}>
+                <span class="input-group-addon">%</span>
+            </div>
+        </div>
+        <span class="help-block" id="commission"></span>
+
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2 ">提现条件:</label>
+        <div class="col-sm-3">
+            <div class="input-group">
+                <span class="input-group-addon">满</span>
+                <input type="number" class="form-control" name="row[withdrawal_condition]"  {present name="$setting['withdrawal_condition']"} value="{$setting['withdrawal_condition']}" {/present}>
+                <span class="input-group-addon">元</span>
+            </div>
+        </div>
+        <span class="help-block" id="withdrawal"></span>
+
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2 ">订单推送范围:</label>
+        <div class="col-sm-3">
+            <div class="input-group">
+                <input type="number" class="form-control" name="row[scope]" placeholder="默认十公里内" data-tip="推送订单地址多少公里范围内的司机" data-target="#scope" {present name="$setting['scope']"} value="{$setting['scope']}" {/present}>
+                <span class="input-group-addon">km</span>
+            </div>
+        </div>
+        <span class="help-block" id="scope"></span>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-sm-2 ">取货、收货范围:</label>
+        <div class="col-sm-3">
+            <div class="input-group">
+                <input type="number" class="form-control" name="row[get_scope]" placeholder="默认五公里内" data-tip="司机直线距离取货地、收货地多少范围内才能取货或收货，注意不要设置小于1" data-target="#get_scope" {present name="$setting['get_scope']"} value="{$setting['get_scope']}" {/present}>
+                <span class="input-group-addon">km</span>
+            </div>
+        </div>
+        <span class="help-block" id="get_scope"></span>
+    </div>
+
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

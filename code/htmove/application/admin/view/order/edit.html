@@ -1,0 +1,172 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Sn')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-sn" class="form-control" name="row[sn]" type="text" value="{$row.sn|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Openid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-openid" class="form-control" name="row[openid]" type="text" value="{$row.openid|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Pro_price')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-pro_price" class="form-control" step="0.01" name="row[pro_price]" type="number" value="{$row.pro_price|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Couponid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-couponid" class="form-control" name="row[couponid]" type="number" value="{$row.couponid|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Coupon_price')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-coupon_price" class="form-control" step="0.01" name="row[coupon_price]" type="number" value="{$row.coupon_price|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Price')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-price" class="form-control" step="0.01" name="row[price]" type="number" value="{$row.price|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Uptime')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-uptime" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[uptime]" type="text" value="{:$row.uptime?datetime($row.uptime):''}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Movetime')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-movetime" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[movetime]" type="text" value="{:$row.movetime?datetime($row.movetime):''}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-name" class="form-control" name="row[name]" type="text" value="{$row.name|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Tel')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-tel" class="form-control" name="row[tel]" type="text" value="{$row.tel|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Mark')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-mark" class="form-control" name="row[mark]" type="text" value="{$row.mark|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Img1')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-img1" class="form-control" name="row[img1]" type="text" value="{$row.img1|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Img2')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-img2" class="form-control" name="row[img2]" type="text" value="{$row.img2|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Img3')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-img3" class="form-control" name="row[img3]" type="text" value="{$row.img3|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Img4')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-img4" class="form-control" name="row[img4]" type="text" value="{$row.img4|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Img5')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-img5" class="form-control" name="row[img5]" type="text" value="{$row.img5|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Img6')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-img6" class="form-control" name="row[img6]" type="text" value="{$row.img6|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Start')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-start" class="form-control" name="row[start]" type="text" value="{$row.start|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('End')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-end" class="form-control" name="row[end]" type="text" value="{$row.end|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Cartype')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-cartype" class="form-control" name="row[cartype]" type="text" value="{$row.cartype|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Status')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-status" data-rule="required" class="form-control" name="row[status]" type="number" value="{$row.status|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Distance')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-distance" class="form-control" name="row[distance]" type="number" value="{$row.distance|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Duration')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-duration" class="form-control" name="row[duration]" type="number" value="{$row.duration|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Ewprice')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-ewprice" class="form-control" name="row[ewprice]" type="text" value="{$row.ewprice|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Img')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-img" class="form-control" name="row[img]" type="text" value="{$row.img|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Driver')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-driver" class="form-control" name="row[driver]" type="text" value="{$row.driver|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Driver_tel')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-driver_tel" class="form-control" name="row[driver_tel]" type="text" value="{$row.driver_tel|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

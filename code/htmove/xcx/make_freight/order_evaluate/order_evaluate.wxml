@@ -1,0 +1,32 @@
+<view class="box column">
+    <view class="order-status">本次订单已完成</view>
+    <view class="order-des">请对本次服务司机进行评价</view>
+    <view class="item-row">
+        <view class="item betweens">
+            <view class="item-left">运送服务</view>
+            <view class="item-right">
+                <image bind:tap="serviceStar" class="star-img" data-id="{{index}}" data-type="0" src="/image/star.png" wx:for="{{service}}" wx:key="{{index}}"></image>
+                <image bind:tap="serviceStar" class="star-img" data-id="{{service+index}}" data-type="1" src="/image/no_star.png" wx:for="{{5-service}}" wx:key="{{index}}"></image>
+            </view>
+        </view>
+        <view class="item betweens">
+            <view class="item-left">运送速度</view>
+            <view class="item-right">
+                <image bind:tap="speedStar" class="star-img" data-id="{{index}}" src="/image/star.png" wx:for="{{speed}}" wx:key="{{index}}"></image>
+                <image bind:tap="speedStar" class="star-img" data-id="{{index+speed}}" src="/image/no_star.png" wx:for="{{5-speed}}" wx:key="{{index}}"></image>
+            </view>
+        </view>
+        <view class="item betweens">
+            <view class="item-left">综合评价</view>
+            <view class="item-right">
+                <image bind:tap="synthesizeStar" class="star-img" data-id="{{index}}" src="/image/star.png" wx:for="{{synthesize}}" wx:key="{{index}}"></image>
+                <image bind:tap="synthesizeStar" class="star-img" data-id="{{index+synthesize}}" src="/image/no_star.png" wx:for="{{5-synthesize}}" wx:key="{{index}}"></image>
+            </view>
+        </view>
+    </view>
+    <view class="textarea_title">其他建议</view>
+    <view class="w-f">
+        <textarea bindinput="suggest" class="textarea" disabled="{{status==5?true:false}}" placeholder="还有什么想对司机说的" value="{{suggest}}"></textarea>
+    </view>
+    <view catch:tap="confirm" class="confirm center" wx:if="{{status==4}}">提交</view>
+</view>

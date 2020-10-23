@@ -1,0 +1,94 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">跳转:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="radio">
+                <label id="page">
+                    <input  name="row[type]" type="radio" value="1" {if $row->type == 1} checked {/if}/> 小程序页面
+                </label>
+                <label id="select_app">
+                    <input  name="row[type]" type="radio" value="2"  {if $row->type == 2} checked {/if} /> 小程序
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group {if $row->type == 2} hide {/if}" id="select_page">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Url')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <select class="form-control" name="row[url]" >
+                <option  value="no" {if $row['url'] == 'no'} selected {/if}>不跳转</option>
+                {foreach $paths as $k=>$v}
+                <option value="{$v}" {if $row['url'] == $v} selected {/if}>{$k}</option>
+                {/foreach}
+            </select>
+        </div>
+    </div>
+
+
+
+    <div class="form-group {if $row->type == 1} hide {/if}" id="appid">
+        <label class="control-label col-xs-12 col-sm-2">跳转小程序APPID:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input  data-rule="required" class="form-control" name="row[appid]" type="text" value="{$row->appid}" data-tip="设置后需要重新上传小程序审核并在微擎上添加APPID">
+        </div>
+    </div>
+    <div class="form-group {if $row->type == 1} hide {/if}"  id="pages">
+        <label class="control-label col-xs-12 col-sm-2">跳转的小程序页面:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="jump_page" class="form-control" type="text"  name="row[app_url]" value="{$row->app_url}" data-tip="小程序页面路径，不填则默认跳到首页">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Image')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="input-group">
+                <input id="c-image" data-rule="required" class="form-control" size="50" name="row[image]" type="text" value="{$row.image}">
+                <div class="input-group-addon no-border no-padding">
+                    <span><button type="button" id="plupload-image" class="btn btn-danger plupload" data-input-id="c-image" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="false" data-preview-id="p-image"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                    <span><button type="button" id="fachoose-image" class="btn btn-primary fachoose" data-input-id="c-image" data-mimetype="image/*" data-multiple="false"><i class="fa fa-list"></i> {:__('Choose')}</button></span>
+                </div>
+                <span class="msg-box n-right" for="c-image"></span>
+            </div>
+            <ul class="row list-inline plupload-preview" id="p-image"></ul>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Sort')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-sort" data-rule="required" class="form-control" name="row[sort]" type="number" value="{$row.sort}">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Show_switch')}:</label>
+        <div class="col-xs-12 col-sm-8">
+
+            <div class="radio">
+
+                <label >
+                    <input  name="row[show_switch]" type="radio" value="0" {eq name="row.show_switch" value="0"} checked {/eq} /> 隐藏
+                </label>
+                <label >
+                    <input  name="row[show_switch]" type="radio" value="1" {eq name="row.show_switch" value="1"} checked {/eq} /> 显示
+                </label>
+            </div>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Create_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <span id="c-create_time" class="form-control "  name="row[create_time]" >{:$row.create_time?datetime($row.create_time):''}</span>
+        </div>
+    </div>
+
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

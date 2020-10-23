@@ -1,0 +1,24 @@
+<m-tab bind:Getidx="Getidx" bind:scrollSole="scrollSole" top_item="{{top_item}}" top_p="{{top_p}}">
+    <view class="box" slot="after{{idx}}">
+        <!--<view class="search-box rows">
+            <input bindinput="conversionValue" class="input" placeholder="输入兑换码兑换优惠券" placeholderClass="place-input" type="text"></input>
+            <view catch:tap="conversion" class="search-btn center">兑换</view>
+        </view>-->
+        <view catch:tap="useCoupon" class="{{item.status > 1?'coupon-box':'no-coupon-box'}} between" data-idx="{{index}}" wx:for="{{list}}" wx:key="{{item.id}}">
+            <view class="coupon-left">
+                <view class="coupon-title">{{item.title}}</view>
+                <view class="coupon-des">{{item.desc}}</view>
+                <view class="coupon-time">有效期至 -{{item.endtime}}</view>
+            </view>
+            <view class="coupon-right column">
+                <view class="coupon-price-box">￥ <text class="coupon-price">{{item.price}}</text>
+                </view>
+                <view bindtap="go_use" class="coupon-use-box {{item.status > 1?'':'no-coupon-border'}} center">去使用</view>
+            </view>
+        </view>
+        <m-no-hint class="" wx:if="{{verify.isArray(list)==false}}">
+            <view class="no-hint-font" slot="after">暂无优惠券记录~</view>
+        </m-no-hint>
+    </view>
+</m-tab>
+<wxs module="verify" src="../../modules/verify.wxs" />

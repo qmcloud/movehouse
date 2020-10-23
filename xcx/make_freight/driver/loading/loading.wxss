@@ -1,0 +1,56 @@
+page {
+    background: #ffffff;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-box {
+    margin: 20rpx 20rpx 0rpx 20rpx;
+}
+
+.top-item {
+    padding-top: 50rpx;
+    padding-left: 20rpx;
+    padding-right: 20rpx;
+}
+
+.title {
+    font-size: 36rpx;
+    font-weight: normal;
+}
+
+.hint {
+    margin-top: 34rpx;
+    font-size: 24rpx;
+    color: #808080;
+}
+
+.upload_image {
+    margin: 60rpx 20rpx 20rpx 20rpx;
+    height: 468rpx;
+    width: 602rpx;
+}
+
+.upload_bth {
+    height: 90rpx;
+    background: #ffd101;
+    width: 100%;
+    font-size: 28rpx;
+}
+
+.goods_image image {
+    height: 378rpx;
+    width: 602rpx;
+}
+
+.submit {
+    height: 100rpx;
+    width: 100%;
+    margin-top: 280rpx;
+    background: #ffd101;
+}

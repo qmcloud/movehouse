@@ -1,0 +1,8 @@
+{
+    "navigationBarTitleText": "订单详情",
+    "usingComponents": {
+        "m-order-map": "../../component/order_map/index",
+        "m-driver": "../../component/driver/index",
+        "m-address": "/component/address/index"
+    }
+}

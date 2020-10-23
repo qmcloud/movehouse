@@ -1,0 +1,48 @@
+page {
+    background: #ffffff;
+}
+
+.box {
+    padding-top: 30rpx;
+}
+
+.box-left {
+    margin: 0 30rpx 0 40rpx;
+}
+
+.circle-big-img {
+    width: 30rpx;
+    height: 30rpx;
+    background: #ffd101;
+    border-radius: 50%;
+}
+
+.line-c {
+    width: 1px;
+    height: 100rpx;
+    background: #d9d9d9;
+}
+
+.circle-img {
+    width: 20rpx;
+    height: 20rpx;
+    background: #d9d9d9;
+    border-radius: 50%;
+}
+
+.row-item {
+    width: 650rpx;
+    height: 100rpx;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 20rpx;
+}
+
+.row-title {
+    font-weight: bold;
+    margin-bottom: 6rpx;
+}
+
+.row-time {
+    color: #8d8d8d;
+    font-size: 24rpx;
+}

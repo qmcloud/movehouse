@@ -1,0 +1,144 @@
+.status-box {
+    width: 100%;
+    padding: 10rpx 0;
+    background: #ffffff;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.status-btn {
+    width: 80rpx;
+    height: 24rpx;
+}
+
+.btn-box-item {
+    width: 100%;
+    background: #ffffff;
+    padding: 20rpx 0;
+}
+
+.wait-pay {
+    font-size: 36rpx;
+    font-weight: bold;
+}
+
+.wait-pay-des {
+    color: #808080;
+    font-size: 24rpx;
+    margin: 10rpx 0 30rpx 0;
+}
+
+.yellow {
+    color: #ffd101;
+}
+
+.wait-close-btn {
+    width: 200rpx;
+    height: 70rpx;
+    color: #808080;
+    border: 1px solid #ebebeb;
+}
+
+.space-box {
+    width: 100rpx;
+    height: 100rpx;
+    border-left: 1px solid #ebebeb;
+}
+
+.wait-pay-btn {
+    width: 200rpx;
+    height: 70rpx;
+    color: #ffd101;
+    border: 1px solid #ffd101;
+    margin-left: 80rpx;
+}
+
+.btn-box {
+    width: 220rpx;
+    height: 100rpx;
+    font-weight: bold;
+    border-top: 1px solid #ebebeb;
+    border-left: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.btn-box:nth-of-type(3) {
+    border-right: 1px solid #ebebeb;
+}
+
+.btn-img {
+    width: 28rpx;
+    height: 28rpx;
+    margin-right: 10rpx;
+}
+
+.evaluat-box .btn-box {
+    width: 336rpx;
+}
+
+.evaluat-box .btn-img {
+    margin-right: 20rpx;
+}
+
+.address-box {
+    margin-top: 20rpx;
+    background: #ffffff;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.view-box {
+    width: 100%;
+    height: 20rpx;
+    background: #ffffff;
+}
+
+.order-detail-box {
+    width: 100%;
+    padding: 0 40rpx;
+    background: #ffffff;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.detail-item {
+    padding: 30rpx 0;
+}
+
+.detail-item:nth-of-type(n+2) {
+    border-top: 1px solid #ebebeb;
+}
+
+.detail-item-left {
+    width: 200rpx;
+    font-weight: bold;
+}
+
+.detail-item-right {
+    color: #808088;
+}
+
+.order-price {
+    color: #ff0000;
+}
+
+.price-des {
+    font-size: 24rpx;
+}
+
+.footer {
+    width: 100%;
+    height: 140rpx;
+    background: #ffffff;
+}
+
+.question-img {
+    width: 38rpx;
+    height: 36rpx;
+    margin-right: 15rpx;
+}
+
+.question-box {
+    width: 300rpx;
+    height: 70rpx;
+    border-radius: 35px;
+    border: 1px solid #2c282e;
+}

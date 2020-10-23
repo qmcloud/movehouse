@@ -1,0 +1,69 @@
+.footer {
+    width: 100%;
+    padding-left: 40rpx;
+    background: #ffffff;
+    padding-bottom: 50rpx;
+}
+
+.item {
+    width: 100%;
+    padding: 30rpx 30rpx 40rpx 0;
+}
+
+.address-des {
+    color: #808088;
+    font-size: 24rpx;
+}
+
+.item:nth-of-type(n+1) {
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.a-r {
+    width: 14rpx;
+    height: 24rpx;
+}
+
+.address-img {
+    width: 35rpx;
+    height: 42rpx;
+    margin-right: 30rpx;
+}
+
+.person-img {
+    width: 35rpx;
+    height: 40rpx;
+}
+
+.tel-img {
+    width: 35rpx;
+    height: 34rpx;
+}
+
+.des-img {
+    width: 35rpx;
+    height: 35rpx;
+}
+
+input {
+    flex: 1;
+    margin-left: 30rpx;
+}
+
+.confirm-btn {
+    width: 670rpx;
+    height: 80rpx;
+    background: #FE7E26;
+    border-radius: 35px;
+    margin-top: 50rpx;
+}
+
+.confirm-btn:after {
+    border: 0;
+}
+
+.map {
+    flex: 1;
+    width: 100%;
+    position: relative;
+}

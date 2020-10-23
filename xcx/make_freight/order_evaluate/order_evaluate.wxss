@@ -1,0 +1,64 @@
+page {
+    background: #ffffff;
+}
+
+.box {
+    width: 100%;
+    background: #ffffff;
+    padding: 0 40rpx;
+}
+
+.order-status {
+    font-size: 48rpx;
+    font-weight: bold;
+    margin-top: 160rpx;
+}
+
+.order-des {
+    color: #808088;
+    font-size: 24rpx;
+    margin: 30rpx 0 40rpx 0;
+}
+
+.item-row {
+    width: 100%;
+    border-top: 1px solid #f2f2f2;
+}
+
+.item {
+    width: 100%;
+    height: 100rpx;
+}
+
+.star-img {
+    width: 36rpx;
+    height: 34rpx;
+    padding: 0 10rpx;
+}
+
+.textarea_title {
+    font-size: 36rpx;
+    font-weight: bold;
+    width: 100%;
+    margin: 20rpx 0;
+}
+
+.textarea {
+    width: 670rpx;
+    height: 250rpx;
+    background: #f5f6f7;
+    padding: 20rpx;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.confirm {
+    width: 600rpx;
+    height: 90rpx;
+    color: #2c282e;
+    font-size: 36rpx;
+    font-weight: bold;
+    background: #ffd101;
+    border-radius: 35px;
+    margin-top: 50rpx;
+}

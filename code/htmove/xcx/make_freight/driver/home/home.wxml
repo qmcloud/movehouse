@@ -1,0 +1,26 @@
+<view class="full flex-c">
+    <driver_index bind:switch="switch" class="main" info="{{info}}" wx:if="{{PageCur=='driver_index'}}"></driver_index>
+    <my_center class="main" info="{{info}}" wx:if="{{PageCur=='my_center'}}"></my_center>
+    <view class="cu-bar tabbar bg-white shadow foot">
+        <view class="action">
+            <form bindsubmit="NavChange" class="" data-cur="driver_index" reportSubmit="true">
+                <button class="{{PageCur=='driver_index'?'text-green':'text-gray'}} button" formType="submit">
+                    <view class="icon-cu-image" style="height:50rpx;">
+                        <image src="../../../image/{{PageCur=='driver_index'?'home_i':'home'}}.png"></image>
+                    </view>
+                    <view class="">首页</view>
+                </button>
+            </form>
+        </view>
+        <view class="action">
+            <form bindsubmit="NavChange" class="" data-cur="my_center" reportSubmit="true">
+                <button class="{{PageCur=='component'?'text-green':'text-gray'}} button" formType="submit">
+                    <view class="icon-cu-image" style="height:50rpx;">
+                        <image src="../../../image/{{PageCur=='my_center'?'info_i':'info'}}.png"></image>
+                    </view>
+                    <view class="">个人中心</view>
+                </button>
+            </form>
+        </view>
+    </view>
+</view>

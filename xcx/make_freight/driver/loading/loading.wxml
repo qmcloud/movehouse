@@ -1,0 +1,21 @@
+<view>
+    <view class="content-box">
+        <view class="top-item">
+            <view class="title">拍照上传</view>
+            <text class="hint">
+                1.请对准客户搬运的货物内容进行拍照
+2.请确保照片的内容完整并清晰可见，仅支持jpg、png格式， 图片大小小于5M
+            </text>
+            <view class="upload_image column">
+                <view class="goods_image" wx:if="{{!obj.temp}}">
+                    <image src="/image/driver/cargo.png"></image>
+                </view>
+                <view class="goods_image" wx:else>
+                    <image src="{{obj.temp}}"></image>
+                </view>
+                <view catch:tap="upload" class="upload_bth column">点击上传货物</view>
+            </view>
+        </view>
+        <view catch:tap="confirm" class="submit column">完成</view>
+    </view>
+</view>

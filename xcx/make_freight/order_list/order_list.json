@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "我的订单",
+    "usingComponents": {
+        "m-tab": "/component/tab/index",
+        "m-no-hint": "/component/no_hint/index"
+    }
+}

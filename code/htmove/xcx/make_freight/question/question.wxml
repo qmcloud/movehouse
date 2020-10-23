@@ -1,0 +1,8 @@
+<view class="view-box"></view>
+<block wx:for="{{list}}" wx:key="{{index}}">
+    <view bind:tap="lookQuestion" class="question-box betweens" data-idx="{{index}}">
+        <view class="question">{{item.name}}</view>
+        <image class="question-r {{index==idx?'img-animation':'img-animation-n'}}" src="/image/question_r.png"></image>
+    </view>
+    <view class="answer" wx:if="{{index==idx}}">{{item.content}}</view>
+</block>

@@ -1,0 +1,139 @@
+<div class="panel panel-default panel-intro">
+    <div class="panel-heading">
+        <ul id="myTab" class="nav nav-tabs">
+            <li class="active"><a href="#base" data-toggle="tab">基本信息</a></li>
+            <li><a href="#milk_run" data-toggle="tab">配送信息</a></li>
+            <!--<li><a href="#driver" data-toggle="tab">司机信息</a></li>-->
+
+        </ul>
+    </div>
+
+    <div class="panel-body">
+        <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade in active" id="base">
+                <div class="form-horizontal">
+                    <p style="font-size: 15px;font-weight: bold;">基本信息:</p>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">订单号:</label>
+                        <div class="col-sm-3">
+                            <p class="form-control-static">{$re.order_number}</p>
+                        </div>
+
+                        <label class="col-sm-2 control-label">下单用户:</label>
+                        <div class="col-sm-5">
+                            <p class="form-control-static">{$username}</p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">预估最低价:</label>
+                        <div class="col-sm-3">
+                            <p class="form-control-static">{$re.real_price}</p>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">预约时间:</label>
+                        <div class="col-sm-3">
+                            <p class="form-control-static">{$re.appointment_time}</p>
+                        </div>
+
+                        <label class="col-sm-2 control-label">订单距离:</label>
+                        <div class="col-sm-5">
+                            <p class="form-control-static">{$re.distance}</p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">订单状态:</label>
+                        <div class="col-sm-3">
+                            <p class="form-control-static">{$re.status_text}</p>
+                        </div>
+
+                        <label class="col-sm-2 control-label">备注:</label>
+                        <div class="col-sm-5">
+                            <p class="form-control-static">{$re.remark}</p>
+                        </div>
+                    </div>
+                    <p style="font-size: 15px;font-weight: bold;">订单车型:</p>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">车辆名称:</label>
+                        <div class="col-sm-3">
+                            <p class="form-control-static">{$re.car_name}</p>
+                        </div>
+
+                        <label class="col-sm-2 control-label">起步价:</label>
+                        <div class="col-sm-5">
+                            <p class="form-control-static">{$re.start_price}</p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">起步里程:</label>
+                        <div class="col-sm-3">
+                            <p class="form-control-static">{$re.start_km}</p>
+                        </div>
+
+                        <label class="col-sm-2 control-label">超出起步里程:</label>
+                        <div class="col-sm-5">
+                            <p class="form-control-static">{$re.beyond} 元 /公里</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="tab-pane fade" id="milk_run">
+                <div class="form-horizontal">
+                    <p style="font-size: 15px;font-weight: bold;">发件人:</p>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">发件人姓名:</label>
+                        <div class="col-sm-3">
+                            <p class="form-control-static">{$re.shipper_name}</p>
+                        </div>
+
+                        <label class="col-sm-2 control-label">发件人手机号:</label>
+                        <div class="col-sm-5">
+                            <p class="form-control-static">{$re.shipper_phone}</p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">发货地址:</label>
+                        <div class="col-sm-3">
+                            <p class="form-control-static">{$re.place_dispatch}</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <p style="font-size: 15px;font-weight: bold;">收件人:</p>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">收货人姓名:</label>
+                        <div class="col-sm-3">
+                            <p class="form-control-static">{$re.consignee}</p>
+                        </div>
+
+                        <label class="col-sm-2 control-label">收件人手机号:</label>
+                        <div class="col-sm-5">
+                            <p class="form-control-static">{$re.consignee_phone}</p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">收货地址:</label>
+                        <div class="col-sm-3">
+                            <p class="form-control-static">{$re.place_receipt}</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!--<div class="tab-pane fade" id="driver">-->
+                <!--司机信息-->
+            <!--</div>-->
+
+
+
+        </div>
+    </div>
+</div>

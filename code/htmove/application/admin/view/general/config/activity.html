@@ -1,0 +1,62 @@
+<div class="panel panel-default panel-intro">
+    <div class="panel-heading">
+        <ul id="myTab" class="nav nav-tabs">
+            <li class="active"><a href="#user" data-toggle="tab">优惠券活动设置</a></li>
+        </ul>
+    </div>
+
+    <div class="panel-body">
+        <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade in active" id="user">
+                <div class="box box-success">
+                    <form id="activity-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="general/config/activity">
+                        <div class="panel-heading"><span class="heading-span">新人优惠券活动</span></div>
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <label class="col-sm-1 control-label" style="">可获得优惠券：</label>
+                                <div class="col-sm-3">
+                                    <select id="c-coupons" data-rule="required" class="form-control" name="row[coupon_id]">
+                                        <option value="0" {present name="$setting['coupon_id']"}{eq name="$setting['coupon_id']" value="0"} selected {/eq} {/present}>关闭活动</option>
+                                        {foreach $coupons as $k=>$v}
+                                        <option value="{$v['id']}" {present name="$setting['coupon_id']"}{eq name="$setting['coupon_id']" value="$v['id']"} selected {/eq} {/present} >{$v['name']}</option>
+                                        {/foreach}
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-sm-1">背景图:</label>
+                                <div class="col-xs-12 col-sm-3">
+                                    <div class="input-group">
+                                        <input id="c-coupon_back" data-rule="required" class="form-control" size="50" name="row[coupon_back]" type="text" {present name="$setting['coupon_back']"} value="{$setting['coupon_back']}" {/present}>
+                                        <div class="input-group-addon no-border no-padding">
+                                            <span><button type="button" id="plupload-coupon_back" class="btn btn-danger plupload" data-input-id="c-coupon_back" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="false" data-preview-id="p-coupon_back"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                                            <span><button type="button" id="fachoose-coupon_back" class="btn btn-primary fachoose" data-input-id="c-coupon_back" data-mimetype="image/*" data-multiple="false"><i class="fa fa-list"></i> {:__('Choose')}</button></span>
+                                        </div>
+                                        <span class="msg-box n-right" for="c-coupon_back"></span>
+                                    </div>
+                                    <ul class="row list-inline plupload-preview" id="p-coupon_back"></ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="form-group layer-footer">
+                            <label class="control-label col-xs-12 col-sm-2"></label>
+                            <div class="col-xs-12 col-sm-8">
+                                <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+                                <!--<button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>-->
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+

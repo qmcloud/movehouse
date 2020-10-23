@@ -1,0 +1,70 @@
+<view class="top-box column">
+    <view class="center-r top_item ">
+        <view class="icon_item center">
+            <image class="" src="/image/driver/b_time.png" style="width:25rpx;height:25rpx;"></image>
+        </view>
+        <view class="right_text">{{list.appointment_time}}</view>
+    </view>
+    <view class="center-r top_item bor-top">
+        <view class="icon_item center">
+            <image class="top-icon" src="/image/driver/yel_icon.png"></image>
+        </view>
+        <view class="right_text">{{list.place_dispatch}}</view>
+    </view>
+    <view class="center-r top_item bor-top">
+        <view class="icon_item center">
+            <image class="top-icon" src="/image/driver/r_icon.png"></image>
+        </view>
+        <view class="right_text">{{list.place_receipt}}</view>
+    </view>
+</view>
+<view class="top-box column" style="margin: 20rpx 0;">
+    <view class="center-r top_item ">
+        <view class="left_text">车型：</view>
+        <view class="right_text">{{list.car_name}}</view>
+    </view>
+    <view class="center-r top_item bor-top" wx:if="{{list.remark!=''}}">
+        <view class="left_text">备注信息：</view>
+        <view class="right_text">{{list.remark}}</view>
+    </view>
+    <view class="center-r top_item">
+        <view class="left_text">付款方式：</view>
+        <view class="right_text">微信</view>
+    </view>
+    <view class="center-r top_item">
+        <view class="left_text">实付金额：</view>
+        <view class="right_text">{{list.real_price}}</view>
+    </view>
+    <view class="center-r top_item ">
+        <view class="left_text">订单号：</view>
+        <view class="right_text">{{list.order_number}}</view>
+    </view>
+</view>
+<view class="top-box column">
+    <view class="row mid_title">
+        <view class="line"></view>
+        <view>订单轨迹</view>
+        <view class="line"></view>
+    </view>
+    <view class="betweens footer-item" wx:if="{{list.status>=2}}">
+        <view class="rows">
+            <view class="dot dot-y"></view>
+            <view class="right_text">开始接单</view>
+        </view>
+        <view class="">{{list.dcreatetime}}</view>
+    </view>
+    <view class="betweens footer-item" wx:if="{{list.status>=3}}">
+        <view class="rows">
+            <view class="dot"></view>
+            <view class="right_text">已取货</view>
+        </view>
+        <view class="">{{list.get_cargo_time}}</view>
+    </view>
+    <view class="betweens footer-item" wx:if="{{list.status>=4}}">
+        <view class="rows">
+            <view class="dot"></view>
+            <view class="right_text">已送达</view>
+        </view>
+        <view class="">{{list.end_time}}</view>
+    </view>
+</view>

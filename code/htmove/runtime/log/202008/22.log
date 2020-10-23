@@ -1,0 +1,3551 @@
+---------------------------------------------------------------
+[ 2020-08-22T01:11:56+08:00 ] 183.234.187.222 GET www.58hongtu.com/
+[运行时间：0.034483s] [吞吐率：29.00req/s] [内存消耗：2,993.08kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002078s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002098s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000192s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'www.58hongtu.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.12150.8 Safari/537.36',
+  'accept-encoding' => 'gzip',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001197s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/www.58hongtu.com/htmove/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T11:09:05+08:00 ] 112.97.57.128 GET www.58hongtu.com/index/index/home
+[运行时间：0.034122s] [吞吐率：29.31req/s] [内存消耗：3,031.91kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002156s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002174s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000204s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/wxpic,image/tpg,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; JNY-AL10 Build/HUAWEIJNY-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200701 Mobile Safari/537.36 MMWEBID/9472 MicroMessenger/7.0.17.1720(0x2700113F) Process/appbrand2 WeChat/arm64 NetType/4G Language/en ABI/arm64 miniProgram',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001222s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/lang/en/index.php
+[ info ] [ RUN ] app\index\controller\Index->home[ /www/wwwroot/www.58hongtu.com/htmove/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/view/index/home.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T11:09:05+08:00 ] 112.97.57.128 GET www.58hongtu.com/api/index/openid?code=073fVa0007fd9K1inj100FS4I50fVa0D
+[运行时间：0.341743s] [吞吐率：2.93req/s] [内存消耗：3,856.29kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004970s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005003s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001278s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'openid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wx3dd58f4332fd09ed/17/page-frame.html',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; JNY-AL10 Build/HUAWEIJNY-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200701 Mobile Safari/537.36 MMWEBID/9472 MicroMessenger/7.0.17.1720(0x2700113F) Process/appbrand2 WeChat/arm64 NetType/4G Language/en ABI/arm64',
+  'charset' => 'utf-8',
+  'connection' => 'keep-alive',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '073fVa0007fd9K1inj100FS4I50fVa0D',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001218s ]
+[ info ] [ RUN ] app\api\controller\Index->openid[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T11:09:05+08:00 ] 112.97.57.128 GET www.58hongtu.com/index/index/home?openid=oG2WP4ueR7pX-5uTO8-4ZZ7y3mWc
+[运行时间：0.031194s] [吞吐率：32.06req/s] [内存消耗：3,032.10kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002065s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002083s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000190s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/wxpic,image/tpg,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; JNY-AL10 Build/HUAWEIJNY-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200701 Mobile Safari/537.36 MMWEBID/9472 MicroMessenger/7.0.17.1720(0x2700113F) Process/appbrand2 WeChat/arm64 NetType/4G Language/en ABI/arm64 miniProgram',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4ueR7pX-5uTO8-4ZZ7y3mWc',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001223s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/lang/en/index.php
+[ info ] [ RUN ] app\index\controller\Index->home[ /www/wwwroot/www.58hongtu.com/htmove/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/view/index/home.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T11:09:05+08:00 ] 112.97.57.128 GET www.58hongtu.com/api/index/getlocation?openid=null
+[运行时间：0.025214s] [吞吐率：39.66req/s] [内存消耗：2,577.10kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002046s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002066s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000190s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getlocation',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.58hongtu.com/index/index/home',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; JNY-AL10 Build/HUAWEIJNY-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200701 Mobile Safari/537.36 MMWEBID/9472 MicroMessenger/7.0.17.1720(0x2700113F) Process/appbrand2 WeChat/arm64 NetType/4G Language/en ABI/arm64 miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'null ',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001192s ]
+[ info ] [ RUN ] app\api\controller\Index->getlocation[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T11:09:07+08:00 ] 112.97.57.128 GET www.58hongtu.com/api/index/getlocation?openid=oG2WP4ueR7pX-5uTO8-4ZZ7y3mWc
+[运行时间：0.027004s] [吞吐率：37.03req/s] [内存消耗：2,577.37kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002079s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002102s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000186s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getlocation',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4ueR7pX-5uTO8-4ZZ7y3mWc',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; JNY-AL10 Build/HUAWEIJNY-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200701 Mobile Safari/537.36 MMWEBID/9472 MicroMessenger/7.0.17.1720(0x2700113F) Process/appbrand2 WeChat/arm64 NetType/4G Language/en ABI/arm64 miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4ueR7pX-5uTO8-4ZZ7y3mWc',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001150s ]
+[ info ] [ RUN ] app\api\controller\Index->getlocation[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T11:09:07+08:00 ] 112.97.57.128 GET www.58hongtu.com/api/index/addcarinfo?openid=oG2WP4ueR7pX-5uTO8-4ZZ7y3mWc&bj=%E5%B0%8F%E6%90%AC&coin=150
+[运行时间：0.037544s] [吞吐率：26.64req/s] [内存消耗：2,577.54kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003040s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003070s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000287s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'addcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4ueR7pX-5uTO8-4ZZ7y3mWc',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; JNY-AL10 Build/HUAWEIJNY-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200701 Mobile Safari/537.36 MMWEBID/9472 MicroMessenger/7.0.17.1720(0x2700113F) Process/appbrand2 WeChat/arm64 NetType/4G Language/en ABI/arm64 miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4ueR7pX-5uTO8-4ZZ7y3mWc',
+  'bj' => '小搬',
+  'coin' => '150',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001783s ]
+[ info ] [ RUN ] app\api\controller\Index->addcarinfo[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T11:09:27+08:00 ] 112.97.57.128 GET www.58hongtu.com/api/index/addcarinfo?openid=oG2WP4ueR7pX-5uTO8-4ZZ7y3mWc&bj=%E4%B8%AD%E6%90%AC&coin=280
+[运行时间：0.027495s] [吞吐率：36.37req/s] [内存消耗：2,577.54kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002032s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002052s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000196s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'addcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4ueR7pX-5uTO8-4ZZ7y3mWc',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; JNY-AL10 Build/HUAWEIJNY-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200701 Mobile Safari/537.36 MMWEBID/9472 MicroMessenger/7.0.17.1720(0x2700113F) Process/appbrand2 WeChat/arm64 NetType/4G Language/en ABI/arm64 miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4ueR7pX-5uTO8-4ZZ7y3mWc',
+  'bj' => '中搬',
+  'coin' => '280',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001252s ]
+[ info ] [ RUN ] app\api\controller\Index->addcarinfo[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T11:09:28+08:00 ] 112.97.57.128 GET www.58hongtu.com/api/index/addcarinfo?openid=oG2WP4ueR7pX-5uTO8-4ZZ7y3mWc&bj=%E5%A4%A7%E6%90%AC&coin=458
+[运行时间：0.030720s] [吞吐率：32.55req/s] [内存消耗：2,577.54kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003179s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003204s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000261s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'addcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4ueR7pX-5uTO8-4ZZ7y3mWc',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; JNY-AL10 Build/HUAWEIJNY-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200701 Mobile Safari/537.36 MMWEBID/9472 MicroMessenger/7.0.17.1720(0x2700113F) Process/appbrand2 WeChat/arm64 NetType/4G Language/en ABI/arm64 miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4ueR7pX-5uTO8-4ZZ7y3mWc',
+  'bj' => '大搬',
+  'coin' => '458',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001799s ]
+[ info ] [ RUN ] app\api\controller\Index->addcarinfo[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T11:09:43+08:00 ] 112.97.57.128 GET www.58hongtu.com/api/index/addcarinfo?openid=oG2WP4ueR7pX-5uTO8-4ZZ7y3mWc&bj=%E4%B8%AD%E6%90%AC&coin=280
+[运行时间：0.024161s] [吞吐率：41.39req/s] [内存消耗：2,577.54kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002070s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002089s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000176s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'addcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4ueR7pX-5uTO8-4ZZ7y3mWc',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; JNY-AL10 Build/HUAWEIJNY-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200701 Mobile Safari/537.36 MMWEBID/9472 MicroMessenger/7.0.17.1720(0x2700113F) Process/appbrand2 WeChat/arm64 NetType/4G Language/en ABI/arm64 miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4ueR7pX-5uTO8-4ZZ7y3mWc',
+  'bj' => '中搬',
+  'coin' => '280',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001146s ]
+[ info ] [ RUN ] app\api\controller\Index->addcarinfo[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T11:09:44+08:00 ] 112.97.57.128 GET www.58hongtu.com/api/index/addcarinfo?openid=oG2WP4ueR7pX-5uTO8-4ZZ7y3mWc&bj=%E5%A4%A7%E6%90%AC&coin=458
+[运行时间：0.023838s] [吞吐率：41.95req/s] [内存消耗：2,577.54kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002039s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002059s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000173s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'addcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4ueR7pX-5uTO8-4ZZ7y3mWc',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; JNY-AL10 Build/HUAWEIJNY-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200701 Mobile Safari/537.36 MMWEBID/9472 MicroMessenger/7.0.17.1720(0x2700113F) Process/appbrand2 WeChat/arm64 NetType/4G Language/en ABI/arm64 miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4ueR7pX-5uTO8-4ZZ7y3mWc',
+  'bj' => '大搬',
+  'coin' => '458',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001134s ]
+[ info ] [ RUN ] app\api\controller\Index->addcarinfo[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T11:09:50+08:00 ] 112.97.57.128 GET www.58hongtu.com/api/index/addcarinfo?openid=null&bj=%E5%B0%8F%E6%90%AC&coin=150
+[运行时间：0.023325s] [吞吐率：42.87req/s] [内存消耗：2,577.24kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001923s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001942s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000172s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'addcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.58hongtu.com/index/index/home',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; JNY-AL10 Build/HUAWEIJNY-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200701 Mobile Safari/537.36 MMWEBID/9472 MicroMessenger/7.0.17.1720(0x2700113F) Process/appbrand2 WeChat/arm64 NetType/4G Language/en ABI/arm64 miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'null ',
+  'bj' => '小搬',
+  'coin' => '150',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001136s ]
+[ info ] [ RUN ] app\api\controller\Index->addcarinfo[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T11:47:16+08:00 ] 183.42.29.130 GET www.58hongtu.com/index/index/home
+[运行时间：0.042650s] [吞吐率：23.45req/s] [内存消耗：3,058.82kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002019s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002040s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000176s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-cn',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.15(0x17000f27) NetType/4G Language/zh_CN miniProgram',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001163s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->home[ /www/wwwroot/www.58hongtu.com/htmove/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/view/index/home.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T11:47:17+08:00 ] 183.42.29.130 GET www.58hongtu.com/api/index/openid?code=063VxwFa1BPWtz0GqoHa1dzaz40VxwFl
+[运行时间：0.323158s] [吞吐率：3.09req/s] [内存消耗：3,855.23kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001930s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001949s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000176s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'openid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wx3dd58f4332fd09ed/17/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.15(0x17000f27) NetType/4G Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate, br',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '063VxwFa1BPWtz0GqoHa1dzaz40VxwFl',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.012356s ]
+[ info ] [ RUN ] app\api\controller\Index->openid[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T11:47:20+08:00 ] 183.42.29.130 GET www.58hongtu.com/index/index/home?openid=oG2WP4v8xegxLaG5iaptY2QLQMFU
+[运行时间：0.029931s] [吞吐率：33.41req/s] [内存消耗：3,059.02kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002069s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002090s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000175s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-cn',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.15(0x17000f27) NetType/4G Language/zh_CN miniProgram',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4v8xegxLaG5iaptY2QLQMFU',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001231s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->home[ /www/wwwroot/www.58hongtu.com/htmove/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/view/index/home.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T11:47:24+08:00 ] 183.42.29.130 GET www.58hongtu.com/api/index/getlocation?openid=oG2WP4v8xegxLaG5iaptY2QLQMFU
+[运行时间：0.025108s] [吞吐率：39.83req/s] [内存消耗：2,606.83kb] [文件加载：120]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001980s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000197s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getlocation',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4v8xegxLaG5iaptY2QLQMFU',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.15(0x17000f27) NetType/4G Language/zh_CN miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4v8xegxLaG5iaptY2QLQMFU',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001139s ]
+[ info ] [ RUN ] app\api\controller\Index->getlocation[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T11:47:24+08:00 ] 183.42.29.130 GET www.58hongtu.com/api/index/addcarinfo?openid=oG2WP4v8xegxLaG5iaptY2QLQMFU&bj=%E5%B0%8F%E6%90%AC&coin=150
+[运行时间：0.023708s] [吞吐率：42.18req/s] [内存消耗：2,607.00kb] [文件加载：120]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001934s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001952s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000171s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'addcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4v8xegxLaG5iaptY2QLQMFU',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.15(0x17000f27) NetType/4G Language/zh_CN miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4v8xegxLaG5iaptY2QLQMFU',
+  'bj' => '小搬',
+  'coin' => '150',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001123s ]
+[ info ] [ RUN ] app\api\controller\Index->addcarinfo[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T12:15:06+08:00 ] 113.118.118.221 GET www.58hongtu.com/pjsONbXFua.php/order?ref=addtabs
+[运行时间：0.031053s] [吞吐率：32.20req/s] [内存消耗：2,933.88kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001960s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001982s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000185s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'x-forwarded-for-pound' => '113.118.118.221',
+  'x-forwarded-for' => '113.118.118.221',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1816A Build/PKQ1.180819.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045327 Mobile Safari/537.36 MMWEBID/7315 MicroMessenger/7.0.16.1700(0x2700103F) Process/tools WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'upgrade-insecure-requests' => '1',
+  'q-qimei' => '861438040760514',
+  'host' => 'www.58hongtu.com',
+  'cookie' => 'PHPSESSID=5vom6hob504kj7hdhuvuq12iej',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001187s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000543s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T12:15:08+08:00 ] 113.118.118.221 GET www.58hongtu.com/pjsONbXFua.php/index/login?url=%2FpjsONbXFua.php%2Forder%3Fref%3Daddtabs
+[运行时间：0.032173s] [吞吐率：31.08req/s] [内存消耗：3,419.42kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001991s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002007s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000267s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'x-forwarded-for-pound' => '113.118.118.221',
+  'x-forwarded-for' => '113.118.118.221',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1816A Build/PKQ1.180819.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045327 Mobile Safari/537.36 MMWEBID/7315 MicroMessenger/7.0.16.1700(0x2700103F) Process/tools WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://www.58hongtu.com/pjsONbXFua.php/order?ref=addtabs',
+  'q-qimei' => '861438040760514',
+  'host' => 'www.58hongtu.com',
+  'cookie' => 'PHPSESSID=5vom6hob504kj7hdhuvuq12iej',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/pjsONbXFua.php/order?ref=addtabs',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001182s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /www/wwwroot/www.58hongtu.com/htmove/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000082s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T12:15:08+08:00 ] 113.118.118.221 GET www.58hongtu.com/pjsONbXFua.php/index/login?url=%2FpjsONbXFua.php%2Forder%3Fref%3Daddtabs
+[运行时间：0.031022s] [吞吐率：32.24req/s] [内存消耗：3,419.48kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001922s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001953s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000173s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.tencent.mm',
+  'x-forwarded-for-pound' => '113.118.118.221',
+  'x-forwarded-for' => '113.118.118.221',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1816A Build/PKQ1.180819.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045327 Mobile Safari/537.36 MMWEBID/7315 MicroMessenger/7.0.16.1700(0x2700103F) Process/tools WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://www.58hongtu.com/pjsONbXFua.php/order?ref=addtabs',
+  'q-qimei' => '861438040760514',
+  'host' => 'www.58hongtu.com',
+  'cookie' => 'PHPSESSID=5vom6hob504kj7hdhuvuq12iej',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/pjsONbXFua.php/order?ref=addtabs',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001151s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /www/wwwroot/www.58hongtu.com/htmove/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000072s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T12:15:08+08:00 ] 113.118.118.221 GET www.58hongtu.com/index.php?s=/captcha
+[运行时间：0.025420s] [吞吐率：39.34req/s] [内存消耗：2,360.49kb] [文件加载：115]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002026s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002045s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000198s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5vom6hob504kj7hdhuvuq12iej',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.58hongtu.com/pjsONbXFua.php/index/login?url=%2FpjsONbXFua.php%2Forder%3Fref%3Daddtabs',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'image/webp,image/wxpic,image/sharpp,image/apng,image/tpg,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1816A Build/PKQ1.180819.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045327 Mobile Safari/537.36 MMWEBID/7315 MicroMessenger/7.0.16.1700(0x2700103F) Process/tools WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'connection' => 'keep-alive',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/www.58hongtu.com/htmove/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T12:15:09+08:00 ] 113.118.118.221 GET www.58hongtu.com/pjsONbXFua.php/ajax/lang?callback=define&controllername=index&v=1598069708
+[运行时间：0.031227s] [吞吐率：32.02req/s] [内存消耗：3,426.13kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002043s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002061s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000171s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5vom6hob504kj7hdhuvuq12iej',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.58hongtu.com/pjsONbXFua.php/index/login?url=%2FpjsONbXFua.php%2Forder%3Fref%3Daddtabs',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1816A Build/PKQ1.180819.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045327 Mobile Safari/537.36 MMWEBID/7315 MicroMessenger/7.0.16.1700(0x2700103F) Process/tools WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'connection' => 'keep-alive',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1598069708',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001162s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/www.58hongtu.com/htmove/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000070s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T12:15:22+08:00 ] 113.118.118.221 GET www.58hongtu.com/index.php?s=/captcha&r=0.18149142433168874
+[运行时间：0.023832s] [吞吐率：41.96req/s] [内存消耗：2,360.79kb] [文件加载：115]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001992s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002011s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000194s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5vom6hob504kj7hdhuvuq12iej',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.58hongtu.com/pjsONbXFua.php/index/login?url=%2FpjsONbXFua.php%2Forder%3Fref%3Daddtabs',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'image/webp,image/wxpic,image/sharpp,image/apng,image/tpg,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1816A Build/PKQ1.180819.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045327 Mobile Safari/537.36 MMWEBID/7315 MicroMessenger/7.0.16.1700(0x2700103F) Process/tools WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'connection' => 'keep-alive',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'r' => '0.18149142433168874',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/www.58hongtu.com/htmove/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T12:15:34+08:00 ] 113.118.118.221 POST www.58hongtu.com/pjsONbXFua.php/index/login?url=%2FpjsONbXFua.php%2Forder%3Fref%3Daddtabs
+[运行时间：0.047664s] [吞吐率：20.98req/s] [内存消耗：4,251.38kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001934s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001949s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000183s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5vom6hob504kj7hdhuvuq12iej',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.58hongtu.com/pjsONbXFua.php/index/login?url=%2FpjsONbXFua.php%2Forder%3Fref%3Daddtabs',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1816A Build/PKQ1.180819.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045327 Mobile Safari/537.36 MMWEBID/7315 MicroMessenger/7.0.16.1700(0x2700103F) Process/tools WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.58hongtu.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '89',
+  'connection' => 'keep-alive',
+  'host' => 'www.58hongtu.com',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/pjsONbXFua.php/order?ref=addtabs',
+  '__token__' => 'efd0e3477bec43fc27afb8806de794da',
+  'username' => 'admin',
+  'password' => 'hshs26333',
+  'captcha' => 'iBHx',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001103s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /www/wwwroot/www.58hongtu.com/htmove/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004679s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T12:15:35+08:00 ] 113.118.118.221 GET www.58hongtu.com/pjsONbXFua.php/order?ref=addtabs
+[运行时间：0.035174s] [吞吐率：28.43req/s] [内存消耗：3,979.78kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001971s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001988s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000167s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5vom6hob504kj7hdhuvuq12iej',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.58hongtu.com/pjsONbXFua.php/index/login?url=%2FpjsONbXFua.php%2Forder%3Fref%3Daddtabs',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1816A Build/PKQ1.180819.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045327 Mobile Safari/537.36 MMWEBID/7315 MicroMessenger/7.0.16.1700(0x2700103F) Process/tools WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001114s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000068s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T12:15:35+08:00 ] 113.118.118.221 GET www.58hongtu.com/pjsONbXFua.php/index/index
+[运行时间：0.102416s] [吞吐率：9.76req/s] [内存消耗：4,497.04kb] [文件加载：149]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001887s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001902s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000180s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5vom6hob504kj7hdhuvuq12iej',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.58hongtu.com/pjsONbXFua.php/index/login?url=%2FpjsONbXFua.php%2Forder%3Fref%3Daddtabs',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1816A Build/PKQ1.180819.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045327 Mobile Safari/537.36 MMWEBID/7315 MicroMessenger/7.0.16.1700(0x2700103F) Process/tools WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001107s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/wwwroot/www.58hongtu.com/htmove/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000099s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T12:15:35+08:00 ] 113.118.118.221 GET www.58hongtu.com/pjsONbXFua.php/dashboard?addtabs=1
+[运行时间：0.068835s] [吞吐率：14.53req/s] [内存消耗：4,304.23kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002015s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002031s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000168s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5vom6hob504kj7hdhuvuq12iej',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.58hongtu.com/pjsONbXFua.php/index/index',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1816A Build/PKQ1.180819.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045327 Mobile Safari/537.36 MMWEBID/7315 MicroMessenger/7.0.16.1700(0x2700103F) Process/tools WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001185s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ /www/wwwroot/www.58hongtu.com/htmove/application/admin/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/view/dashboard/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000078s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T12:15:35+08:00 ] 113.118.118.221 GET www.58hongtu.com/pjsONbXFua.php/order?addtabs=1
+[运行时间：0.073408s] [吞吐率：13.62req/s] [内存消耗：4,245.55kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002109s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002125s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000174s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5vom6hob504kj7hdhuvuq12iej',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.58hongtu.com/pjsONbXFua.php/index/index',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1816A Build/PKQ1.180819.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045327 Mobile Safari/537.36 MMWEBID/7315 MicroMessenger/7.0.16.1700(0x2700103F) Process/tools WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001181s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/lang/zh-cn/order.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ /www/wwwroot/www.58hongtu.com/htmove/application/admin/library/traits/Backend.php ]
+[ info ] [ VIEW ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/view/order/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000069s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T12:15:36+08:00 ] 113.118.118.221 GET www.58hongtu.com/pjsONbXFua.php/ajax/lang?callback=define&controllername=index&v=1598069735
+[运行时间：0.098349s] [吞吐率：10.17req/s] [内存消耗：4,299.23kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002283s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002309s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000228s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5vom6hob504kj7hdhuvuq12iej',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.58hongtu.com/pjsONbXFua.php/index/index',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1816A Build/PKQ1.180819.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045327 Mobile Safari/537.36 MMWEBID/7315 MicroMessenger/7.0.16.1700(0x2700103F) Process/tools WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'connection' => 'keep-alive',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1598069735',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001363s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/www.58hongtu.com/htmove/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000090s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T12:15:36+08:00 ] 113.118.118.221 GET www.58hongtu.com/pjsONbXFua.php/ajax/lang?callback=define&controllername=order&v=1598069735
+[运行时间：0.102869s] [吞吐率：9.72req/s] [内存消耗：4,296.05kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002183s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002200s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000185s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5vom6hob504kj7hdhuvuq12iej',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.58hongtu.com/pjsONbXFua.php/order?addtabs=1',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1816A Build/PKQ1.180819.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045327 Mobile Safari/537.36 MMWEBID/7315 MicroMessenger/7.0.16.1700(0x2700103F) Process/tools WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'connection' => 'keep-alive',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'order',
+  'v' => '1598069735',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.012547s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/www.58hongtu.com/htmove/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/lang/zh-cn/order.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000078s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T12:15:36+08:00 ] 113.118.118.221 GET www.58hongtu.com/pjsONbXFua.php/ajax/lang?callback=define&controllername=dashboard&v=1598069735
+[运行时间：0.107593s] [吞吐率：9.29req/s] [内存消耗：4,297.59kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002120s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002138s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000167s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5vom6hob504kj7hdhuvuq12iej',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.58hongtu.com/pjsONbXFua.php/dashboard?addtabs=1',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1816A Build/PKQ1.180819.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045327 Mobile Safari/537.36 MMWEBID/7315 MicroMessenger/7.0.16.1700(0x2700103F) Process/tools WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'connection' => 'keep-alive',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1598069735',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.029201s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/www.58hongtu.com/htmove/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000101s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T12:15:37+08:00 ] 113.118.118.221 GET www.58hongtu.com/pjsONbXFua.php/order/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598069735454
+[运行时间：0.061093s] [吞吐率：16.37req/s] [内存消耗：4,297.02kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003324s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003355s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000277s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5vom6hob504kj7hdhuvuq12iej',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.58hongtu.com/pjsONbXFua.php/order?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1816A Build/PKQ1.180819.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045327 Mobile Safari/537.36 MMWEBID/7315 MicroMessenger/7.0.16.1700(0x2700103F) Process/tools WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1598069735454',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001973s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/lang/zh-cn/order.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ /www/wwwroot/www.58hongtu.com/htmove/application/admin/library/traits/Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000116s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T12:15:37+08:00 ] 113.118.118.221 GET www.58hongtu.com/pjsONbXFua.php/order/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1598069735455
+[运行时间：0.042596s] [吞吐率：23.48req/s] [内存消耗：4,297.02kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001965s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001989s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000184s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5vom6hob504kj7hdhuvuq12iej',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.58hongtu.com/pjsONbXFua.php/order?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1816A Build/PKQ1.180819.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045327 Mobile Safari/537.36 MMWEBID/7315 MicroMessenger/7.0.16.1700(0x2700103F) Process/tools WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1598069735455',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001396s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/lang/zh-cn/order.php
+[ info ] [ RUN ] app\common\controller\Backend->index[ /www/wwwroot/www.58hongtu.com/htmove/application/admin/library/traits/Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000116s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T12:15:38+08:00 ] 113.118.118.221 GET www.58hongtu.com/pjsONbXFua.php/null
+[运行时间：0.029556s] [吞吐率：33.83req/s] [内存消耗：2,610.67kb] [文件加载：121]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002248s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002271s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000167s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'null',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5vom6hob504kj7hdhuvuq12iej',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.58hongtu.com/pjsONbXFua.php/order?addtabs=1',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'image/webp,image/wxpic,image/sharpp,image/apng,image/tpg,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1816A Build/PKQ1.180819.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045327 Mobile Safari/537.36 MMWEBID/7315 MicroMessenger/7.0.16.1700(0x2700103F) Process/tools WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'connection' => 'keep-alive',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001772s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T12:15:46+08:00 ] 113.118.118.221 GET www.58hongtu.com/addons/voicenotice/notice/voice
+[运行时间：0.038825s] [吞吐率：25.76req/s] [内存消耗：3,670.67kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002179s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002202s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000252s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5vom6hob504kj7hdhuvuq12iej',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.58hongtu.com/pjsONbXFua.php/order?ref=addtabs',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1816A Build/PKQ1.180819.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045327 Mobile Safari/537.36 MMWEBID/7315 MicroMessenger/7.0.16.1700(0x2700103F) Process/tools WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'connection' => 'keep-alive',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'voicenotice',
+  'controller' => 'notice',
+  'action' => 'voice',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/www.58hongtu.com/htmove/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.002924s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T12:15:56+08:00 ] 113.118.118.221 GET www.58hongtu.com/addons/voicenotice/notice/voice
+[运行时间：0.035588s] [吞吐率：28.10req/s] [内存消耗：3,670.67kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002014s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002032s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000171s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5vom6hob504kj7hdhuvuq12iej',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.58hongtu.com/pjsONbXFua.php/order?ref=addtabs',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1816A Build/PKQ1.180819.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045327 Mobile Safari/537.36 MMWEBID/7315 MicroMessenger/7.0.16.1700(0x2700103F) Process/tools WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'connection' => 'keep-alive',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'voicenotice',
+  'controller' => 'notice',
+  'action' => 'voice',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/www.58hongtu.com/htmove/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001367s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T12:16:06+08:00 ] 113.118.118.221 GET www.58hongtu.com/addons/voicenotice/notice/voice
+[运行时间：0.035665s] [吞吐率：28.04req/s] [内存消耗：3,670.67kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001972s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001992s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000167s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5vom6hob504kj7hdhuvuq12iej',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.58hongtu.com/pjsONbXFua.php/order?ref=addtabs',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1816A Build/PKQ1.180819.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045327 Mobile Safari/537.36 MMWEBID/7315 MicroMessenger/7.0.16.1700(0x2700103F) Process/tools WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'connection' => 'keep-alive',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'voicenotice',
+  'controller' => 'notice',
+  'action' => 'voice',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/www.58hongtu.com/htmove/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001297s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T12:16:16+08:00 ] 113.118.118.221 GET www.58hongtu.com/addons/voicenotice/notice/voice
+[运行时间：0.033337s] [吞吐率：30.00req/s] [内存消耗：3,670.67kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001942s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001960s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000182s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5vom6hob504kj7hdhuvuq12iej',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.58hongtu.com/pjsONbXFua.php/order?ref=addtabs',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1816A Build/PKQ1.180819.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045327 Mobile Safari/537.36 MMWEBID/7315 MicroMessenger/7.0.16.1700(0x2700103F) Process/tools WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'connection' => 'keep-alive',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'voicenotice',
+  'controller' => 'notice',
+  'action' => 'voice',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/www.58hongtu.com/htmove/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.001260s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T13:16:53+08:00 ] 117.136.79.131 GET www.58hongtu.com/index/index/home
+[运行时间：0.042585s] [吞吐率：23.48req/s] [内存消耗：3,058.82kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001969s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001985s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000186s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-cn',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/4G Language/zh_CN miniProgram',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001174s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->home[ /www/wwwroot/www.58hongtu.com/htmove/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/view/index/home.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T13:16:54+08:00 ] 117.136.79.131 GET www.58hongtu.com/api/index/openid?code=003IXkFa14a3uz06kMGa130bL94IXkFH
+[运行时间：0.305753s] [吞吐率：3.27req/s] [内存消耗：3,855.23kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002090s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002109s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000186s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'openid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wx3dd58f4332fd09ed/17/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/4G Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate, br',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '003IXkFa14a3uz06kMGa130bL94IXkFH',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.012379s ]
+[ info ] [ RUN ] app\api\controller\Index->openid[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T13:16:57+08:00 ] 117.136.79.131 GET www.58hongtu.com/index/index/home?openid=oG2WP4mD9lSY0gDTnQOeunudfqeg
+[运行时间：0.031402s] [吞吐率：31.84req/s] [内存消耗：3,059.02kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002347s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002374s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000210s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-cn',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/4G Language/zh_CN miniProgram',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4mD9lSY0gDTnQOeunudfqeg',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001454s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->home[ /www/wwwroot/www.58hongtu.com/htmove/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/view/index/home.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T13:17:01+08:00 ] 117.136.79.131 GET www.58hongtu.com/api/index/getlocation?openid=oG2WP4mD9lSY0gDTnQOeunudfqeg
+[运行时间：0.048410s] [吞吐率：20.66req/s] [内存消耗：2,606.83kb] [文件加载：120]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002014s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002032s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000268s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getlocation',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4mD9lSY0gDTnQOeunudfqeg',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/4G Language/zh_CN miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4mD9lSY0gDTnQOeunudfqeg',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.012837s ]
+[ info ] [ RUN ] app\api\controller\Index->getlocation[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T13:17:02+08:00 ] 117.136.79.131 GET www.58hongtu.com/api/index/addcarinfo?openid=oG2WP4mD9lSY0gDTnQOeunudfqeg&bj=%E5%B0%8F%E6%90%AC&coin=150
+[运行时间：0.026161s] [吞吐率：38.22req/s] [内存消耗：2,607.00kb] [文件加载：120]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002250s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002269s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000177s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'addcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4mD9lSY0gDTnQOeunudfqeg',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/4G Language/zh_CN miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4mD9lSY0gDTnQOeunudfqeg',
+  'bj' => '小搬',
+  'coin' => '150',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001302s ]
+[ info ] [ RUN ] app\api\controller\Index->addcarinfo[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T13:17:04+08:00 ] 117.136.79.131 GET www.58hongtu.com/api/index/addcarinfo?openid=oG2WP4mD9lSY0gDTnQOeunudfqeg&bj=%E4%B8%AD%E6%90%AC&coin=280
+[运行时间：0.039849s] [吞吐率：25.09req/s] [内存消耗：2,607.00kb] [文件加载：120]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003057s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003086s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000279s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'addcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4mD9lSY0gDTnQOeunudfqeg',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/4G Language/zh_CN miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4mD9lSY0gDTnQOeunudfqeg',
+  'bj' => '中搬',
+  'coin' => '280',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002106s ]
+[ info ] [ RUN ] app\api\controller\Index->addcarinfo[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T13:17:07+08:00 ] 117.136.79.131 GET www.58hongtu.com/api/index/addcarinfo?openid=oG2WP4mD9lSY0gDTnQOeunudfqeg&bj=%E5%A4%A7%E6%90%AC&coin=458
+[运行时间：0.027565s] [吞吐率：36.28req/s] [内存消耗：2,607.00kb] [文件加载：120]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002608s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002630s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000215s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'addcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4mD9lSY0gDTnQOeunudfqeg',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/4G Language/zh_CN miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4mD9lSY0gDTnQOeunudfqeg',
+  'bj' => '大搬',
+  'coin' => '458',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001301s ]
+[ info ] [ RUN ] app\api\controller\Index->addcarinfo[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T13:17:11+08:00 ] 117.136.79.131 GET www.58hongtu.com/api/index/addcarinfo?openid=oG2WP4mD9lSY0gDTnQOeunudfqeg&bj=%E4%B8%AD%E6%90%AC&coin=280
+[运行时间：0.026789s] [吞吐率：37.33req/s] [内存消耗：2,607.00kb] [文件加载：120]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002169s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002190s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000193s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'addcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4mD9lSY0gDTnQOeunudfqeg',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/4G Language/zh_CN miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4mD9lSY0gDTnQOeunudfqeg',
+  'bj' => '中搬',
+  'coin' => '280',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001163s ]
+[ info ] [ RUN ] app\api\controller\Index->addcarinfo[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T13:17:16+08:00 ] 117.136.79.131 GET www.58hongtu.com/api/index/addcarinfo?openid=oG2WP4mD9lSY0gDTnQOeunudfqeg&bj=%E5%A4%A7%E6%90%AC&coin=458
+[运行时间：0.024832s] [吞吐率：40.27req/s] [内存消耗：2,607.00kb] [文件加载：120]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001952s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001972s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000196s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'addcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4mD9lSY0gDTnQOeunudfqeg',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/4G Language/zh_CN miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4mD9lSY0gDTnQOeunudfqeg',
+  'bj' => '大搬',
+  'coin' => '458',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001194s ]
+[ info ] [ RUN ] app\api\controller\Index->addcarinfo[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T13:18:37+08:00 ] 117.136.79.131 GET www.58hongtu.com/api/index/setelocation?openid=oG2WP4mD9lSY0gDTnQOeunudfqeg&slocation=%7B%22id%22%3A%2210859155267087343154%22%2C%22title%22%3A%22%E9%87%91%E5%9C%B0%E6%A2%85%E9%99%87%E9%95%87%22%2C%22address%22%3A%22%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B7%B1%E5%9C%B3%E5%B8%82%E9%BE%99%E5%8D%8E%E5%8C%BA%E6%A2%85%E9%BE%99%E5%A4%A7%E9%81%93%E4%B8%8E%E5%B8%83%E9%BE%99%E5%85%AC%E8%B7%AF%E4%BA%A4%E6%B1%87%E5%A4%84%22%2C%22category%22%3A%22%E6%88%BF%E4%BA%A7%E5%B0%8F%E5%8C%BA%3A%E4%BD%8F%E5%AE%85%E5%8C%BA%3A%E4%BD%8F%E5%AE%85%E5%B0%8F%E5%8C%BA%22%2C%22location%22%3A%7B%22lat%22%3A22.630611%2C%22lng%22%3A114.032524%7D%2C%22ad_info%22%3A%7B%22adcode%22%3A%22440309%22%2C%22province%22%3A%22%E5%B9%BF%E4%B8%9C%E7%9C%81%22%2C%22city%22%3A%22%E6%B7%B1%E5%9C%B3%E5%B8%82%22%2C%22district%22%3A%22%E9%BE%99%E5%8D%8E%E5%8C%BA%22%7D%2C%22_distance%22%3A0%2C%22_dir_desc%22%3A%22%E5%86%85%22%7D&lt=0&des=18%E6%A0%8B5%E5%8D%95%E5%85%837A
+[运行时间：0.024831s] [吞吐率：40.27req/s] [内存消耗：2,604.84kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001980s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000182s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'setelocation',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wx3dd58f4332fd09ed/17/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/4G Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate, br',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4mD9lSY0gDTnQOeunudfqeg',
+  'slocation' => '{"id":"10859155267087343154","title":"金地梅陇镇","address":"广东省深圳市龙华区梅龙大道与布龙公路交汇处","category":"房产小区:住宅区:住宅小区","location":{"lat":22.630611,"lng":114.032524},"ad_info":{"adcode":"440309","province":"广东省","city":"深圳市","district":"龙华区"},"_distance":0,"_dir_desc":"内"}',
+  'lt' => '0',
+  'des' => '18栋5单元7A',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001181s ]
+[ info ] [ RUN ] app\api\controller\Index->setelocation[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T13:18:37+08:00 ] 117.136.79.131 GET www.58hongtu.com/api/index/openid?code=053tFXZv3CAFOU2Ngh0w3gr5vh1tFXZW
+[运行时间：0.296256s] [吞吐率：3.38req/s] [内存消耗：3,752.70kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001964s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001988s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000172s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'openid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wx3dd58f4332fd09ed/17/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/4G Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate, br',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '053tFXZv3CAFOU2Ngh0w3gr5vh1tFXZW',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001171s ]
+[ info ] [ RUN ] app\api\controller\Index->openid[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T13:18:40+08:00 ] 117.136.79.131 GET www.58hongtu.com/index/index/home?openid=oG2WP4mD9lSY0gDTnQOeunudfqeg
+[运行时间：0.030295s] [吞吐率：33.01req/s] [内存消耗：3,059.02kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002244s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002263s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000178s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-cn',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/4G Language/zh_CN miniProgram',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4mD9lSY0gDTnQOeunudfqeg',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001332s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->home[ /www/wwwroot/www.58hongtu.com/htmove/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/view/index/home.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T13:18:44+08:00 ] 117.136.79.131 GET www.58hongtu.com/api/index/getlocation?openid=oG2WP4mD9lSY0gDTnQOeunudfqeg
+[运行时间：0.024308s] [吞吐率：41.14req/s] [内存消耗：2,606.83kb] [文件加载：120]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001932s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001952s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000170s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getlocation',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4mD9lSY0gDTnQOeunudfqeg',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/4G Language/zh_CN miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4mD9lSY0gDTnQOeunudfqeg',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001127s ]
+[ info ] [ RUN ] app\api\controller\Index->getlocation[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T13:18:44+08:00 ] 117.136.79.131 GET www.58hongtu.com/api/index/addcarinfo?openid=oG2WP4mD9lSY0gDTnQOeunudfqeg&bj=%E5%B0%8F%E6%90%AC&coin=150
+[运行时间：0.025756s] [吞吐率：38.83req/s] [内存消耗：2,607.00kb] [文件加载：120]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001942s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001960s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000184s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'addcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4mD9lSY0gDTnQOeunudfqeg',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/4G Language/zh_CN miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4mD9lSY0gDTnQOeunudfqeg',
+  'bj' => '小搬',
+  'coin' => '150',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001370s ]
+[ info ] [ RUN ] app\api\controller\Index->addcarinfo[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T13:19:19+08:00 ] 117.136.79.131 GET www.58hongtu.com/api/index/setslocation?openid=oG2WP4mD9lSY0gDTnQOeunudfqeg&slocation=%7B%22id%22%3A%22904182649150029318%22%2C%22title%22%3A%22%E4%B8%87%E8%B1%A1%E6%96%B0%E5%9B%AD%22%2C%22address%22%3A%22%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%8D%97%E5%B1%B1%E5%8C%BA%E5%8D%97%E5%85%89%E8%B7%AF67%E5%8F%B7%22%2C%22category%22%3A%22%E6%88%BF%E4%BA%A7%E5%B0%8F%E5%8C%BA%3A%E4%BD%8F%E5%AE%85%E5%8C%BA%3A%E4%BD%8F%E5%AE%85%E5%B0%8F%E5%8C%BA%22%2C%22location%22%3A%7B%22lat%22%3A22.523975%2C%22lng%22%3A113.927025%7D%2C%22ad_info%22%3A%7B%22adcode%22%3A%22440305%22%2C%22province%22%3A%22%E5%B9%BF%E4%B8%9C%E7%9C%81%22%2C%22city%22%3A%22%E6%B7%B1%E5%9C%B3%E5%B8%82%22%2C%22district%22%3A%22%E5%8D%97%E5%B1%B1%E5%8C%BA%22%7D%2C%22_distance%22%3A0%2C%22_dir_desc%22%3A%22%E5%86%85%22%7D&lt=0&des=A%E6%A0%8B10C
+[运行时间：0.028610s] [吞吐率：34.95req/s] [内存消耗：2,610.45kb] [文件加载：120]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002133s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002161s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000243s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'setslocation',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wx3dd58f4332fd09ed/17/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/4G Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate, br',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4mD9lSY0gDTnQOeunudfqeg',
+  'slocation' => '{"id":"904182649150029318","title":"万象新园","address":"广东省深圳市南山区南光路67号","category":"房产小区:住宅区:住宅小区","location":{"lat":22.523975,"lng":113.927025},"ad_info":{"adcode":"440305","province":"广东省","city":"深圳市","district":"南山区"},"_distance":0,"_dir_desc":"内"}',
+  'lt' => '0',
+  'des' => 'A栋10C',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001244s ]
+[ info ] [ RUN ] app\api\controller\Index->setslocation[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T13:19:19+08:00 ] 117.136.79.131 GET www.58hongtu.com/index/index/home?openid=oG2WP4mD9lSY0gDTnQOeunudfqeg
+[运行时间：0.038216s] [吞吐率：26.17req/s] [内存消耗：3,059.02kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001975s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001996s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000180s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-cn',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/4G Language/zh_CN miniProgram',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4mD9lSY0gDTnQOeunudfqeg',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.009710s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->home[ /www/wwwroot/www.58hongtu.com/htmove/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/view/index/home.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T13:19:19+08:00 ] 117.136.79.131 GET www.58hongtu.com/api/index/openid?code=073CpEkl2PYYt546h8ml2Jidez0CpEkb
+[运行时间：0.316800s] [吞吐率：3.16req/s] [内存消耗：3,752.70kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002113s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002136s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000200s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'openid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wx3dd58f4332fd09ed/17/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/4G Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate, br',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '073CpEkl2PYYt546h8ml2Jidez0CpEkb',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001143s ]
+[ info ] [ RUN ] app\api\controller\Index->openid[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T13:19:23+08:00 ] 117.136.79.131 GET www.58hongtu.com/api/index/getlocation?openid=oG2WP4mD9lSY0gDTnQOeunudfqeg
+[运行时间：0.036958s] [吞吐率：27.06req/s] [内存消耗：2,606.83kb] [文件加载：120]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002934s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002964s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000262s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getlocation',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4mD9lSY0gDTnQOeunudfqeg',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/4G Language/zh_CN miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4mD9lSY0gDTnQOeunudfqeg',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001860s ]
+[ info ] [ RUN ] app\api\controller\Index->getlocation[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T13:19:23+08:00 ] 117.136.79.131 GET www.58hongtu.com/api/index/addcarinfo?openid=oG2WP4mD9lSY0gDTnQOeunudfqeg&bj=%E5%B0%8F%E6%90%AC&coin=150
+[运行时间：0.024675s] [吞吐率：40.53req/s] [内存消耗：2,607.00kb] [文件加载：120]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002309s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002330s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000181s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'addcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4mD9lSY0gDTnQOeunudfqeg',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/4G Language/zh_CN miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4mD9lSY0gDTnQOeunudfqeg',
+  'bj' => '小搬',
+  'coin' => '150',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001377s ]
+[ info ] [ RUN ] app\api\controller\Index->addcarinfo[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T13:19:37+08:00 ] 117.136.79.131 GET www.58hongtu.com/index/index/goods
+[运行时间：0.034821s] [吞吐率：28.72req/s] [内存消耗：3,277.93kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002027s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002056s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000186s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'goods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4mD9lSY0gDTnQOeunudfqeg',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/4G Language/zh_CN miniProgram',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001247s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->goods[ /www/wwwroot/www.58hongtu.com/htmove/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/view/index/goods.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T13:20:16+08:00 ] 117.136.79.131 GET www.58hongtu.com/api/index/addcarinfo?openid=oG2WP4mD9lSY0gDTnQOeunudfqeg&bj=%E5%A4%A7%E6%90%AC&coin=458
+[运行时间：0.029308s] [吞吐率：34.12req/s] [内存消耗：2,607.00kb] [文件加载：120]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002303s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002352s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000267s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'addcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4mD9lSY0gDTnQOeunudfqeg',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/4G Language/zh_CN miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4mD9lSY0gDTnQOeunudfqeg',
+  'bj' => '大搬',
+  'coin' => '458',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001219s ]
+[ info ] [ RUN ] app\api\controller\Index->addcarinfo[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T13:20:25+08:00 ] 117.136.79.131 GET www.58hongtu.com/index/index/goods
+[运行时间：0.033028s] [吞吐率：30.28req/s] [内存消耗：3,277.93kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001939s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001957s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000198s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'goods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4mD9lSY0gDTnQOeunudfqeg',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d2a) NetType/4G Language/zh_CN miniProgram',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001191s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->goods[ /www/wwwroot/www.58hongtu.com/htmove/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/view/index/goods.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T13:41:10+08:00 ] 116.179.32.167 GET www.58hongtu.com/
+[运行时间：0.028944s] [吞吐率：34.55req/s] [内存消耗：2,992.84kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002103s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002125s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000182s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-cn,zh-tw',
+  'user-agent' => 'Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)',
+  'connection' => 'close',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001200s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/www.58hongtu.com/htmove/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T14:43:51+08:00 ] 112.97.48.15 GET www.58hongtu.com/api/index/openid?code=013ER20w3I6IOU2XXo2w33QffG3ER201
+[运行时间：0.310452s] [吞吐率：3.22req/s] [内存消耗：3,856.29kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002141s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002166s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000228s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'openid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wx3dd58f4332fd09ed/17/page-frame.html',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2004J7BC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200701 Mobile Safari/537.36 MMWEBID/8323 MicroMessenger/7.0.17.1720(0x2700113F) Process/appbrand0 WeChat/arm64 NetType/4G Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'connection' => 'keep-alive',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '013ER20w3I6IOU2XXo2w33QffG3ER201',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001347s ]
+[ info ] [ RUN ] app\api\controller\Index->openid[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T14:43:51+08:00 ] 112.97.48.15 GET www.58hongtu.com/index/index/home
+[运行时间：0.030330s] [吞吐率：32.97req/s] [内存消耗：3,066.38kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001964s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001984s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000196s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/wxpic,image/tpg,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2004J7BC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200701 Mobile Safari/537.36 MMWEBID/8323 MicroMessenger/7.0.17.1720(0x2700113F) Process/appbrand0 WeChat/arm64 NetType/4G Language/zh_CN ABI/arm64 miniProgram',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001236s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->home[ /www/wwwroot/www.58hongtu.com/htmove/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/view/index/home.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T14:43:51+08:00 ] 112.97.48.15 GET www.58hongtu.com/index/index/home?openid=oG2WP4hMNllh7Xp9PT1hAm2Tp-dc
+[运行时间：0.033143s] [吞吐率：30.17req/s] [内存消耗：3,066.58kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002079s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002101s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000198s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/wxpic,image/tpg,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2004J7BC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200701 Mobile Safari/537.36 MMWEBID/8323 MicroMessenger/7.0.17.1720(0x2700113F) Process/appbrand0 WeChat/arm64 NetType/4G Language/zh_CN ABI/arm64 miniProgram',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4hMNllh7Xp9PT1hAm2Tp-dc',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003443s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->home[ /www/wwwroot/www.58hongtu.com/htmove/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/view/index/home.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T14:43:52+08:00 ] 112.97.48.15 GET www.58hongtu.com/api/index/getlocation?openid=oG2WP4hMNllh7Xp9PT1hAm2Tp-dc
+[运行时间：0.032158s] [吞吐率：31.10req/s] [内存消耗：2,608.50kb] [文件加载：120]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002673s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002716s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000220s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getlocation',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4hMNllh7Xp9PT1hAm2Tp-dc',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2004J7BC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200701 Mobile Safari/537.36 MMWEBID/8323 MicroMessenger/7.0.17.1720(0x2700113F) Process/appbrand0 WeChat/arm64 NetType/4G Language/zh_CN ABI/arm64 miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4hMNllh7Xp9PT1hAm2Tp-dc',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001318s ]
+[ info ] [ RUN ] app\api\controller\Index->getlocation[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T14:43:54+08:00 ] 112.97.48.15 GET www.58hongtu.com/api/index/addcarinfo?openid=oG2WP4hMNllh7Xp9PT1hAm2Tp-dc&bj=%E5%B0%8F%E6%90%AC&coin=150
+[运行时间：0.026117s] [吞吐率：38.29req/s] [内存消耗：2,608.67kb] [文件加载：120]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002089s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002109s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000220s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'addcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4hMNllh7Xp9PT1hAm2Tp-dc',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2004J7BC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200701 Mobile Safari/537.36 MMWEBID/8323 MicroMessenger/7.0.17.1720(0x2700113F) Process/appbrand0 WeChat/arm64 NetType/4G Language/zh_CN ABI/arm64 miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4hMNllh7Xp9PT1hAm2Tp-dc',
+  'bj' => '小搬',
+  'coin' => '150',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001271s ]
+[ info ] [ RUN ] app\api\controller\Index->addcarinfo[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T14:43:57+08:00 ] 112.97.48.15 GET www.58hongtu.com/api/index/getlocation?openid=null
+[运行时间：0.024194s] [吞吐率：41.33req/s] [内存消耗：2,607.98kb] [文件加载：120]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001924s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001944s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000182s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getlocation',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.58hongtu.com/index/index/home',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2004J7BC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200701 Mobile Safari/537.36 MMWEBID/8323 MicroMessenger/7.0.17.1720(0x2700113F) Process/appbrand0 WeChat/arm64 NetType/4G Language/zh_CN ABI/arm64 miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'null ',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001153s ]
+[ info ] [ RUN ] app\api\controller\Index->getlocation[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T14:43:57+08:00 ] 112.97.48.15 GET www.58hongtu.com/api/index/addcarinfo?openid=null&bj=%E5%B0%8F%E6%90%AC&coin=150
+[运行时间：0.025297s] [吞吐率：39.53req/s] [内存消耗：2,608.38kb] [文件加载：120]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002122s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002142s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000199s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'addcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.58hongtu.com/index/index/home',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; M2004J7BC Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200701 Mobile Safari/537.36 MMWEBID/8323 MicroMessenger/7.0.17.1720(0x2700113F) Process/appbrand0 WeChat/arm64 NetType/4G Language/zh_CN ABI/arm64 miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'null ',
+  'bj' => '小搬',
+  'coin' => '150',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001353s ]
+[ info ] [ RUN ] app\api\controller\Index->addcarinfo[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T19:34:03+08:00 ] 112.97.61.224 GET www.58hongtu.com/api/index/openid?code=0616C700088z9K1lDU200epyjo16C70K
+[运行时间：0.227496s] [吞吐率：4.40req/s] [内存消耗：3,753.76kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001979s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002001s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000196s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'openid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wx3dd58f4332fd09ed/17/page-frame.html',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LYA-AL00 Build/HUAWEILYA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200601 Mobile Safari/537.36 MMWEBID/8300 MicroMessenger/7.0.16.1700(0x2700103F) Process/appbrand2 WeChat/arm64 NetType/4G Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'connection' => 'keep-alive',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '0616C700088z9K1lDU200epyjo16C70K',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001193s ]
+[ info ] [ RUN ] app\api\controller\Index->openid[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T19:34:03+08:00 ] 112.97.61.224 GET www.58hongtu.com/index/index/home?openid=oG2WP4oZnwgKlu6l2h1KpisK-qRc
+[运行时间：0.040012s] [吞吐率：24.99req/s] [内存消耗：3,066.45kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002581s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002606s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000231s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/wxpic,image/tpg,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LYA-AL00 Build/HUAWEILYA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200601 Mobile Safari/537.36 MMWEBID/8300 MicroMessenger/7.0.16.1700(0x2700103F) Process/appbrand2 WeChat/arm64 NetType/4G Language/zh_CN ABI/arm64 miniProgram',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4oZnwgKlu6l2h1KpisK-qRc',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001775s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->home[ /www/wwwroot/www.58hongtu.com/htmove/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/view/index/home.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T19:34:04+08:00 ] 112.97.61.224 GET www.58hongtu.com/api/index/getlocation?openid=oG2WP4oZnwgKlu6l2h1KpisK-qRc
+[运行时间：0.027862s] [吞吐率：35.89req/s] [内存消耗：2,608.50kb] [文件加载：120]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001955s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001971s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000170s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'getlocation',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4oZnwgKlu6l2h1KpisK-qRc',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LYA-AL00 Build/HUAWEILYA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200601 Mobile Safari/537.36 MMWEBID/8300 MicroMessenger/7.0.16.1700(0x2700103F) Process/appbrand2 WeChat/arm64 NetType/4G Language/zh_CN ABI/arm64 miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4oZnwgKlu6l2h1KpisK-qRc',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001137s ]
+[ info ] [ RUN ] app\api\controller\Index->getlocation[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T19:34:06+08:00 ] 112.97.61.224 GET www.58hongtu.com/api/index/addcarinfo?openid=oG2WP4oZnwgKlu6l2h1KpisK-qRc&bj=%E5%B0%8F%E6%90%AC&coin=150
+[运行时间：0.027692s] [吞吐率：36.11req/s] [内存消耗：2,608.67kb] [文件加载：120]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001953s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001972s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000195s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'addcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4oZnwgKlu6l2h1KpisK-qRc',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LYA-AL00 Build/HUAWEILYA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200601 Mobile Safari/537.36 MMWEBID/8300 MicroMessenger/7.0.16.1700(0x2700103F) Process/appbrand2 WeChat/arm64 NetType/4G Language/zh_CN ABI/arm64 miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4oZnwgKlu6l2h1KpisK-qRc',
+  'bj' => '小搬',
+  'coin' => '150',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001202s ]
+[ info ] [ RUN ] app\api\controller\Index->addcarinfo[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T19:34:10+08:00 ] 112.97.61.224 GET www.58hongtu.com/api/index/addcarinfo?openid=oG2WP4oZnwgKlu6l2h1KpisK-qRc&bj=%E4%B8%AD%E6%90%AC&coin=280
+[运行时间：0.025104s] [吞吐率：39.83req/s] [内存消耗：2,608.67kb] [文件加载：120]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002073s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002093s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000183s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'addcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4oZnwgKlu6l2h1KpisK-qRc',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LYA-AL00 Build/HUAWEILYA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200601 Mobile Safari/537.36 MMWEBID/8300 MicroMessenger/7.0.16.1700(0x2700103F) Process/appbrand2 WeChat/arm64 NetType/4G Language/zh_CN ABI/arm64 miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4oZnwgKlu6l2h1KpisK-qRc',
+  'bj' => '中搬',
+  'coin' => '280',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001297s ]
+[ info ] [ RUN ] app\api\controller\Index->addcarinfo[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T19:34:11+08:00 ] 112.97.61.224 GET www.58hongtu.com/api/index/addcarinfo?openid=oG2WP4oZnwgKlu6l2h1KpisK-qRc&bj=%E5%A4%A7%E6%90%AC&coin=458
+[运行时间：0.024161s] [吞吐率：41.39req/s] [内存消耗：2,608.67kb] [文件加载：120]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001970s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001988s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000191s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'addcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4oZnwgKlu6l2h1KpisK-qRc',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LYA-AL00 Build/HUAWEILYA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200601 Mobile Safari/537.36 MMWEBID/8300 MicroMessenger/7.0.16.1700(0x2700103F) Process/appbrand2 WeChat/arm64 NetType/4G Language/zh_CN ABI/arm64 miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4oZnwgKlu6l2h1KpisK-qRc',
+  'bj' => '大搬',
+  'coin' => '458',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001153s ]
+[ info ] [ RUN ] app\api\controller\Index->addcarinfo[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T19:34:12+08:00 ] 112.97.61.224 GET www.58hongtu.com/api/index/addcarinfo?openid=oG2WP4oZnwgKlu6l2h1KpisK-qRc&bj=%E4%B8%AD%E6%90%AC&coin=280
+[运行时间：0.024723s] [吞吐率：40.45req/s] [内存消耗：2,608.67kb] [文件加载：120]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001986s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002005s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000175s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'addcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4oZnwgKlu6l2h1KpisK-qRc',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LYA-AL00 Build/HUAWEILYA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200601 Mobile Safari/537.36 MMWEBID/8300 MicroMessenger/7.0.16.1700(0x2700103F) Process/appbrand2 WeChat/arm64 NetType/4G Language/zh_CN ABI/arm64 miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4oZnwgKlu6l2h1KpisK-qRc',
+  'bj' => '中搬',
+  'coin' => '280',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001259s ]
+[ info ] [ RUN ] app\api\controller\Index->addcarinfo[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T19:34:13+08:00 ] 112.97.61.224 GET www.58hongtu.com/api/index/addcarinfo?openid=oG2WP4oZnwgKlu6l2h1KpisK-qRc&bj=%E5%A4%A7%E6%90%AC&coin=458
+[运行时间：0.025967s] [吞吐率：38.51req/s] [内存消耗：2,608.67kb] [文件加载：120]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002062s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002082s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000207s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'addcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4oZnwgKlu6l2h1KpisK-qRc',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LYA-AL00 Build/HUAWEILYA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200601 Mobile Safari/537.36 MMWEBID/8300 MicroMessenger/7.0.16.1700(0x2700103F) Process/appbrand2 WeChat/arm64 NetType/4G Language/zh_CN ABI/arm64 miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4oZnwgKlu6l2h1KpisK-qRc',
+  'bj' => '大搬',
+  'coin' => '458',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001341s ]
+[ info ] [ RUN ] app\api\controller\Index->addcarinfo[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T19:34:13+08:00 ] 112.97.61.224 GET www.58hongtu.com/api/index/addcarinfo?openid=oG2WP4oZnwgKlu6l2h1KpisK-qRc&bj=%E4%B8%AD%E6%90%AC&coin=280
+[运行时间：0.024488s] [吞吐率：40.84req/s] [内存消耗：2,608.67kb] [文件加载：120]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001975s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002011s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000178s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'addcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4oZnwgKlu6l2h1KpisK-qRc',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LYA-AL00 Build/HUAWEILYA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200601 Mobile Safari/537.36 MMWEBID/8300 MicroMessenger/7.0.16.1700(0x2700103F) Process/appbrand2 WeChat/arm64 NetType/4G Language/zh_CN ABI/arm64 miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4oZnwgKlu6l2h1KpisK-qRc',
+  'bj' => '中搬',
+  'coin' => '280',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001164s ]
+[ info ] [ RUN ] app\api\controller\Index->addcarinfo[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T19:34:17+08:00 ] 112.97.61.224 GET www.58hongtu.com/api/index/addcarinfo?openid=oG2WP4oZnwgKlu6l2h1KpisK-qRc&bj=%E5%A4%A7%E6%90%AC&coin=458
+[运行时间：0.028691s] [吞吐率：34.85req/s] [内存消耗：2,608.67kb] [文件加载：120]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001975s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001993s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000174s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'addcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4oZnwgKlu6l2h1KpisK-qRc',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LYA-AL00 Build/HUAWEILYA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200601 Mobile Safari/537.36 MMWEBID/8300 MicroMessenger/7.0.16.1700(0x2700103F) Process/appbrand2 WeChat/arm64 NetType/4G Language/zh_CN ABI/arm64 miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4oZnwgKlu6l2h1KpisK-qRc',
+  'bj' => '大搬',
+  'coin' => '458',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004599s ]
+[ info ] [ RUN ] app\api\controller\Index->addcarinfo[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T19:34:38+08:00 ] 112.97.61.224 GET www.58hongtu.com/index/index/goods
+[运行时间：0.029837s] [吞吐率：33.52req/s] [内存消耗：3,282.77kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001909s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001928s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000185s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'goods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4oZnwgKlu6l2h1KpisK-qRc',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/wxpic,image/tpg,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LYA-AL00 Build/HUAWEILYA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200601 Mobile Safari/537.36 MMWEBID/8300 MicroMessenger/7.0.16.1700(0x2700103F) Process/appbrand2 WeChat/arm64 NetType/4G Language/zh_CN ABI/arm64 miniProgram',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001128s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->goods[ /www/wwwroot/www.58hongtu.com/htmove/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/view/index/goods.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T19:35:43+08:00 ] 112.97.61.224 GET www.58hongtu.com/api/index/addcarinfo?openid=oG2WP4oZnwgKlu6l2h1KpisK-qRc&bj=%E5%B0%8F%E6%90%AC&coin=150
+[运行时间：0.023957s] [吞吐率：41.74req/s] [内存消耗：2,608.67kb] [文件加载：120]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002106s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002128s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000167s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'addcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4oZnwgKlu6l2h1KpisK-qRc',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LYA-AL00 Build/HUAWEILYA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200601 Mobile Safari/537.36 MMWEBID/8300 MicroMessenger/7.0.16.1700(0x2700103F) Process/appbrand2 WeChat/arm64 NetType/4G Language/zh_CN ABI/arm64 miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4oZnwgKlu6l2h1KpisK-qRc',
+  'bj' => '小搬',
+  'coin' => '150',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001138s ]
+[ info ] [ RUN ] app\api\controller\Index->addcarinfo[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T19:35:46+08:00 ] 112.97.61.224 GET www.58hongtu.com/api/index/addcarinfo?openid=oG2WP4oZnwgKlu6l2h1KpisK-qRc&bj=%E5%A4%A7%E6%90%AC&coin=458
+[运行时间：0.023524s] [吞吐率：42.51req/s] [内存消耗：2,608.67kb] [文件加载：120]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001973s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001994s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000174s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'addcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4oZnwgKlu6l2h1KpisK-qRc',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LYA-AL00 Build/HUAWEILYA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200601 Mobile Safari/537.36 MMWEBID/8300 MicroMessenger/7.0.16.1700(0x2700103F) Process/appbrand2 WeChat/arm64 NetType/4G Language/zh_CN ABI/arm64 miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4oZnwgKlu6l2h1KpisK-qRc',
+  'bj' => '大搬',
+  'coin' => '458',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001157s ]
+[ info ] [ RUN ] app\api\controller\Index->addcarinfo[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T19:36:01+08:00 ] 112.97.61.224 GET www.58hongtu.com/index/index/goods
+[运行时间：0.039089s] [吞吐率：25.58req/s] [内存消耗：3,282.77kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.001956s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001976s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000171s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'goods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4oZnwgKlu6l2h1KpisK-qRc',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/wxpic,image/tpg,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LYA-AL00 Build/HUAWEILYA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200601 Mobile Safari/537.36 MMWEBID/8300 MicroMessenger/7.0.16.1700(0x2700103F) Process/appbrand2 WeChat/arm64 NetType/4G Language/zh_CN ABI/arm64 miniProgram',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001144s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->goods[ /www/wwwroot/www.58hongtu.com/htmove/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/view/index/goods.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T19:36:20+08:00 ] 112.97.61.224 GET www.58hongtu.com/api/index/addcarinfo?openid=oG2WP4oZnwgKlu6l2h1KpisK-qRc&bj=%E5%B0%8F%E6%90%AC&coin=150
+[运行时间：0.029732s] [吞吐率：33.63req/s] [内存消耗：2,608.67kb] [文件加载：120]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002793s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002833s ]
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000237s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'addcarinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.58hongtu.com/index/index/home?openid=oG2WP4oZnwgKlu6l2h1KpisK-qRc',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LYA-AL00 Build/HUAWEILYA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2581 MMWEBSDK/200601 Mobile Safari/537.36 MMWEBID/8300 MicroMessenger/7.0.16.1700(0x2700103F) Process/appbrand2 WeChat/arm64 NetType/4G Language/zh_CN ABI/arm64 miniProgram',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'host' => 'www.58hongtu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'oG2WP4oZnwgKlu6l2h1KpisK-qRc',
+  'bj' => '小搬',
+  'coin' => '150',
+)
+[ info ] [ LANG ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001644s ]
+[ info ] [ RUN ] app\api\controller\Index->addcarinfo[ /www/wwwroot/www.58hongtu.com/htmove/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-22T23:20:21+08:00 ] 64.185.235.234 GET www.58hongtu.com/
+[运行时间：0.027848s] [吞吐率：35.91req/s] [内存消耗：2,958.55kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.002004s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002021s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000173s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.58hongtu.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001202s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/www.58hongtu.com/htmove/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/www.58hongtu.com/htmove/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File

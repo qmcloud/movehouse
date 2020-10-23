@@ -1,0 +1,78 @@
+.userInfo {
+    height: 100rpx;
+    background: #cec;
+}
+
+.user_avatar {
+    height: 75rpx;
+    width: 73rpx;
+    border-radius: 300rpx;
+}
+
+.user_avatar image {
+    height: 75rpx;
+    width: 73rpx;
+    border-radius: 300rpx;
+}
+
+.goods-title {
+    margin-left: 20rpx;
+    display: flex;
+    align-items: center;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ffffff;
+    align-items: center;
+    margin-top: 50rpx;
+    border-top: 1rpx solid #ebebeb;
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+}
+
+.duser_info {
+    padding-top: 20rpx;
+    padding-left: 13rpx;
+    margin-bottom: 20rpx;
+}
+
+.user_info_title {
+    font-weight: bold;
+}
+
+.user_phone {
+    display: flex;
+    flex-direction: row;
+    font-size: 24rpx;
+    align-items: center;
+    margin-top: 15rpx;
+}
+
+.user_phone text {
+    margin-left: 20rpx;
+    padding-bottom: 5rpx;
+    color: #a4a6a9;
+}
+
+.user_phone image {
+    width: 18rpx;
+    height: 22rpx;
+}
+
+.call_mobile {
+    display: flex;
+    flex-direction: row;
+}
+
+.call_mobile image {
+    height: 40rpx;
+    width: 40rpx;
+}
+
+.call_mobile text {
+    margin-right: 20rpx;
+    color: #808080;
+}

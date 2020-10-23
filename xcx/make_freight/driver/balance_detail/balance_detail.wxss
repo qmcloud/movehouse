@@ -1,0 +1,45 @@
+.full {
+    padding-top: 20rpx;
+}
+
+.item_box {
+    width: 710rpx;
+    background: #ffffff;
+    margin: 0 20rpx 20rpx 20rpx;
+}
+
+.item_box:nth-of-type(n+2) {
+    margin-top: 20rpx;
+}
+
+.left_item {
+    padding-left: 20rpx;
+    padding-top: 30rpx;
+    padding-bottom: 30rpx;
+}
+
+.left_title {
+    font-weight: bold;
+}
+
+.left_time {
+    margin-top: 20rpx;
+    font-size: 24rpx;
+    color: #808088;
+}
+
+.right_item {
+    padding-right: 20rpx;
+}
+
+.right_price {
+    padding-right: 20rpx;
+}
+
+.price_add {
+    color: #ffd522;
+}
+
+.price_minus {
+    color: #f45252;
+}

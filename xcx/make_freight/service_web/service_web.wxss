@@ -1,0 +1,41 @@
+page {
+    background: #ffffff;
+}
+
+.box {
+    width: 100%;
+}
+
+.box:nth-of-type(n+2) {
+    margin-top: 40rpx;
+}
+
+.item-top {
+    width: 100%;
+    height: 100rpx;
+    font-weight: bold;
+    padding: 0 40rpx;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.font-title {
+    margin-right: 20rpx;
+}
+
+.dot-img {
+    width: 35rpx;
+    height: 42rpx;
+    margin-right: 20rpx;
+}
+
+.item-row {
+    width: 100%;
+    color: #808088;
+    font-size: 24rpx;
+    margin-top: 30rpx;
+    padding: 0 40rpx;
+}
+
+.item-row-left {
+    width: 200rpx;
+}

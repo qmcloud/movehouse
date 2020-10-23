@@ -1,0 +1,45 @@
+.we7-bottom-placeholder {
+    width: 100%;
+    height: 134rpx;
+    position: relative;
+    bottom: 0;
+    z-index: -1;
+}
+
+.we7-bottom {
+    display: flex;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 10rpx 0;
+    border-top: 1px solid #000;
+    background-color: #fff;
+}
+
+.we7-bottom.active {
+    background-color: #fff;
+}
+
+.we7-bottom.active navigatorurl {
+    background-color: #fff;
+}
+
+.we7-bottom .we7-bottom-item {
+    flex: 1;
+    padding: 10rpx;
+    text-align: center;
+}
+
+.we7-bottom .item-img {
+    width: 50rpx;
+    height: 50rpx;
+    display: inline-block;
+}
+
+.we7-bottom .item-text {
+    display: block;
+    font-size: 12px;
+    line-height: 1;
+}

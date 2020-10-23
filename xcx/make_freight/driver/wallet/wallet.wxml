@@ -1,0 +1,36 @@
+<view>
+    <view class="top_background"></view>
+    <view class="wallet_centent">
+        <view class="mid_balance wcolumn wcenter">
+            <text class="balance_price_text">{{my_money}}</text>
+            <text calss="balance_unit_text" decode="{{true}}">账户余额&nbsp;&nbsp;&nbsp;(rmb)</text>
+        </view>
+        <view class="two_button wrow waround">
+            <view bindtap="priceDetail" class="wrow">
+                <image class="two_button_icon" src="/image/driver/bill.png"></image>
+                <text class="two_button_text">收支明细</text>
+            </view>
+            <view class="wrow">
+                <image src="/image/driver/bill.png" style="width:25rpx;height:30rpx"></image>
+                <text catch:tap="callTel" class="two_button_text">联系客服</text>
+            </view>
+        </view>
+        <view class="withdrawal">
+            <view class="wline"></view>
+            <view class="witcolumn">
+                <text class="withdrawal_font">余额提现</text>
+                <view class="input_price wrow">
+                    <view>金额(元)</view>
+                    <input bindinput="money" placeholder="请输入提现金额" type="number" value="{{money?money:''}}"></input>
+                    <view catch:tap="allMoney" class="allBtn center" hoverClass="all-hover">全部</view>
+                </view>
+            </view>
+        </view>
+        <view class="whint">
+      温馨提示：提交成功后，到账可能会有一定延迟，请耐心等待。 钱包暂不支持银行卡提现
+    </view>
+        <view class="w-f wcolumn">
+            <view catch:tap="withdraw" class="center btn driver-btn" wx:if="{{my_money>0}}">提交</view>
+        </view>
+    </view>
+</view>

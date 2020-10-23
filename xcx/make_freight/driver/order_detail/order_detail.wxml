@@ -1,0 +1,42 @@
+<view class="full flex-c">
+    <view class="map-box">
+        <map class="map" id="map" latitude="{{latitude}}" longitude="{{longitude}}" markers="{{markers}}" polyline="{{polyline}}" scale="14"></map>
+    </view>
+    <view class="bottom_item">
+        <view class="" style="width: 100%;height: 30rpx;" wx:if="{{order.status==1}}"></view>
+        <m-person avatar="{{order.avatar}}" name="{{order.shipper_name}}" phone="{{order.shipper_phone}}" wx:if="{{order.status==2}}"></m-person>
+        <m-person avatar="{{order.avatar}}" name="{{order.consignee}}" phone="{{order.consignee_phone}}" wx:if="{{order.status>=3}}"></m-person>
+        <view class="butlist">
+            <view catch:tap="cancelOrder" class="but" wx:if="{{status==2}}">
+                <view class="but_icon">
+                    <image mode="aspectFit" src="/image/driver/x.png"></image>
+                </view>
+                <view class="but_text">取消订单</view>
+            </view>
+            <view bindtap="order_msg" class="but">
+                <view class="but_icon">
+                    <image mode="aspectFit" src="/image/driver/order.png"></image>
+                </view>
+                <view class="but_text">订单信息</view>
+            </view>
+            <view bindtap="loading" class="but" wx:if="{{status==2}}">
+                <view class="but_icon">
+                    <image mode="aspectFit" src="/image/driver/confirm.png"></image>
+                </view>
+                <view class="but_text">立即装货</view>
+            </view>
+            <view bindtap="cost" class="but">
+                <view class="but_icon">
+                    <image mode="aspectFit" src="/image/driver/cost.png"></image>
+                </view>
+                <view class="but_text">费用详情</view>
+            </view>
+            <view catch:tap="callTel" class="but">
+                <view class="but_icon">
+                    <image mode="aspectFit" src="/image/driver/service.png"></image>
+                </view>
+                <view class="but_text">联系客服</view>
+            </view>
+        </view>
+    </view>
+</view>

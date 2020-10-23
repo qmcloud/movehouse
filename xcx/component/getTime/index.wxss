@@ -1,0 +1,36 @@
+.bottom-date {
+    width: 100%;
+    padding: 0 20rpx;
+    background: #FFFFFF;
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+}
+
+.betweens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.anjian {
+    padding: 0 20rpx;
+    height: 70rpx;
+    font-size: 32rpx;
+}
+
+.anjian-queding {
+    color: #ffd101;
+}
+
+.z-index {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    background: rgba(0,0,0,0.3);
+    z-index: 10;
+}

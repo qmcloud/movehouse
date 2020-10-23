@@ -1,0 +1,45 @@
+<form id="edit_cate-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">分类名称:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-name" data-rule="required" data-target="#name" class="form-control" name="row[title]" type="text" value="{$row.title}">
+            <span id="name"></span>
+        </div>
+
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">分类排序:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-sort" data-rule="required" data-target="#sort" class="form-control" name="row[sort]" type="number" value="{$row.sort}">
+            <span id="sort"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Status')}:</label>
+        <div class="col-xs-12 col-sm-8">
+
+            <div class="radio">
+
+                <label >
+                    <input  name="row[status]" type="radio" value="0" {eq name="$row.status" value="0"} checked {/eq}/> 隐藏
+                </label>
+                <label >
+                    <input  name="row[status]" type="radio" value="1" {eq name="$row.status" value="1"} checked {/eq} /> 显示
+                </label>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

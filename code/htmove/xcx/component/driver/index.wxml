@@ -1,0 +1,16 @@
+<view class="box">
+    <view class="betweens">
+        <view class="rows">
+            <image class="head-img" src="{{driver.icon}}"></image>
+            <view class="">
+                <view class="driver-name">{{driver.name}}</view>
+                <view class="rows">
+                    <image class="star-img" src="/image/star.png" wx:for="{{verify.score(driver.service_mark)}}" wx:key="{{index}}"></image>
+                    <text class="font-num">{{driver.service_mark}}分</text>
+                </view>
+            </view>
+        </view>
+        <image catch:tap="callTel" class="tel-img" src="/image/driver_tel.png"></image>
+    </view>
+</view>
+<wxs module="verify" src="../../modules/verify.wxs" />

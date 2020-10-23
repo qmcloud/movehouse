@@ -1,0 +1,77 @@
+page {
+    background: #f0f2f5;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center {
+    justify-content: center;
+}
+
+.cost_box {
+    margin: 20rpx;
+    width: 710rpx;
+    background: #ffffff;
+    padding: 0rpx 20rpx 0rpx 20rpx;
+}
+
+.top-item {
+}
+
+.top_title {
+    font-size: 24rpx;
+    margin-top: 50rpx;
+    font-weight: normal;
+}
+
+.top_amount {
+    margin-top: 30rpx;
+    align-items: flex-end;
+    height: 103rpx;
+}
+
+.money {
+    font-size: 60rpx;
+}
+
+.unit {
+    padding-bottom: 12rpx;
+}
+
+.mid_title {
+    margin-top: 50rpx;
+    justify-content: space-around;
+    align-items: center;
+    height: 30rpx;
+    font-size: 24rpx;
+    color: #808088;
+}
+
+.line {
+    height: 3rpx;
+    background: #cccccc;
+    width: 265rpx;
+}
+
+.mid_detail {
+}
+
+.detail_ {
+    justify-content: space-between;
+    width: 100%;
+    font-size: 24rpx;
+    margin-top: 30rpx;
+    padding-bottom: 37rpx;
+}
+
+.left_name {
+    font-weight: normal;
+}
+
+.right_money {
+    color: #808088;
+}

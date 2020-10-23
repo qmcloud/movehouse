@@ -1,0 +1,25 @@
+<view class="full column">
+    <view class="top" style="font-size:{{top_f}}">
+        <view class="top_item around">
+            <view bind:tap="topTap" class="center full" data-idx="{{index}}" style="color: {{index==idx?font_active_color:font_color}};background: {{bg_color}};" wx:for="{{top_item}}" wx:key="*this">
+                    {{item}}
+                </view>
+        </view>
+        <view class="top-line around" style="background: {{line_color}};">
+            <view class="full" style="padding: {{top_p}};" wx:for="{{top_item}}" wx:key="*this">
+                <view class="full" style="background: {{index==idx?line_active_color:line_color}};"></view>
+            </view>
+        </view>
+    </view>
+    <view style="width: 100%;height: {{view_h}};background: {{view_bg}};"></view>
+    <solt name="{{tabItem}}"></solt>
+    <view class="scroll">
+        <swiper bindchange="swiper" class="full" current="{{idx}}" duration="0">
+            <swiper-item class="swiper-box full" wx:for="{{top_item}}" wx:key="*this">
+                <scroll-view bindscrolltolower="scrollSole" class="full" scrollY="true">
+                    <slot name="after{{index}}"></slot>
+                </scroll-view>
+            </swiper-item>
+        </swiper>
+    </view>
+</view>

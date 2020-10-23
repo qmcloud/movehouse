@@ -1,0 +1,6 @@
+{
+    "usingComponents": {
+        "m-time": "/component/getTime/index",
+        "m-no-hint": "/component/no_hint/index"
+    }
+}

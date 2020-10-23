@@ -1,0 +1,190 @@
+page {
+    background: #f0f2f5;
+}
+
+.full {
+    width: 100%;
+    height: 100%;
+}
+
+.flex-c {
+    display: flex;
+    flex-direction: column;
+}
+
+.scrollPage {
+}
+
+.head_top_box {
+    width: 100%;
+    padding: 80rpx 20rpx 0 20rpx;
+}
+
+.head_top {
+    width: 710rpx;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.cu-tabbar-height {
+    flex: 1;
+    width: 100%;
+    background: #ffffff;
+}
+
+.user_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50rpx;
+}
+
+.user_image {
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.item-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 40rpx;
+    margin-top: 40rpx;
+    background: #ffffff;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30rpx 40rpx 30rpx 0;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.item-left {
+    display: flex;
+    flex-direction: row;
+}
+
+.item-left-img {
+    width: 36rpx;
+    height: 36rpx;
+    margin-right: 20rpx;
+}
+
+.item-right-img {
+    width: 14rpx;
+    height: 24rpx;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rows {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 680rpx;
+    height: 80rpx;
+    border-radius: 35px;
+}
+
+.btn:after {
+    border: 0;
+}
+
+.driver-btn {
+    background: #ffd101;
+    margin-top: 70rpx;
+}
+
+.logout-btn {
+    border: 1px solid #212330;
+    margin-top: 20rpx;
+    margin-bottom: 40rpx;
+}
+
+.userNickName {
+    font-size: 30rpx;
+    font-weight: bold;
+    margin-bottom: 30rpx;
+}
+
+.order_count {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30rpx;
+    height: 100rpx;
+}
+
+.order_amount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order_amount text {
+    font-size: 24rpx;
+    font-weight: bold;
+}
+
+.z-index {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    background: rgba(0,0,0,0.3);
+    z-index: 100;
+}
+
+.register-box {
+    width: 440rpx;
+    height: 580rpx;
+    background: #ffffff;
+    position: relative;
+    z-index: 1000;
+}
+
+.register-img {
+    width: 353rpx;
+    height: 322rpx;
+    margin-top: 50rpx;
+}
+
+.register-des {
+    margin: 40rpx 0 30rpx 0;
+}
+
+.register-btn {
+    color: #ffd101;
+    padding: 10rpx 50rpx;
+    border-radius: 35px;
+    border: 1px solid #ffd101;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    background: #ffffff;
+    flex: 1;
+    margin-bottom: 70rpx;
+}

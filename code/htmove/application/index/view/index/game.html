@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=0.5, minimum-scale=0.5, maximum-scale=0.5" />
+    <script src="__CDN__/assets/game/js/jquery-1.8.3.min.js"></script>
+    <script src="__CDN__/assets/game/js/money.js"></script>
+    <script src="__CDN__/assets/game/js/pen.js"></script>
+    <script src="__CDN__/assets/game/js/body.js"></script>
+    <script src="__CDN__/assets/game/js/requestNextAnimationFrame.js"></script>
+    <link href="__CDN__/assets/game/css/msjbp.css" rel="stylesheet" />
+    <title>鸿途接红包</title>
+
+</head>
+<body>
+    <script type="text/javascript">
+        function set_meta() {
+            var body_width = document.documentElement.clientWidth;
+            var get_scale = (body_width / 2) / 640;
+            var get_content = "width=device-width, initial-scale=" + get_scale + ", minimum-scale=" + get_scale + ", maximum-scale=" + get_scale;
+            document.getElementById("viewport").setAttribute('content', get_content);
+        }
+        set_meta();
+    </script>
+    
+    
+    <canvas width="640" height="1008" id="canvas"></canvas>
+
+    <div class="tim_dsq" id="clock"></div>
+    <script>
+        var canvas = document.getElementById('canvas');
+        var context = canvas.getContext('2d');
+        var canvasWidth = 640;
+        var canvasHeight = 1008;
+       
+        var isEnd = false;//游戏结束
+        var five_num_left = 0;
+        var ten_num_left = 0;
+        var empty_num_left = 0;
+		var five_num=0;
+		var ten_num=0;
+		var empty_num=0;
+		var zad_num=0
+		var score = 0;
+		
+      
+        var body;
+
+        function animate(now) {
+            body.clear();
+            body.draw();
+            if (!isEnd) {
+                requestNextAnimationFrame(animate);
+            }       
+        }
+        
+        $().ready(function () {
+            body = new Body();
+            timedCount();
+            window.requestNextAnimationFrame(animate);
+        })
+
+        var time = 20;
+        var clock;
+        function timedCount() {
+            $("#clock").html(time + "秒");
+            if (time <= 0) {
+                clearTimeout(clock);
+                this.isEnd = true;
+
+            } else {
+                time = time - 1;
+                clock = setTimeout("timedCount()", 1000);
+            }
+        }
+    </script>
+</body>
+</html>

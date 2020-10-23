@@ -1,0 +1,86 @@
+<link rel="stylesheet" href="__ADDON__/css/wechat.css" />
+
+{if $type=='jsapi'}
+<div class="container">
+    <div class="row" style="margin-top:20px;">
+        <div class="col-xs-12">
+            <button type="button" class="btn btn-success btn-lg btn-block">正在发起微信支付</button>
+            <button type="button" class="btn btn-default btn-lg btn-block" onclick="location.href='{$orderData.returnurl}'">如果页面未自动跳转</button>
+        </div>
+    </div>
+</div>
+<script>
+    function onBridgeReady(){
+        WeixinJSBridge.invoke(
+            'getBrandWCPayRequest', {$payData|json_encode},
+            function(res){
+                if (res.err_msg == "get_brand_wcpay_request:ok") {
+                    layer.msg('支付成功！');
+                } else if (res.err_msg == "get_brand_wcpay_request:cancel") {
+                    layer.msg('您取消了支付');
+                } else if (res.err_msg == "get_brand_wcpay_request:fail") {
+                    layer.msg('支付失败');
+                }
+                setTimeout(function () {
+                    location.href = '{$orderData.returnurl}';
+                }, 1500);
+            });
+    }
+    if (typeof WeixinJSBridge == "undefined"){
+        if( document.addEventListener ){
+            document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
+        }else if (document.attachEvent){
+            document.attachEvent('WeixinJSBridgeReady', onBridgeReady);
+            document.attachEvent('onWeixinJSBridgeReady', onBridgeReady);
+        }
+    }else{
+        onBridgeReady();
+    }
+</script>
+{elseif $type=='pc' /}
+<div class="container">
+    <div class="wechat">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12">
+                <h2>
+                    <img src="__ADDON__/images/logo-wechat.png" alt="" height="32" class="pull-left" style="margin-right:5px;"> 微信支付
+                    <div class="wechat-time">
+                        请在 <span>60</span> 秒内完成支付
+                    </div>
+                </h2>
+
+                <div class="row">
+                    <div class="col-xs-12 col-sm-5">
+                        <div class="wechat-body">
+                            <div class="wechat-order clearfix">
+                                <p>订单标题：<em>{$data.body}</em></p>
+                                <p>订单编号：<em>{$data.out_trade_no}</em></p>
+                                <p>订单价格：<em class="wechat-price">￥{$data.total_fee/100}</em> 元</p>
+                            </div>
+                            <div class="wechat-qrcode">
+                                <img src="{:addon_url('epay/api/qrcode',[],false)}?text={$data.code_url}">
+                                <div class="expired hidden"></div>
+                                <div class="paid hidden"></div>
+                            </div>
+                            <div class="wechat-tips">
+                                <p>请使用微信扫一扫<br>扫描二维码支付</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-6 hidden-xs">
+                        <div class="wechat-scan">
+                            <img src="__ADDON__/images/tips.png" class="img-responsive" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    var queryParams = {$data|json_encode};
+</script>
+{/if}

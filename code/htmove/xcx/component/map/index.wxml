@@ -1,0 +1,7 @@
+<view class="maps-wrap">
+    <map bindregionchange="regionchange" class="maps" controls="{{controls}}" id="map" latitude="{{latitude}}" longitude="{{longitude}}" markers="{{markers}}" scale="{{scale}}">
+        <cover-image bind:tap="location" class="location-img" src="/image/location.png"></cover-image>
+        <cover-image class="map_label" src="/image/start.png" wx:if="{{address_type==0}}"></cover-image>
+        <cover-image class="map_label" src="/image/end.png" wx:else></cover-image>
+    </map>
+</view>

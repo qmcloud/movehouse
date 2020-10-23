@@ -1,0 +1,87 @@
+.ordcolumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.ordbetween {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jucenter {
+    justify-content: center;
+}
+
+.ordrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.lstart {
+    justify-content: flex-start;
+}
+
+.ordbold {
+    font-weight: bold;
+}
+
+.play_price {
+    margin-top: 35rpx;
+}
+
+.ordstatus {
+    font-size: 24rpx;
+    color: #ff2222;
+}
+
+.item_box {
+    margin: 20rpx;
+    background: #ffffff;
+    padding: 20rpx;
+}
+
+.order_number {
+    height: 100rpx;
+    border-bottom: 1px solid #f0f2f5;
+    width: 100%;
+}
+
+.oraddress {
+    height: 180rpx;
+}
+
+.addressleft_font {
+    color: #bbbbbb;
+    font-size: 24rpx;
+}
+
+.addressleft_font_ {
+    font-size: 24rpx;
+    font-weight: bold;
+}
+
+.orborder {
+    border-bottom: 1px solid #f0f2f5;
+}
+
+.orderbottom {
+    height: 100rpx;
+}
+
+.orderbottom_time {
+    font-size: 24rpx;
+    color: #bbbbbb;
+}
+
+.orderbottom_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60rpx;
+    width: 200rpx;
+    border: 1rpx solid #2c282e;
+    border-radius: 30rpx;
+}

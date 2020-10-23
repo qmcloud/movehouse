@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>{$title} - FastAdmin</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="__ADDON__/css/common.css" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+    <link href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdn.staticfile.org/simple-line-icons/2.4.1/css/simple-line-icons.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.staticfile.org/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{:addon_url('epay/index/index')}">FastAdmin</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                </li>
+                {if $user}
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">欢迎你! {$user.nickname}<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="{:url('index/user/index')}">会员中心</a>
+                        </li>
+                        <li>
+                            <a href="{:url('index/user/profile')}">个人资料</a>
+                        </li>
+                        <li>
+                            <a href="{:url('index/user/logout')}">退出登录</a>
+                        </li>
+                    </ul>
+                </li>
+                {else /}
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">会员中心 <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="{:url('index/user/login')}">登录</a>
+                        </li>
+                        <li>
+                            <a href="{:url('index/user/register')}">注册</a>
+                        </li>
+                    </ul>
+                </li>
+                {/if}
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+{__CONTENT__}
+
+<div class="container">
+    <!-- Footer -->
+    <footer>
+        <div class="row">
+            <div class="col-lg-12">
+                <hr>
+                <p>Copyright &copy; <a href="https://www.fastadmin.net">FastAdmin</a> 2017-1019</p>
+            </div>
+        </div>
+    </footer>
+
+</div>
+<!-- /.container -->
+
+<!-- jQuery -->
+<script src="https://cdn.staticfile.org/jquery/2.1.4/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script src="__CDN__/assets/libs/fastadmin-layer/dist/layer.js"></script>
+
+<script src="__ADDON__/js/common.js"></script>
+
+</body>
+
+</html>

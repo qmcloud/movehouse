@@ -1,0 +1,33 @@
+<view class="flex-c full">
+    <view class="center top">
+        <view class="search-box rows">
+            <image class="search-img" src="/image/search.png"></image>
+            <input bindinput="searchAddress" class="input-search" placeholder="请输入地址" type="text" value="{{search_value}}"></input>
+        </view>
+    </view>
+    <view class="search_end">
+        搜索结果
+    </view>
+    <view class="gray-view"></view>
+    <view class="container" hidden="{{no_data}}">
+        <m-hint hidden="{{no_data}}" img_url="{{img_url}}">
+            <text class="no-hint-font" slot="after">暂无搜索记录~</text>
+        </m-hint>
+    </view>
+    <view class="w-f column center-box">
+        <view class="box-item box-search">
+            <view bind:tap="confirm" class="rows w-f center-item" data-sid="{{index}}" hidden="{{search}}" hoverClass="hover-view" id="0" wx:for="{{search_list}}" wx:key="{{item.id}}">
+                <view class="center-right">
+                    <view class="center-right-top">{{item.title}}</view>
+                    <view class="center-right-bottom">{{item.address}}</view>
+                </view>
+            </view>
+            <view bind:tap="confirm" class="rows w-f center-item" data-sid="{{index}}" hidden="{{no_search}}" hoverClass="hover-view" id="1" wx:for="{{history_list}}" wx:key="{{item.id}}">
+                <view class="center-right">
+                    <view class="center-right-top">{{item.title}}</view>
+                    <view class="center-right-bottom">{{item.address}}</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

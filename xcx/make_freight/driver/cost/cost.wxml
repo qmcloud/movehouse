@@ -1,0 +1,58 @@
+<view>
+    <view class="cost_box">
+        <view class="top-item column center">
+            <view class="top_title">本单总收入</view>
+            <view class="top_amount row">
+                <view class="money">{{list.income}}</view>
+                <view class="unit">元</view>
+            </view>
+        </view>
+        <view class="row mid_title">
+            <view class="line"></view>
+            <view>收入明细</view>
+            <view class="line"></view>
+        </view>
+        <view class="mid_detail column">
+            <view class="detail_ row">
+                <view class="left_name">订单收入</view>
+                <view class="right_money">{{list.price}}</view>
+            </view>
+            <view class="detail_ row">
+                <view class="left_name">平台扣取</view>
+                <view class="right_money">{{list.service_fee}}</view>
+            </view>
+        </view>
+    </view>
+    <view class="cost_box">
+        <view class="top-item row center" style="padding-top:30rpx;">
+            <view class="" style="font-size:24rpx">收到货款</view>
+            <view class="" style="font-weight:bold;font-size:40rpx">{{list.user_pay}}</view>
+            <view class="">元</view>
+        </view>
+        <view class="row mid_title">
+            <view class="line"></view>
+            <view>收款明细</view>
+            <view class="line"></view>
+        </view>
+        <view class="mid_detail column">
+            <view class="detail_ row">
+                <view class="left_name">起步价({{list.start_km}}公里）</view>
+                <view class="right_money">{{list.start_price}}</view>
+            </view>
+            <view class="detail_ row">
+                <view class="left_name">里程费</view>
+                <view class="right_money">{{list.price}}元</view>
+            </view>
+        </view>
+        <view class="mid_detail column" style="border-top:2rpx solid #cccccc">
+            <view class="detail_ center-r">
+                <view class="left_name">客户总支付</view>
+                <view class="center-r">
+                    <view style="padding-right:20rpx;">共计:</view>
+                    <view style="font-size:40rpx;font-weight:bold">{{list.user_pay}}</view>
+                    <view>元</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

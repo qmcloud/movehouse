@@ -1,0 +1,41 @@
+var isArray = (function(arr) {
+    if (!arr || arr.length <= 0) {
+        return (false)
+    };
+    return (true)
+});
+var score = (function(num) {
+    if (!num) {
+        return
+    };
+    return (Math.floor(num))
+});
+var nameVerify = (function(name) {
+    var name_ = '';
+    for (var i = 0; i < name.length; i++) {
+        if (i >= 1) {
+            name_ += '*'
+        }
+    };
+    return (name.substring(0, 1) + name_)
+});
+var toFixed = (function(num) {
+    return (num.toFixed(0))
+});
+var phoneVerify = (function(name) {
+    return (name.substring(0, 3) + '****' + name.substring(7, 12))
+});
+var arrLength = (function(arr) {
+    if (!arr || arr.length <= 0) {
+        return (0)
+    };
+    return (arr.length)
+});
+module.exports = ({
+    isArray: isArray,
+    nameVerify: nameVerify,
+    phoneVerify: phoneVerify,
+    toFixed: toFixed,
+    score: score,
+    arrLength: arrLength,
+});

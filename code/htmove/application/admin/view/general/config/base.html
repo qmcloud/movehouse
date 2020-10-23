@@ -1,0 +1,33 @@
+<form id="base" class="form-horizontal" data-toggle="validator" method="POST" action="config/base">
+    {if ($auth->isSuperAdmin() )}
+    <div class="form-group">
+        <label class="col-sm-2 control-label">小程序uniacid：</label>
+        <div class="col-sm-3">
+            <input type="number" data-rule="" class="form-control" name="row[uniacid]"  value="{$uniacid['uniacid']}" data-tip="微擎平台管理 点击模块的基本消息 消息推送URL地址后面的ID">
+        </div>
+
+    </div>
+    {/if}
+    <div class="form-group">
+        <label class="col-sm-2 control-label">站点名称：</label>
+        <div class="col-sm-3">
+            <input type="text" data-rule="" class="form-control" name="row[admin_name]" {present name="$setting['admin_name']"} value="{$setting['admin_name']}" {/present} data-tip="请填写后台站点名称">
+        </div>
+
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">后台独立登录入口：</label>
+        <div class="col-sm-3">
+            <span  style="border: 0px solid #ffffff;" class="form-control" >{$_SERVER['HTTP_HOST']}/addons/make_freight/core/public/index.php/admin/index/login</span>
+        </div>
+    </div>
+
+
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

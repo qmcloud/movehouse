@@ -1,0 +1,194 @@
+<scroll-view scrollY bindscrolltolower="scrollSole" class="scrollPage" style="height:100%">
+    <view class="head">
+        <view bindtap="changeTab" class="top-tab {{idx==index?'tabTrue':''}}" data-idx="{{index}}" wx:for="{{title}}" wx:key="{{index}}">
+            {{item}}
+            <view class="selected" wx:if="{{idx==index}}"></view>
+        </view>
+    </view>
+    <block wx:if="{{idx==0}}">
+        <m-no-hint wx:if="{{verify.isArray(wait_order_list)==false}}">
+            <text class="no-hint-font" slot="after">暂无此类订单~</text>
+        </m-no-hint>
+        <view catch:tap="orderDetail" class="order" data-idx="{{index}}" data-status="{{item.status}}" wx:if="{{verify.isArray(wait_order_list)==true}}" wx:for="{{wait_order_list}}" wx:key="{{item.order_id}}">
+            <view class="get_goods">
+                <view class="goods-title">
+                    <image src="../../../image/driver/time.png" style="height:36rpx;width:36rpx"></image>
+                    <text class="title-font">{{item.appointment_time}}</text>
+                </view>
+                <view class="o_amount">
+                    <text class="amount-sybol">￥</text>
+                    <text class="amount-price">{{item.price}}</text>
+                </view>
+            </view>
+            <view class="car-type-box">
+                <view class="goods-title">
+                    <image src="../../../image/driver/car_type.png" style="height:29rpx;width:36rpx"></image>
+                    <text class="title-font" style="width: 590rpx;">车型：{{item.car_name}}</text>
+                </view>
+            </view>
+            <view class="remark-box">
+                <view class="goods-title">
+                    <image src="../../../image/driver/remark.png" style="height:36rpx;width:36rpx"></image>
+                    <text class="title-font" style="width: 590rpx;">备注：{{item.remark!=''?item.remark:'无'}}</text>
+                </view>
+            </view>
+            <view catch:tap="navigation" class="address" data-address="{{item.place_dispatch_detail}}" data-lat="{{item.start_lat}}" data-lng="{{item.start_lot}}" data-name="{{item.place_dispatch}}">
+                <view class="goods-title">
+                    <view>
+                        <image src="../../../image/driver/address.png" style="height:40rpx;width:35rpx"></image>
+                    </view>
+                    <view class="address_block">
+                        <view class="addres_title">
+                            <text class="addres_title-font">{{item.place_dispatch}}</text>
+                        </view>
+                        <text class="address_detail">{{item.place_dispatch_detail}}</text>
+                    </view>
+                </view>
+                <view class="o_amount">
+                    <image model="aspectFit" src="../../../image/driver/right.png" style="height:30rpx;width:20rpx"></image>
+                </view>
+            </view>
+            <view catch:tap="navigation" class="address" data-address="{{item.place_receipt_detail}}" data-lat="{{item.end_lat}}" data-lng="{{item.end_lot}}" data-name="{{item.place_receipt}}">
+                <view class="goods-title">
+                    <view>
+                        <image src="../../../image/driver/address.png" style="height:40rpx;width:35rpx"></image>
+                    </view>
+                    <view class="address_block">
+                        <view class="addres_title">
+                            <text class="addres_title-font">{{item.place_receipt}}</text>
+                            <view class="addres_title-distance">{{item.distance}}km</view>
+                        </view>
+                        <text class="address_detail">{{item.place_receipt_detail}}</text>
+                    </view>
+                </view>
+                <view class="o_amount">
+                    <image model="aspectFit" src="../../../image/driver/right.png" style="height:30rpx;width:20rpx"></image>
+                </view>
+            </view>
+            <view class="get_goods">
+                <view class="goods-title">
+                    <image src="../../../image/driver/time.png" style="height:36rpx;width:36rpx"></image>
+                    <text class="title-font">{{item.create_time}}</text>
+                </view>
+            </view>
+            <view catch:tap="robbedOrder" class="accept_order" data-id="{{item.id}}">确认接单</view>
+        </view>
+        <view class="big-bth">
+            <view bindtap="changeStatus" class="add-wrap" data-status="2" hoverClass="plus-hover" wx:if="{{info.info&&info.info.statef==1}}">
+                <view class="stauts-button">
+                    <image model="aspectFit" src="../../../image/driver/close.png"></image>
+                    <text>暂停接单</text>
+                </view>
+            </view>
+            <view bindtap="changeStatus" class="open-wrap" data-status="1" hoverClass="plus-hover" wx:if="{{info.info&&info.info.statef==2}}">
+                <view class="open-stauts-button">
+                    <image model="aspectFit" src="../../../image/driver/rocket.png"></image>
+                    <text>听单</text>
+                </view>
+            </view>
+        </view>
+    </block>
+    <block wx:if="{{idx==1}}">
+        <m-no-hint wx:if="{{verify.isArray(underway_order_list)==false}}">
+            <text class="no-hint-font" slot="after">暂无此类订单~</text>
+        </m-no-hint>
+        <view catch:tap="orderDetail" class="order" data-idx="{{index}}" data-status="{{item.status}}" wx:if="{{verify.isArray(underway_order_list)==true}}" wx:for="{{underway_order_list}}" wx:key="{{item.id}}">
+            <view class="user" wx:if="{{item.status==2}}">
+                <view class="goods-title" style="height:100%;">
+                    <view class="user_avatar">
+                        <image src="{{item.avatar}}"></image>
+                    </view>
+                    <view class="duser_info">
+                        <text>{{item.shipper_name}}</text>
+                        <view class="user_phone">
+                            <view>
+                                <image src="/image/driver/phone.png"></image>
+                            </view>
+                            <text>{{item.shipper_phone}}</text>
+                        </view>
+                    </view>
+                </view>
+                <view catch:tap="callTel" class="call_mobile" data-phone="{{item.shipper_phone}}">
+                    <view style="margin-right:15rpx;">
+                        <image src="../../../image/driver/call.png"></image>
+                    </view>
+                    <text>致电</text>
+                </view>
+            </view>
+            <view class="user" wx:if="{{item.status==3}}">
+                <view class="goods-title" style="height:100%;">
+                    <view class="user_avatar">
+                        <image src="{{item.avatar}}"></image>
+                    </view>
+                    <view class="duser_info">
+                        <text>{{item.consignee}}</text>
+                        <view class="user_phone">
+                            <view>
+                                <image src="/image/driver/phone.png"></image>
+                            </view>
+                            <text>{{item.consignee_phone}}</text>
+                        </view>
+                    </view>
+                </view>
+                <view catch:tap="callTel" class="call_mobile" data-phone="{{item.consignee_phone}}">
+                    <view style="margin-right:15rpx;">
+                        <image src="../../../image/driver/call.png"></image>
+                    </view>
+                    <text>致电</text>
+                </view>
+            </view>
+            <view class="remark-box">
+                <view class="goods-title">
+                    <image src="../../../image/driver/remark.png" style="height:36rpx;width:36rpx"></image>
+                    <text class="title-font" style="width: 590rpx;">备注：{{item.remark!=''?item.remark:'无'}}</text>
+                </view>
+            </view>
+            <view class="get_goods">
+                <view class="goods-title">
+                    <image src="../../../image/driver/time.png" style="height:36rpx;width:36rpx"></image>
+                    <text class="title-font">{{item.appointment_time}}</text>
+                </view>
+                <view class="o_amount">
+                    <text class="amount-sybol">￥</text>
+                    <text class="amount-price">{{item.price}}</text>
+                </view>
+            </view>
+            <view catch:tap="navigation" class="address" data-address="{{item.place_dispatch_detail}}" data-lat="{{item.start_lat}}" data-lng="{{item.start_lot}}" data-name="{{item.place_dispatch}}" style="margin:0" wx:if="{{item.status==2}}">
+                <view class="goods-title">
+                    <view>
+                        <image src="../../../image/driver/address.png" style="height:40rpx;width:35rpx"></image>
+                    </view>
+                    <view class="address_block">
+                        <view class="addres_title">
+                            <text class="addres_title-font">{{item.place_dispatch}}</text>
+                        </view>
+                        <text class="address_detail">{{item.place_dispatch_detail}}</text>
+                    </view>
+                </view>
+                <view class="o_amount">
+                    <image src="../../../image/driver/right.png" style="height:30rpx;width:20rpx"></image>
+                </view>
+            </view>
+            <view catch:tap="navigation" class="address" data-address="{{item.place_receipt_detail}}" data-lat="{{item.end_lat}}" data-lng="{{item.end_lot}}" data-name="{{item.place_receipt}}" style="margin:0" wx:if="{{item.status==3}}">
+                <view class="goods-title">
+                    <view>
+                        <image src="../../../image/driver/address.png" style="height:40rpx;width:35rpx"></image>
+                    </view>
+                    <view class="address_block">
+                        <view class="addres_title">
+                            <text class="addres_title-font">{{item.place_receipt}}</text>
+                        </view>
+                        <text class="address_detail">{{item.place_receipt_detail}}</text>
+                    </view>
+                </view>
+                <view class="o_amount">
+                    <image src="../../../image/driver/right.png" style="height:30rpx;width:20rpx"></image>
+                </view>
+            </view>
+            <view catch:tap="confirmOrder" class="accept_order" data-id="{{item.order_id}}" data-status="{{item.status}}" wx:if="{{item.status==2}}">确认取货</view>
+            <view catch:tap="confirmOrder" class="accept_order" data-id="{{item.order_id}}" data-status="{{item.status}}" wx:if="{{item.status==3}}">确认送达</view>
+        </view>
+    </block>
+    <view class="cu-tabbar-height"></view>
+</scroll-view>
+<wxs module="verify" src="../../../modules/verify.wxs" />

@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "地址",
+    "usingComponents": {
+        "m-map": "/component/map/index"
+    }
+}

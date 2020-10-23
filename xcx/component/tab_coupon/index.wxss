@@ -1,0 +1,49 @@
+.top {
+    width: 100%;
+    height: 100rpx;
+    background: #ffffff;
+}
+
+.top_item {
+    width: 100%;
+    height: 96rpx;
+}
+
+.top-font {
+    color: blueviolet;
+}
+
+.top-line {
+    height: 4rpx;
+    width: 100%;
+}
+
+.top_line_bg {
+    background: blueviolet;
+}
+
+.scroll {
+    flex: 1;
+}
+
+.around {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.full {
+    width: 100%;
+    height: 100%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

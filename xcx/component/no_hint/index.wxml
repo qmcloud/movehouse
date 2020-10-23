@@ -1,0 +1,4 @@
+<view class="column no-message">
+    <image class="no-message-img" src="/image/space.png"></image>
+    <slot class="font-des" name="after"></slot>
+</view>

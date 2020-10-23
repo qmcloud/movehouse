@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "优惠券",
+    "usingComponents": {
+        "m-tab": "/component/tab_coupon/index",
+        "m-no-hint": "/component/no_hint/index"
+    }
+}

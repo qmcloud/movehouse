@@ -1,0 +1,38 @@
+<view class="full column">
+    <m-map address_type="{{address_type}}" bind:examineAddress="examineAddress" class="map" location="{{template.location}}"></m-map>
+    <view class="footer">
+        <form bindsubmit="confirm" class="w-f">
+            <view bind:tap="searchAddress" class="item betweens">
+                <view class="rows">
+                    <image class="address-img" src="/image/address.png"></image>
+                    <view class="">
+                        <view class="">{{template.title}}</view>
+                        <view class="address-des">{{template.address}}</view>
+                    </view>
+                </view>
+                <image class="a-r" src="/image/a_r.png"></image>
+            </view>
+            <!--<view class="item rows">
+                <image class="person-img" src="/image/lt.png"></image>
+                <input class="" name="lt" placeholder="楼梯" type="text" value="{{lt}}"></input>
+            </view>-->
+            
+            <view class = "item rows">
+            <image class="person-img" src="/image/lt.png"></image>
+            <text></text>
+            <text></text>
+            <picker name="lt" value="{{picker1Value}}" range="{{picker1Range}}" bindchange="normalPickerBindchange">
+             {{picker1Range[picker1Value]}}
+            </picker>
+        
+            </view>
+
+            <view class="item rows">
+                <image class="des-img" src="/image/address_des.png"></image>
+                <input class="" name="des" placeholder="详细地址(楼号-门牌号)" type="text" value="{{des}}"></input>
+               
+            </view>
+            <button class="confirm-btn center" formType="submit" >确定</button>
+        </form>
+    </view>
+</view>

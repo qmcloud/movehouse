@@ -1,0 +1,35 @@
+<view class="row box">
+    <view class="column box-left">
+        <view class="circle-big-img"></view>
+        <view class="column">
+            <view class="line-c"></view>
+            <view class="circle-img"></view>
+        </view>
+        <view class="column" wx:if="{{status>=3}}">
+            <view class="line-c"></view>
+            <view class="circle-img"></view>
+        </view>
+        <view class="column" wx:if="{{status>=4}}">
+            <view class="line-c"></view>
+            <view class="circle-img"></view>
+        </view>
+    </view>
+    <view class="">
+        <view class="row-item">
+            <view class="row-title">下单成功</view>
+            <view class="row-time">{{create_time}}</view>
+        </view>
+        <view class="row-item" wx:if="{{status>=2}}">
+            <view class="row-title">司机接单</view>
+            <view class="row-time">{{driver_time}}</view>
+        </view>
+        <view class="row-item" wx:if="{{status>=3}}">
+            <view class="row-title">司机取货</view>
+            <view class="row-time">{{getgoods_time}}</view>
+        </view>
+        <view class="row-item" wx:if="{{status>=4}}">
+            <view class="row-title">司机已送达</view>
+            <view class="row-time">{{end_time}}</view>
+        </view>
+    </view>
+</view>

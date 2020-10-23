@@ -1,0 +1,18 @@
+<view catchtouchmove="true" class="full column box" hidden="{{time_picker}}">
+    <cover-view bind:tap="orderStatusBoxClose" class="u-index" hidden="{{time_picker}}"></cover-view>
+    <view class="bottom-date" hidden="">
+        <view class="anjian betweens">
+            <view bindtap="closeBtn" class="anjian-quxiao">取消</view>
+            <view bindtap="timeBtn" class="anjian-queding">确定</view>
+        </view>
+        <picker-view bindchange="pickerTime" indicatorStyle="height: 50px;" style="width: 100%;height: 200px;" value="0">
+            <picker-view-column>
+                <view class="center" style="line-height: 50px" wx:for="{{years}}" wx:key="days">{{item}}年</view>
+            </picker-view-column>
+            <view class="" style="width: 300rpx;"></view>
+            <picker-view-column>
+                <view class="center" style="line-height: 50px" wx:for="{{months}}" wx:key="minutes">{{item}}月</view>
+            </picker-view-column>
+        </picker-view>
+    </view>
+</view>

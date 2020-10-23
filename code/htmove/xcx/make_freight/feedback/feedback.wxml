@@ -1,0 +1,27 @@
+<view class="all">
+    <view class="top-tip">
+        请选择您的反馈问题类型（必选）
+    </view>
+    <view class="row question-big-box">
+        <view catch:tap="selectType" class="question-box center {{idx==index?'active':''}}" data-idx="{{index}}" wx:for="{{question_list}}" wx:key="{{item.id}}">{{item.title}}</view>
+    </view>
+    <input bindinput="phone" class="phone" placeholder="联系电话" type="text"></input>
+    <view class="textarea-box column">
+        <textarea bindinput="textArea" class="textarea" maxlength="200" placeholder="反馈的意见" value="{{value}}"></textarea>
+        <view class="w-f betweens">
+            <view class=""></view>
+            <view class="font-num">{{font_num}}/200</view>
+        </view>
+    </view>
+    <view class="photo-box row">
+        <view class="upload-img" wx:for="{{img_temp}}" wx:key="{{item.index}}">
+            <image catch:tap="preImg" class="full" data-idx="{{index}}" src="{{item}}"></image>
+            <image catch:tap="delImg" class="del-img" src="/image/del.png"></image>
+        </view>
+        <view catch:tap="photoFrom" class="">
+            <image class="photo-img" src="/image/photo.png"></image>
+            <view class="photo-des">最多上传9张</view>
+        </view>
+    </view>
+    <view catch:tap="confirm" class="center confirm-btn">提交反馈</view>
+</view>

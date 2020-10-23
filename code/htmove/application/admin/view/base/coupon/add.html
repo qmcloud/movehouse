@@ -1,0 +1,99 @@
+
+
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-name" data-rule="required" class="form-control" name="row[name]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">兑换码:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="input-group">
+                <input id="c-code" data-rule="required" class="form-control"  name="row[code]" type="text" >
+                <div class="input-group-addon no-border no-padding">
+                    <span><button type="button" id="addcode" class="btn btn-primary " >点击生成</button></span>
+                </div>
+                <span class="msg-box n-right" for="c-image"></span>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Amount')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-amount" data-rule="required" class="form-control" name="row[amount]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Price')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-price" data-rule="required" class="form-control" step="0.01" name="row[price]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">简述:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-desc" data-rule="required" class="form-control"  name="row[desc]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Over_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-over_time" data-rule="required" class="form-control " name="row[over_time]" type="number" data-tip="请输入天数">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Start_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-start_time" data-rule="required" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[start_time]" type="text" value="{:date('Y-m-d H:i:s')}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('End_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-end_time" data-rule="required" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[end_time]" type="text" value="{:date('Y-m-d H:i:s')}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Is_show_switch')}:</label>
+        <div class="col-xs-12 col-sm-8">
+
+            <div class="radio">
+
+                <label >
+                    <input  name="row[is_show_switch]" type="radio" value="0"  /> 隐藏
+                </label>
+                <label >
+                    <input  name="row[is_show_switch]" type="radio" value="1" checked /> 显示
+                </label>
+            </div>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Use_limit')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="input-group">
+                <span class="input-group-addon" >满</span>
+                <input id="c-beyond_price" data-rule="required" class="form-control" data-tip="输入0则是无门槛" name="row[use_limit]" value="" type="number">
+                <span class="input-group-addon" >元可用</span>
+                <span class="msg-box n-right" ></span>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">排序:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-sort" data-rule="required" placeholder="数值越大排名越靠前" class="form-control" step="0.01" name="row[sort]" type="number" >
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

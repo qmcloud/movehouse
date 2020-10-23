@@ -1,0 +1,49 @@
+.box {
+    width: 100%;
+    padding: 20rpx 40rpx;
+    background: #ffffff;
+}
+
+.star-img {
+    width: 20rpx;
+    height: 20rpx;
+    margin-right: 6rpx;
+}
+
+.driver-name {
+    font-size: 24rpx;
+    font-weight: bold;
+    margin-bottom: 10rpx;
+}
+
+.font-num {
+    font-size: 20rpx;
+    color: #808088;
+    margin-left: 10rpx;
+}
+
+.head-img {
+    width: 80rpx;
+    height: 80rpx;
+    border-radius: 35px;
+    margin-right: 20rpx;
+}
+
+.tel-img {
+    width: 50rpx;
+    height: 50rpx;
+    padding: 10rpx;
+}
+
+.betweens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rows {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

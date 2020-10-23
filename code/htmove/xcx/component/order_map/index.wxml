@@ -1,0 +1,13 @@
+<map class="map" controls="{{controls}}" id="map" latitude="{{latitude}}" longitude="{{longitude}}" markers="{{markers}}" polyline="{{polyline}}" scale="14" style="height: {{map_height}}rpx;">
+    <cover-view class="rows box">
+        <cover-image class="order-status-img" src="/image/order_status.png"></cover-image>
+        <cover-view class="des" wx:if="{{status==1}}">待接单</cover-view>
+        <cover-view class="des" wx:if="{{status==2}}">进行中</cover-view>
+        <cover-view class="des" wx:if="{{status==3}}">已完成</cover-view>
+        <cover-view class="des" wx:if="{{status==4}}">待评价</cover-view>
+        <cover-view class="des" wx:if="{{status==5}}">已完成</cover-view>
+        <cover-view class="des" wx:if="{{status==6}}">订单已关闭</cover-view>
+        <cover-view class="des" wx:if="{{status==7}}">待付款</cover-view>
+        <cover-image class="r-img" src="/image/order_status_r.png"></cover-image>
+    </cover-view>
+</map>

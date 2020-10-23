@@ -1,0 +1,146 @@
+
+
+    <style>
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+        }
+        input[type="number"]{
+            -moz-appearance: textfield;
+        }
+    </style>
+    <form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-2">{:__('Title')}:</label>
+            <div class="col-xs-12 col-sm-8">
+                <input id="c-title" data-rule="required" class="form-control" name="row[title]" type="text" value="{$row.title}">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-2">{:__('Load_capacity')}:</label>
+            <div class="col-xs-12 col-sm-8">
+                <div class="input-group">
+                    <input id="c-load_capacity" data-rule="required" class="form-control" name="row[load_capacity]" type="number" value="{$row.load_capacity}">
+                    <span class="input-group-addon" >kg</span>
+                    <span class="msg-box n-right" ></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-2">车身:</label>
+            <div class="col-xs-12 col-sm-8">
+                <input id="c-length" placeholder="长" data-msg="&nbsp" data-target="#c-height"  style="width: 30%" data-rule="required" class="form-control" name="row[length]" type="number" value="{$row.length}">*
+                <input id="c-width"  placeholder="宽" data-msg="&nbsp"  style="width: 30%" data-rule="required" class="form-control" name="row[width]"  value="{$row.width}" type="number" >*
+                <input id="c-height" placeholder="高"  style="width: 30%" data-rule="required" class="form-control" name="row[height]" type="number" value="{$row.height}">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-2">{:__('Icon')}:</label>
+            <div class="col-xs-12 col-sm-8">
+                <div class="input-group">
+                    <input id="c-icon" data-rule="required" class="form-control" size="50" name="row[icon]" type="text" value="{$row.icon}">
+                    <div class="input-group-addon no-border no-padding">
+                        <span><button type="button" id="plupload-icon" class="btn btn-danger plupload" data-input-id="c-icon" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="false" data-preview-id="p-icon"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                        <span><button type="button" id="fachoose-icon" class="btn btn-primary fachoose" data-input-id="c-icon" data-mimetype="image/*" data-multiple="false"><i class="fa fa-list"></i> {:__('Choose')}</button></span>
+                    </div>
+                    <span class="msg-box n-right" for="c-icon"></span>
+                </div>
+                <ul class="row list-inline plupload-preview" id="p-icon"></ul>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-2">选中图标:</label>
+            <div class="col-xs-12 col-sm-8">
+                <div class="input-group">
+                    <input id="c-select_icon" data-rule="required" class="form-control" size="50" name="row[s_icon]" type="text" value="{$row.s_icon}">
+                    <div class="input-group-addon no-border no-padding">
+                        <span><button type="button" id="plupload-select_icon" class="btn btn-danger plupload" data-input-id="c-select_icon" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="false" data-preview-id="p-select_icon"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                        <span><button type="button" id="fachoose-select_icon" class="btn btn-primary fachoose" data-input-id="c-select_icon" data-mimetype="image/*" data-multiple="false"><i class="fa fa-list"></i> {:__('Choose')}</button></span>
+                    </div>
+                    <span class="msg-box n-right" for="c-select_icon"></span>
+                </div>
+                <ul class="row list-inline plupload-preview" id="p-select_icon"></ul>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-2">{:__('Image')}:</label>
+            <div class="col-xs-12 col-sm-8">
+                <div class="input-group">
+                    <input id="c-image" data-rule="required" class="form-control" size="50" name="row[image]" type="text" value="{$row.image}">
+                    <div class="input-group-addon no-border no-padding">
+                        <span><button type="button" id="plupload-image" class="btn btn-danger plupload" data-input-id="c-image" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="false" data-preview-id="p-image"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                        <span><button type="button" id="fachoose-image" class="btn btn-primary fachoose" data-input-id="c-image" data-mimetype="image/*" data-multiple="false"><i class="fa fa-list"></i> {:__('Choose')}</button></span>
+                    </div>
+                    <span class="msg-box n-right" for="c-image"></span>
+                </div>
+                <ul class="row list-inline plupload-preview" id="p-image"></ul>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-2 col-sm-2">{:__('Starting_price')}:</label>
+            <div class="col-xs-3 col-sm-3">
+                <div class="input-group">
+                    <input id="c-starting_price" data-rule="required" value="{$row.starting_price}" data-target="#start_pr" class="form-control" step="0.01" name="row[starting_price]" data-msg="请输入起步价格" type="number">
+                    <span class="input-group-addon" >元</span>
+                </div>
+                <span id="start_pr"></span>
+            </div>
+            <label class="control-label col-xs-2 col-sm-2">{:__('Starting_km')}:</label>
+            <div class="col-xs-3 col-sm-3">
+                <div class="input-group">
+                    <input  id="c-starting_km" data-rule="required" value="{$row.starting_km}" data-target="#starting_km" class="form-control" step="0.01" data-msg="请输入起步公里" name="row[starting_km]" type="number">
+                    <span class="input-group-addon">km</span>
+                </div>
+                <span id="starting_km"></span>
+            </div>
+
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-2">{:__('Beyond_price')}:</label>
+            <div class="col-xs-12 col-sm-8">
+                <div class="input-group">
+                    <input id="c-beyond_price" data-rule="required" class="form-control" name="row[beyond_price]" value="{$row.beyond_price}" type="number">
+                    <span class="input-group-addon" >元&nbsp/公里</span>
+                    <span class="msg-box n-right" ></span>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-2">状态:</label>
+            <div class="col-xs-12 col-sm-8">
+                <!--<div class="radio">-->
+                    <!--<label>-->
+                        <!--<input  name="row[status]" type="radio" value="0" {eq name="$row['status']" value="0"} checked {/eq} />隐藏-->
+                    <!--</label>-->
+                    <!--<label>-->
+                        <!--<input  name="row[status]" type="radio" value="1" {eq name="$row['status']" value="1"} checked {/eq} />显示-->
+                    <!--</label>-->
+                <!--</div>-->
+                <input  id="c-switch" name="row[status]" type="hidden" {if $row.status == 1 } value="1" {else\} value="0" {/if}>
+                <a href="javascript:;" data-toggle="switcher" class="btn-switcher" data-input-id="c-switch" data-yes="1" data-no="0" >
+                    <i class="fa fa-toggle-on text-success {eq name="$row.status" value="0"}fa-flip-horizontal text-gray{/eq} fa-2x"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-2">排序:</label>
+            <div class="col-xs-12 col-sm-8">
+                <input id="c-sort" data-rule="required" class="form-control" name="row[sort]" value="{$row.sort}" type="number" data-tip="数值越大排序越靠前">
+            </div>
+        </div>
+
+        <div class="form-group layer-footer">
+            <label class="control-label col-xs-12 col-sm-2"></label>
+            <div class="col-xs-12 col-sm-8">
+                <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+                <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+            </div>
+        </div>
+    </form>

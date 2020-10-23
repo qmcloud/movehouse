@@ -1,0 +1,65 @@
+<view class="top betweens">
+    <view class="top-left">
+        <view class="nickname">
+            <open-data type="userNickName"></open-data>
+        </view>
+    </view>
+    <view class="top-right">
+        <open-data class="top-right" type="userAvatarUrl"></open-data>
+    </view>
+</view>
+<view class="w-f column">
+    <view class="top-tab rows">
+        <view bind:tap="myOrder" class="top-tab-item column">
+            <image class="order-img" src="/image/order.png"></image>
+            <view class="">我的订单</view>
+        </view>
+        <view class="line-box"></view>
+        <view bind:tap="Question" class="top-tab-item column">
+            <image class="explain-img" src="/image/explain.png"></image>
+            <view class="">提现奖励</view>
+        </view>
+    </view>
+</view>
+<view class="item-box">
+    <view bind:tap="myCoupons" class="item betweens">
+        <view class="item-left rows">
+            <image class="item-left-img" src="/image/coupon_i.png"></image>
+            <view class="">我的优惠券</view>
+        </view>
+        <image class="item-right-img" src="/image/a_r.png"></image>
+    </view>
+    <view bind:tap="Feedback" class="item betweens">
+        <view class="item-left rows">
+            <image class="item-left-img" src="/image/question_i.png"></image>
+            <view class="">问题反馈</view>
+        </view>
+        <image class="item-right-img" src="/image/a_r.png"></image>
+    </view>
+    <view bind:tap="callTel" class="item betweens">
+        <view class="item-left rows">
+            <image class="item-left-img" src="/image/tel_i.png"></image>
+            <view class="">致电客服</view>
+        </view>
+        <image class="item-right-img" src="/image/a_r.png"></image>
+    </view>
+    <view bind:tap="serviceWeb" class="item betweens">
+        <view class="item-left rows">
+            <image class="item-left-img" src="/image/address_i.png"></image>
+            <view class="">司机加盟</view>
+        </view>
+        <image class="item-right-img" src="/image/a_r.png"></image>
+    </view>
+    <view bind:tap="We" class="item betweens">
+        <view class="item-left rows">
+            <image class="item-left-img" src="/image/we_i.png"></image>
+            <view class="">关于我们</view>
+        </view>
+        <image class="item-right-img" src="/image/a_r.png"></image>
+    </view>
+</view>
+<!--<view class="w-f column">
+    <form bindsubmit="myDriver" class="" reportSubmit="true">
+        <button class="center btn driver-btn" formType="submit">我是司机</button>
+    </form>
+</view>-->

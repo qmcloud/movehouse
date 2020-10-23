@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "收支明细",
+    "usingComponents": {
+        "m-tab": "/component/tab/index",
+        "m-no-hint": "/component/no_hint/index"
+    }
+}

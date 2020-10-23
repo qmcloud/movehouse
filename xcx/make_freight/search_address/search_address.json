@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "搜索地址",
+    "usingComponents": {
+        "m-hint": "../../component/no_hint/index"
+    }
+}

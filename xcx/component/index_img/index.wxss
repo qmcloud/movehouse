@@ -1,0 +1,35 @@
+.box {
+    width: 750rpx;
+    height: 100%;
+    padding-top: 200rpx;
+    text-align: center;
+    background: rgba(0,0,0,0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.clear-img {
+    width: 80rpx;
+    height: 80rpx;
+    margin-top: 70rpx;
+}
+
+.index-img {
+    width: 412rpx;
+    height: 570rpx;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rows {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

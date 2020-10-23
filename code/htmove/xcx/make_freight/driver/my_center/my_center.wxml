@@ -1,0 +1,69 @@
+<view scrollY class="full column">
+    <view class="head_top_box">
+        <view class="head_top">
+            <view class="user_info" style="border-bottom:1px solid #f7f7f7;">
+                <view class="user_image">
+                    <open-data type="userAvatarUrl"></open-data>
+                </view>
+                <open-data class="userNickName" type="userNickName"></open-data>
+            </view>
+            <view class="order_count">
+                <view class="order_amount">
+                    <text>今日接单量</text>
+                    <text>{{info.today_order}}</text>
+                </view>
+                <view class="order_amount">
+                    <text>今日总收入</text>
+                    <text>{{info.today_income}}</text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="item-box">
+        <view bindtap="my_order" class="item rows">
+            <view class="item-left rows">
+                <image class="item-left-img" src="/image/coupon_i.png" style="width: 36rpx;height: 30rpx;"></image>
+                <view class="">我的订单</view>
+            </view>
+            <image class="item-right-img" src="/image/a_r.png"></image>
+        </view>
+        <view bindtap="update_mobile" class="item rows">
+            <view class="item-left rows rows">
+                <image class="item-left-img" src="/image/driver/tel.png" style="width: 24rpx;height: 36rpx;"></image>
+                <view class="">修改手机号</view>
+            </view>
+            <image class="item-right-img" src="/image/a_r.png"></image>
+        </view>
+        <view catch:tap="registerBtn" class="item rows" data-name="{{info.car.title}}" wx:if="{{info.is_driver==1}}">
+            <view class="item-left rows">
+                <image class="item-left-img" src="/image/driver/vehicle.png" style="width: 30rpx;height: 27rpx;"></image>
+                <view class="">{{info.car.title}}</view>
+            </view>
+            <image class="item-right-img" src="/image/a_r.png"></image>
+        </view>
+        <view bindtap="wallet" class="item rows">
+            <view class="item-left rows">
+                <image class="item-left-img" src="/image/driver/wallet.png" style="width: 30rpx;height: 25rpx;"></image>
+                <view class="">我的钱包</view>
+            </view>
+            <image class="item-right-img" src="/image/a_r.png"></image>
+        </view>
+        <view catch:tap="callTel" class="item rows">
+            <view class="item-left rows">
+                <image class="item-left-img" src="/image/tel_i.png" style="width: 36rpx;height: 40rpx;"></image>
+                <view class="">致电客服</view>
+            </view>
+            <image class="item-right-img" src="/image/a_r.png"></image>
+        </view>
+    </view>
+    <view class="footer column">
+        <button catch:tap="myIsUser" class="center btn driver-btn">我是用户</button>
+    </view>
+</view>
+<view class="z-index center" wx:if="{{info.is_driver==0}}">
+    <view class="register-box column">
+        <image class="register-img" src="/image/driver/driver-logo.png"></image>
+        <view class="register-des">你还未注册成为司机</view>
+        <view catch:tap="registerBtn" class="register-btn">前往注册</view>
+    </view>
+</view>

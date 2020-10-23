@@ -1,0 +1,35 @@
+page {
+    background: #ffffff;
+}
+
+.full {
+    padding: 0 40rpx;
+}
+
+.m-img {
+    width: 190rpx;
+    height: 190rpx;
+    border-radius: 50%;
+    margin-top: 100rpx;
+}
+
+.title {
+    font-size: 58rpx;
+    margin-top: 30rpx;
+}
+
+.version {
+    font-size: 32rpx;
+    color: #808088;
+    margin: 20rpx 0 70rpx 0;
+}
+
+.item {
+    width: 100%;
+    padding: 30rpx 0;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.tel {
+    color: #ffd101;
+}

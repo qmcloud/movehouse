@@ -1,0 +1,15 @@
+.no-message {
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.no-message-img {
+    width: 269rpx;
+    height: 167rpx;
+    margin: 260rpx 0 40rpx 0;
+}

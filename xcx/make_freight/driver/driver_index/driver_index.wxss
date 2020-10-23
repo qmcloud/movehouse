@@ -1,0 +1,269 @@
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ffffff;
+    font-weight: bold;
+    height: 100rpx;
+    align-items: center;
+}
+
+.tabTrue {
+}
+
+.remark-box {
+    width: 100%;
+    padding: 30rpx 0;
+    background: #ffffff;
+    border-top: 1px solid #f4f4f4;
+}
+
+.car-type-box {
+    width: 100%;
+    padding: 30rpx 0;
+    background: #ffffff;
+    border-top: 1px solid #f4f4f4;
+}
+
+.cu-tabbar-height {
+    min-height: 100rpx;
+    height: calc(100rpx + env(safe-area-inset-bottom) / 2);
+}
+
+.selected {
+    background: #ffd101;
+    height: 6rpx;
+    width: 60rpx;
+    position: absolute;
+    transition: all .2s linear;
+    margin-top: 22rpx;
+}
+
+.order {
+    margin: 20rpx;
+    display: flex;
+    flex-direction: column;
+}
+
+.get_goods {
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-between;
+    height: 100rpx;
+    align-items: center;
+}
+
+.goods-title {
+    margin-left: 20rpx;
+    display: flex;
+    align-items: center;
+}
+
+.title-font {
+    padding-left: 35rpx;
+    font-size: 30rpx;
+    font-weight: bold;
+}
+
+.o_amount {
+    padding-right: 20rpx;
+}
+
+.amount-sybol {
+    font-weight: bold;
+}
+
+.amount-price {
+    color: #ffd101;
+}
+
+.address {
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rpx;
+}
+
+.address_block {
+    margin-top: 30rpx;
+    margin-bottom: 30rpx;
+    margin-left: 35rpx;
+    margin-right: 10rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 570rpx;
+}
+
+.addres_title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.addres_title-font {
+    font-size: 30rpx;
+    font-weight: bold;
+}
+
+.addres_title-distance {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35rpx;
+    padding-right: 10rpx;
+    padding-left: 10rpx;
+    margin-left: 20rpx;
+    background-color: #4a9cf9;
+    font-size: 24rpx;
+    color: #ffffff;
+    border-radius: 3px;
+}
+
+.address_detail {
+    color: #a4a6a9;
+    font-size: 24rpx;
+}
+
+.accept_order {
+    margin-top: 2rpx;
+    color: #ffd101;
+    height: 100rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.top-tab {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.add-wrap {
+    background-color: #5aa4fa;
+    position: fixed;
+    bottom: 120rpx;
+    right: 10rpx;
+    border-radius: 500rpx;
+    height: 160rpx;
+    width: 160rpx;
+    z-index: 1000;
+}
+
+.stauts-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stauts-button image {
+    width: 60rpx;
+    height: 60rpx;
+    margin-top: 25rpx;
+}
+
+.stauts-button text {
+    font-size: 24rpx;
+    margin-top: 18rpx;
+    color: #ffffff;
+}
+
+.open-wrap {
+    float: right;
+    background-color: #ffcd01;
+    position: fixed;
+    bottom: 120rpx;
+    right: 20rpx;
+    border-radius: 500rpx;
+    height: 160rpx;
+    width: 160rpx;
+}
+
+.open-stauts-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.open-stauts-button image {
+    width: 65rpx;
+    height: 65rpx;
+    margin-top: 25rpx;
+}
+
+.open-stauts-button text {
+    font-size: 30rpx;
+    margin-top: 18rpx;
+    color: #2c282e;
+    font-weight: bold;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ffffff;
+    align-items: center;
+    height: 122rpx;
+}
+
+.user_avatar {
+    height: 75rpx;
+    width: 73rpx;
+    border-radius: 300rpx;
+}
+
+.user_avatar image {
+    height: 75rpx;
+    width: 73rpx;
+    border-radius: 300rpx;
+}
+
+.duser_info {
+    padding-top: 20rpx;
+    padding-left: 13rpx;
+}
+
+.duser_info text {
+    font-size: 30rpx;
+}
+
+.user_phone {
+    display: flex;
+    flex-direction: row;
+    font-size: 24rpx;
+    align-items: center;
+    margin-top: 18rpx;
+}
+
+.user_phone text {
+    margin-left: 20rpx;
+    padding-bottom: 5rpx;
+}
+
+.user_phone image {
+    width: 18rpx;
+    height: 22rpx;
+}
+
+.call_mobile {
+    display: flex;
+    flex-direction: row;
+}
+
+.call_mobile image {
+    height: 40rpx;
+    width: 40rpx;
+}
+
+.call_mobile text {
+    margin-right: 20rpx;
+}

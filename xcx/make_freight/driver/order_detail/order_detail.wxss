@@ -1,0 +1,68 @@
+.map-box {
+    width: 100%;
+    flex: 1;
+    position: relative;
+}
+
+.map {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.bottom_item {
+    background: #ffffff;
+    width: 100%;
+}
+
+.butlist {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center-around;
+    padding-left: 30rpx;
+    font-size: 24rpx;
+    font-weight: bold;
+    margin-bottom: 35rpx;
+}
+
+.but {
+    width: 230rpx;
+    height: 100rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1rpx solid #ebebeb;
+    border-bottom: 1rpx solid #ebebeb;
+    border-left: 1rpx solid #ebebeb;
+}
+
+.but:nth-of-type(3) {
+    border-right: 1rpx solid #ebebeb;
+}
+
+.but:nth-of-type(5) {
+    border-right: 1rpx solid #ebebeb;
+}
+
+.but:nth-of-type(n+4) {
+    border-top: 0;
+}
+
+.but_text {
+    margin-left: 12rpx;
+}
+
+.but_icon {
+    display: flex;
+    align-items: center;
+}
+
+.but_icon image {
+    height: 30rpx;
+    width: 35rpx;
+}

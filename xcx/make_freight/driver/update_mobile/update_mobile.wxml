@@ -1,0 +1,17 @@
+<view class="top_box ucolumn">
+    <view class="uphone urow">
+        <view class="left_text">手机号码</view>
+        <input bindinput="phone" class="right_input" placeholder="请输入绑定手机号码" type="number"></input>
+    </view>
+    <view class="rows uphone">
+        <view class="urow">
+            <view class="left_text">验证码</view>
+            <input bindinput="code" class="right_input" placeholder="请输入验证码" type="number"></input>
+        </view>
+        <view catch:tap="sendCode" class="get_code" hidden="{{time_switch}}">获取验证</view>
+        <view class="get_code" hidden="{{!time_switch}}">获取({{time}}s)</view>
+    </view>
+    <view catch:tap="confirm" class="update_button">
+        <view class="">提交</view>
+    </view>
+</view>

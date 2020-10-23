@@ -1,0 +1,4 @@
+<cover-view class="box column">
+    <cover-image bind:tap="getRed" class="index-img" data-id="{{new_person.id}}" src="{{new_person.background}}"></cover-image>
+    <cover-image bind:tap="closeIndex" class="clear-img" src="/image/index_close.png"></cover-image>
+</cover-view>

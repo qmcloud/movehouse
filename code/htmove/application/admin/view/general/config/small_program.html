@@ -1,0 +1,121 @@
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">小程序顶部背景颜色：</label>
+        <div class="col-sm-2">
+            <div class="input-group"  style="display:inline">
+                <input type="text" id='mycp' data-rule="" autocomplete="off" class="form-control" name="row[program_background]" {present name="$setting['program_background']" } value="{$setting['program_background']}" {/present}>
+            </div>
+        </div>
+        <label class="col-sm-1 control-label">字体颜色：</label>
+        <div class="col-sm-2">
+            <div class="input-group"  style="display:inline">
+                <select  id="c-status" data-rule="required" class="form-control selectpicker" style="display: inline-block !important;" name="row[program_font]">
+                    <option value="#000000" {present name="$setting['program_font']"}{eq name="$setting['program_font']" value="#000000"}selected{/eq}{/present} >黑色</option>
+                    <option value="#ffffff" {present name="$setting['program_font']"}{eq name="$setting['program_font']" value="#ffffff"}selected{/eq}{/present}>白色</option>
+                </select>
+            </div>
+        </div>
+        <span class="help-block"><i class="fa fa-info-circle mr-xs"></i>小程序顶部导航颜色</span>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">Logo:</label>
+        <div class="col-xs-12 col-sm-3">
+            <div class="input-group">
+                <input id="c-logo" class="form-control" size="50" name="row[logo]" type="text"  {present name="$setting['logo']"} value="{$setting['logo']}" {/present}>
+                <div class="input-group-addon no-border no-padding">
+                    <span><button type="button" id="plupload-logo" class="btn btn-danger plupload" data-input-id="c-logo" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="false" data-preview-id="p-logo"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                    <span><button type="button" id="fachoose-logo" class="btn btn-primary fachoose" data-input-id="c-logo" data-mimetype="image/*" data-multiple="false"><i class="fa fa-list"></i> {:__('Choose')}</button></span>
+                </div>
+                <span class="msg-box n-right" for="c-logo"></span>
+            </div>
+            <ul class="row list-inline plupload-preview" id="p-logo"></ul>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">分享图:</label>
+        <div class="col-xs-12 col-sm-3">
+            <div class="input-group">
+                <input id="c-share" data-rule="required" class="form-control" size="50" name="row[share]" type="text" {present name="$setting['share']"} value="{$setting['share']}" {/present}>
+                <div class="input-group-addon no-border no-padding">
+                    <span><button type="button" id="plupload-share" class="btn btn-danger plupload" data-input-id="c-share" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="false" data-preview-id="p-share"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                    <span><button type="button" id="fachoose-share" class="btn btn-primary fachoose" data-input-id="c-share" data-mimetype="image/*" data-multiple="false"><i class="fa fa-list"></i> {:__('Choose')}</button></span>
+                </div>
+                <span class="msg-box n-right" for="c-share"></span>
+            </div>
+            <ul class="row list-inline plupload-preview" id="p-share"></ul>
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">小程序首页顶部标题：</label>
+        <div class="col-sm-3">
+            <input type="text" data-rule="" class="form-control" name="row[program_title]" {present name="$setting['program_title']"} value="{$setting['program_title']}" {/present} data-tip="请输入小程序首页标题">
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">AppID：</label>
+        <div class="col-sm-3">
+            <input type="text" data-rule="" class="form-control" name="row[appid]" {present name="$setting['appid']"} value="{$setting['appid']}" {/present} data-tip="请输入小程序APPID">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">AppSecret：</label>
+        <div class="col-sm-3">
+            <input type="text" data-rule="" class="form-control" name="row[appsecret]" {present name="$setting['appsecret']"} value="{$setting['appsecret']}" {/present} data-tip="请输入小程序秘钥">
+        </div>
+    </div>
+    <hr>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">用户下单成功模板消息通知ID：</label>
+        <div class="col-sm-3">
+            <input id="user_input_tpl" type="text" data-rule="" class="form-control tplclass"  {present name="$setting['user_msg_tpl']"} value="{$setting['user_msg_tpl']}" {/present}>
+        </div>
+        <div class="col-xs-12 col-sm-1" style="padding-left:0;">
+            {empty name="$setting['user_msg_tpl']"}
+            <button type="button" class="btn  btn-info start_tpl"  id="user_msg_tpl" data-id="0">启用</button>
+            {else /}
+            <button type="button" class="btn  btn-info start_tpl"  id="user_msg_tpl" data-id="0" style="opacity: 0.65;box-shadow: none;">已启用</button>
+            {/empty}
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">提醒司机接单模板消息通知ID：</label>
+        <div class="col-sm-3">
+            <input id="driver_input_tpl" type="text" data-rule="" class="form-control tplclass"  {present name="$setting['driver_msg_tpl']"} value="{$setting['driver_msg_tpl']}" {/present}>
+        </div>
+        <div class="col-xs-12 col-sm-1" style="padding-left:0;">
+            {empty name="$setting['driver_msg_tpl']"}
+            <button type="button" class="btn btn-info start_tpl" id="driver_msg_tpl" data-id="1">启用</button>
+            {else /}
+            <button type="button" class="btn btn-info start_tpl" id="driver_msg_tpl" data-id="1" style="opacity: 0.65;box-shadow: none;">已启用</button>
+            {/empty}
+        </div>
+    </div>
+    <hr>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">高德地图key：</label>
+        <div class="col-sm-3">
+            <input type="text" data-rule="" class="form-control" name="row[amap]" {present name="$setting['amap']"} value="{$setting['amap']}" {/present} data-tip="请输入高德地图KEY">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">腾讯地图key：</label>
+        <div class="col-sm-3">
+            <input type="text" data-rule="" class="form-control" name="row[tmap]" {present name="$setting['tmap']"} value="{$setting['tmap']}" {/present} data-tip="请输入腾讯地图KEY">
+        </div>
+    </div>
+
+
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <!--<button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>-->
+        </div>
+    </div>
+

@@ -1,0 +1,86 @@
+<view>
+    <view class="register_content">
+        <view class="item_info ">
+            <view class="item_list_title">个人信息</view>
+            <view class="row between item_list">
+                <view>姓名</view>
+                <input bindinput="name" class="item_list_input" maxlength="12" placeholder="请输入姓名" type="text" value="{{name}}"></input>
+            </view>
+            <view class="row between item_list">
+                <view>手机号码</view>
+                <input bindinput="phone" class="item_list_input" maxlength="11" placeholder="请输入手机号码" type="number" value="{{phone}}"></input>
+            </view>
+            <view class="row between item_list">
+                <view>身份证号码</view>
+                <input bindinput="idCard" class="item_list_input" maxlength="18" placeholder="请输入身份证号码" type="idcard" value="{{id_card}}"></input>
+            </view>
+            <view class="row between item_list">
+                <view>车牌号码</view>
+                <input bindinput="idCar" class="item_list_input" placeholder="请输入车牌号码" type="text" value="{{id_car}}"></input>
+            </view>
+        </view>
+        <view class="item_info ">
+            <view class="item_list_title">选择您的车辆类型</view>
+            <view class="row" style="margin-top:40rpx;">
+                <view bindtap="selected" class="car_type center box-transition {{index==idx?'pick':''}}" data-idx="{{index}}" wx:for="{{list}}" wx:key="{{index}}">
+                    <view class="icon_center">
+                        <image class="icon_wh" src="{{item.icon}}"></image>
+                    </view>
+                    <view>{{item.title}}</view>
+                </view>
+            </view>
+        </view>
+        <view class="item_info ">
+            <view class="item_list_title">上传身份证信息</view>
+            <view class="carID row">
+                <view class="carid_box">
+                    <view class="carid_item">
+                        <image catch:tap="photoFrom" class="full" data-idx="0" src="/image/driver/id-f.png" wx:if="{{!photos[0]}}"></image>
+                        <image catch:tap="photoFrom" class="full" data-idx="0" src="{{photos[0]}}" wx:else></image>
+                    </view>
+                    <view class="carid_text">身份证正面</view>
+                </view>
+                <view class="carid_box" style="margin-left:50rpx;">
+                    <view class="carid_item">
+                        <image catch:tap="photoFrom" class="full" data-idx="1" src="/image/driver/id-f.png" wx:if="{{!photos[1]}}"></image>
+                        <image catch:tap="photoFrom" class="full" data-idx="1" src="{{photos[1]}}" wx:else></image>
+                    </view>
+                    <view class="carid_text">身份证反面</view>
+                </view>
+                <view class="carid_box">
+                    <view class="carid_item">
+                        <image catch:tap="photoFrom" class="full" data-idx="2" src="/image/driver/person.png" wx:if="{{!photos[2]}}"></image>
+                        <image catch:tap="photoFrom" class="full" data-idx="2" src="{{photos[2]}}" wx:else></image>
+                    </view>
+                    <view class="carid_text">上传自拍照</view>
+                </view>
+            </view>
+        </view>
+        <view class="item_info ">
+            <view class="item_list_title">上传证件信息</view>
+            <view class="carID row">
+                <view class="carid_box">
+                    <view class="carid_item">
+                        <image catch:tap="photoFrom" class="full" data-idx="3" src="/image/driver/driver-f.png" wx:if="{{!photos[3]}}"></image>
+                        <image catch:tap="photoFrom" class="full" data-idx="3" src="{{photos[3]}}" wx:else></image>
+                    </view>
+                    <view class="carid_text">行驶证</view>
+                </view>
+            </view>
+            <view class="hint">所上传信息用于查询车辆违章、审核，信息保密，不对外公开</view>
+        </view>
+        <view class="item_info ">
+            <view class="item_list_title">上传车辆信息</view>
+            <view class="carID row">
+                <view class="carid_box">
+                    <view class="carid_item">
+                        <image catch:tap="photoFrom" class="full" data-idx="6" src="/image/driver/car-f.png" wx:if="{{!photos[6]}}"></image>
+                        <image catch:tap="photoFrom" class="full" data-idx="6" src="{{photos[6]}}" wx:else></image>
+                    </view>
+                    <view class="carid_text">车身正面照</view>
+                </view>
+            </view>
+        </view>
+        <view catch:tap="confirm" class="submit_bth" wx:if="{{type==0}}">提交</view>
+    </view>
+</view>

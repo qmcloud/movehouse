@@ -1,0 +1,22 @@
+<view class="standard-box" hidden="{{hidden}}">
+    <view class="betweens standrad-top">
+        <text bind:tap="standard_bj" class="">取消</text>
+        <text class="">物品 / 重量</text>
+        <text bind:tap="confirm" class="confirm">确定</text>
+    </view>
+    <view class="rows standard-select-box">
+        <view class="center select-item" wx:for="{{standard}}" wx:key="{{item.id}}">
+            <view bind:tap="selected" class="center select-item-box {{index==idx?' item-active':''}}" data-id="{{item.id}}" data-idx="{{index}}">{{item.name}}</view>
+        </view>
+    </view>
+    <view class="betweens standard-bottom">
+        <view class="">重量</view>
+        <view class="">
+            <view class="rows">
+                <view bind:tap="reduce" class="less center">-</view>
+                <text class="standard-bottom-num">{{less}} {{weight_num}}公斤</text>
+                <view bind:tap="add" class="add center">+</view>
+            </view>
+        </view>
+    </view>
+</view>

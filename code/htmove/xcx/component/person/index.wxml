@@ -1,0 +1,22 @@
+<view class="user">
+    <view class="goods-title" style="height:100%;">
+        <view class="user_avatar">
+            <image src="{{avatar}}"></image>
+        </view>
+        <view class="duser_info">
+            <text class="user_info_title">{{name}}</text>
+            <view class="user_phone">
+                <view>
+                    <image src="/image/driver/phone.png"></image>
+                </view>
+                <text>{{phone}}</text>
+            </view>
+        </view>
+    </view>
+    <view catch:tap="callTel" class="call_mobile" data-phone="{{phone}}">
+        <view style="margin-right:15rpx;">
+            <image src="/image/driver/call.png"></image>
+        </view>
+        <text>电话联系</text>
+    </view>
+</view>

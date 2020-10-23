@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "确认订单",
+    "usingComponents": {
+        "m-address": "/component/address/index"
+    }
+}

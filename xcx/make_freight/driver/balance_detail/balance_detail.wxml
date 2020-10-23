@@ -1,0 +1,21 @@
+<m-tab bind:Getidx="Getidx" bind:scrollSole="scrollSole" top_item="{{top_item}}" top_p="{{top_p}}">
+    <view class="full" slot="after{{idx}}">
+        <view class="item_box betweens" wx:for="{{list}}" wx:key="{{item.id}}">
+            <view class="left_item">
+                <view class="left_title">{{item.title}}</view>
+                <view class="left_time">{{item.create_time}}</view>
+            </view>
+            <view class="right_item price_add" wx:if="{{item.type==1}}">
+                    ￥{{item.amount}}
+                </view>
+            <view class="right_item price_minus" wx:else>
+                    -￥{{item.amount}}
+
+                </view>
+        </view>
+        <m-no-hint wx:if="{{verify.isArray(list)==false}}">
+            <text class="no-hint-font" slot="after">暂无此类订单~</text>
+        </m-no-hint>
+    </view>
+</m-tab>
+<wxs module="verify" src="../../../modules/verify.wxs" />

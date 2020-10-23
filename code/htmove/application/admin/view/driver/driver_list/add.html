@@ -1,0 +1,119 @@
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">绑定用户:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-user_id" data-rule="required" data-field="nick_name"	data-source="user/users/index" class="form-control selectpage" name="row[user_id]" type="text" value="" placeholder="可输入微信昵称搜索">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">绑定车型:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-car_id" data-rule="required" data-field="title"	data-source="vehicle/index" class="form-control selectpage" name="row[car_id]" type="text" value="" placeholder="请选择车型">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Driver_name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-driver_name" data-rule="required" class="form-control" name="row[driver_name]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Driver_phone')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-driver_phone" data-rule="required" class="form-control" name="row[driver_phone]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Plate_number')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-plate_number" data-rule="required" class="form-control" name="row[plate_number]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Driver_idcard')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-driver_IDcard" data-rule="required" class="form-control" name="row[driver_IDcard]" type="text">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Front_idcard_image')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="input-group">
+                <input id="c-front_IDcard_image" data-rule="required" class="form-control" size="50" name="row[front_IDcard_image]" type="text">
+                <div class="input-group-addon no-border no-padding">
+                    <span><button type="button" id="plupload-front_IDcard_image" class="btn btn-danger plupload" data-input-id="c-front_IDcard_image" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="false" data-preview-id="p-front_IDcard_image"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                    <span><button type="button" id="fachoose-front_IDcard_image" class="btn btn-primary fachoose" data-input-id="c-front_IDcard_image" data-mimetype="image/*" data-multiple="false"><i class="fa fa-list"></i> {:__('Choose')}</button></span>
+                </div>
+                <span class="msg-box n-right" for="c-front_IDcard_image"></span>
+            </div>
+            <ul class="row list-inline plupload-preview" id="p-front_IDcard_image"></ul>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Contrary_idcard__image')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="input-group">
+                <input id="c-contrary_IDcard_image" data-rule="required" class="form-control" size="50" name="row[contrary_IDcard_image]" type="text">
+                <div class="input-group-addon no-border no-padding">
+                    <span><button type="button" id="plupload-contrary_IDcard_image" class="btn btn-danger plupload" data-input-id="c-contrary_IDcard_image" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="false" data-preview-id="p-contrary_IDcard_image"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                    <span><button type="button" id="fachoose-contrary_IDcard_image" class="btn btn-primary fachoose" data-input-id="c-contrary_IDcard_image" data-mimetype="image/*" data-multiple="false"><i class="fa fa-list"></i> {:__('Choose')}</button></span>
+                </div>
+                <span class="msg-box n-right" for="c-contrary_IDcard_image"></span>
+            </div>
+            <ul class="row list-inline plupload-preview" id="p-contrary_IDcard_image"></ul>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Car_image')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="input-group">
+                <input id="c-car_image" data-rule="required" class="form-control" size="50" name="row[car_image]" type="text">
+                <div class="input-group-addon no-border no-padding">
+                    <span><button type="button" id="plupload-car_image" class="btn btn-danger plupload" data-input-id="c-car_image" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="false" data-preview-id="p-car_image"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                    <span><button type="button" id="fachoose-car_image" class="btn btn-primary fachoose" data-input-id="c-car_image" data-mimetype="image/*" data-multiple="false"><i class="fa fa-list"></i> {:__('Choose')}</button></span>
+                </div>
+                <span class="msg-box n-right" for="c-car_image"></span>
+            </div>
+            <ul class="row list-inline plupload-preview" id="p-car_image"></ul>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Photo')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="input-group">
+                <input id="c-photo" data-rule="required" class="form-control" size="50" name="row[photo]" type="text">
+                <div class="input-group-addon no-border no-padding">
+                    <span><button type="button" id="plupload-photo" class="btn btn-danger plupload" data-input-id="c-photo" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="false" data-preview-id="p-photo"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                    <span><button type="button" id="fachoose-photo" class="btn btn-primary fachoose" data-input-id="c-photo" data-mimetype="image/*" data-multiple="false"><i class="fa fa-list"></i> {:__('Choose')}</button></span>
+                </div>
+                <span class="msg-box n-right" for="c-photo"></span>
+            </div>
+            <ul class="row list-inline plupload-preview" id="p-photo"></ul>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Drivers_license')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <!--<input id="c-drivers_license" data-rule="required" class="form-control" name="row[drivers_license]" type="text">-->
+            <div class="input-group">
+                <input id="c-drivers_license" data-rule="required" class="form-control" size="50" name="row[drivers_license]" type="text">
+                <div class="input-group-addon no-border no-padding">
+                    <span><button type="button" id="plupload-drivers_license" class="btn btn-danger plupload" data-input-id="c-drivers_license" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="false" data-preview-id="p-drivers_license"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                    <span><button type="button" id="fachoose-drivers_license" class="btn btn-primary fachoose" data-input-id="c-drivers_license" data-mimetype="image/*" data-multiple="false"><i class="fa fa-list"></i> {:__('Choose')}</button></span>
+                </div>
+                <span class="msg-box n-right" for="c-photo"></span>
+            </div>
+            <ul class="row list-inline plupload-preview" id="p-drivers_license"></ul>
+        </div>
+    </div>
+
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

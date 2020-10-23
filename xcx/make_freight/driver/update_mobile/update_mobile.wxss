@@ -1,0 +1,71 @@
+page {
+    background: #ffffff;
+}
+
+.ucolumn {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.urow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.top_box {
+    padding: 70rpx 40rpx 40rpx 40rpx;
+}
+
+.uphone {
+    height: 100rpx;
+    width: 100%;
+    border-bottom: 1rpx solid #f3f3f3;
+}
+
+.left_text {
+    font-weight: bold;
+    width: 125rpx;
+}
+
+.right_input {
+    padding-left: 25rpx;
+    color: #808088;
+}
+
+.get_code {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220rpx;
+    height: 90rpx;
+    background: #ffd101;
+}
+
+.btn {
+    width: 680rpx;
+    height: 90rpx;
+    border-radius: 35px;
+    font-size: 36rpx;
+    font-weight: bold;
+}
+
+.driver-btn {
+    background: #ffd101;
+    margin-top: 70rpx;
+}
+
+.update_button {
+    font-size: 36rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 680rpx;
+    height: 90rpx;
+    margin-top: 90rpx;
+    background: #ffd101;
+    border-radius: 35px;
+    position: fixed;
+    bottom: 50rpx;
+}

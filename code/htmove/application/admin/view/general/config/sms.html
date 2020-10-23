@@ -1,0 +1,38 @@
+<form id="sms" class="form-horizontal" data-toggle="validator" method="POST" action="config/sms">
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">AccessKeyId：</label>
+        <div class="col-sm-3">
+            <input type="text" data-rule="" class="form-control" name="row[ali_access]" {present name="$setting['ali_access']"} value="{$setting['ali_access']}" {/present} data-tip="请输入阿里云用户AccessKey ID">
+        </div>
+
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">AccessKeySecret：</label>
+        <div class="col-sm-3">
+            <input type="text" data-rule="" class="form-control" name="row[ali_secret]" {present name="$setting['ali_secret']"} value="{$setting['ali_secret']}" {/present} data-tip="请输入阿里云用户AccessKey Secret">
+        </div>
+
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">短信签名名称：</label>
+        <div class="col-sm-3">
+            <input type="text" data-rule="" class="form-control" name="row[sign_name]" {present name="$setting['sign_name']"} value="{$setting['sign_name']}" {/present}  data-tip="阿里云短信签名名称">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">验证码短信模板code：</label>
+        <div class="col-sm-3">
+            <input type="text" data-rule="" class="form-control" name="row[code_sms]" {present name="$setting['code_sms']"} value="{$setting['code_sms']}" {/present}  data-tip="请输入验证码短信模板">
+        </div>
+    </div>
+
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

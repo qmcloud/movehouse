@@ -1,0 +1,36 @@
+[ 2020-07-25T00:21:02+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000155s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-25T00:21:02+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-25T00:21:02+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003937s ]
+[ 2020-07-25T00:21:02+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004016s ]
+[ 2020-07-25T00:21:02+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-25T00:22:00+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000157s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-25T00:22:00+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-25T00:22:00+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003683s ]
+[ 2020-07-25T00:22:00+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003753s ]
+[ 2020-07-25T00:22:00+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-25T00:22:28+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000158s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-25T00:22:28+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-25T00:22:28+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003807s ]
+[ 2020-07-25T00:22:28+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003883s ]
+[ 2020-07-25T00:22:28+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-25T00:22:48+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000245s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-25T00:22:48+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-25T00:22:48+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006497s ]
+[ 2020-07-25T00:22:48+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006590s ]
+[ 2020-07-25T00:22:48+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-25T00:25:49+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000176s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-25T00:25:49+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-25T00:25:49+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004528s ]
+[ 2020-07-25T00:25:49+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004607s ]
+[ 2020-07-25T00:25:49+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-07-25T00:27:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000177s ]
+[ info ] [ LOG ] INIT File
+[ 2020-07-25T00:27:05+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-07-25T00:27:05+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004237s ]
+[ 2020-07-25T00:27:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004321s ]
+[ 2020-07-25T00:27:05+08:00 ][ info ] [ DB ] INIT mysql

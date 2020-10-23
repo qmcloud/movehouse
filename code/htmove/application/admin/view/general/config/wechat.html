@@ -1,0 +1,35 @@
+<form id="bse" class="form-horizontal" data-toggle="validator" method="POST" action="config/wechat">
+
+
+    <div class="form-group">
+        <label class="col-sm-1 control-label">商户号ID：</label>
+        <div class="col-sm-3">
+            <input type="text" data-rule="" class="form-control" name="row[mchid]" {present name="$setting['mchid']"} value="{$setting['mchid']}" {/present} data-tip="微信支付商户号">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-1 control-label">支付秘钥：</label>
+        <div class="col-sm-3">
+            <input type="text" data-rule="" class="form-control" name="row[pay_secret]" {present name="$setting['pay_secret']"} value="{$setting['pay_secret']}" {/present} data-tip="微信支付秘钥">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-1 control-label">商户证书cert：</label>
+        <div class="col-sm-3">
+            <textarea class="form-control" name="row[mch_cert]" style="height:380px;resize: none;" {present name="$setting['mch_cert']"}  placeholder="已保存" {/present}  ></textarea>
+        </div>
+
+        <label class="col-sm-1 control-label">商户证书key：</label>
+        <div class="col-sm-3">
+            <textarea class="form-control" name="row[mch_key]" style="height:380px;resize: none;"  {present name="$setting['mch_key']"} value="{$setting['mch_key']}" placeholder="已保存" {/present} data-tip="复制apiclient_key证书内容粘贴"></textarea>
+        </div>
+    </div>
+
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

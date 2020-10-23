@@ -1,0 +1,11 @@
+<view class="box" wx:for="{{list}}" wx:key="{{item.id}}">
+    <view class="item-top rows">
+        <image class="dot-img" src="{{item.icon}}"></image>
+        <view class="font-title">公司总部</view>
+        <view class="">{{item.title}}</view>
+    </view>
+    <view catch:tap="callTel" class="item-row row" data-phone="{{son.phone}}" wx:for="{{item.service}}" wx:for-index="idx" wx:for-item="son" wx:key="{{son.id}}">
+        <veiw class="item-row-left">{{son.name}}</veiw>
+        <veiw class="item-address">{{son.address}}</veiw>
+    </view>
+</view>

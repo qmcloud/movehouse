@@ -1,0 +1,147 @@
+<style>
+
+</style>
+<div class="panel panel-default panel-intro">
+    <div class="panel-heading">
+        <ul id="myTab" class="nav nav-tabs">
+            <li class="active"><a href="#base" data-toggle="tab">基本信息</a></li>
+            <li><a href="#driver" data-toggle="tab">司机信息</a></li>
+            <li><a href="#drivers" data-toggle="tab">认证信息</a></li>
+
+        </ul>
+    </div>
+
+    <div class="panel-body">
+        <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade in active" id="base">
+                <div class="form-horizontal">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">微信昵称:</label>
+                        <div class="col-sm-3">
+                            <p class="form-control-static">{$detail['nick_name']}</p>
+                        </div>
+
+                        <label class="col-sm-2 control-label">真实姓名:</label>
+                        <div class="col-sm-5">
+                            <p class="form-control-static">{$detail['driver_name']}</p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">身份证号:</label>
+                        <div class="col-sm-3">
+                            <p class="form-control-static">{$detail['driver_IDcard']}</p>
+                        </div>
+                        <label class="col-sm-2 control-label">手机号码:</label>
+                        <div class="col-sm-3">
+                            <p class="form-control-static">{$detail['driver_phone']}</p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">注册时间:</label>
+                        <div class="col-sm-3">
+                            <p class="form-control-static">{:datetime($detail['create_time'])}</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="tab-pane fade" id="driver">
+                <div class="form-horizontal">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">司机头像:</label>
+                        <div class="col-sm-3">
+                            <a href="__CDN__{$detail.photo}" target="_blank">
+                                <image  style="width: 50px;height: 50px" src="__CDN__{$detail.photo}"></image>
+                            </a>
+                        </div>
+                        <label class="col-sm-2 control-label">取消订单次数:</label>
+                        <div class="col-sm-5">
+                            <p class="form-control-static">{$detail['driverinfo']['cancel_number']}</p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">服务次数:</label>
+                        <div class="col-sm-3">
+                            <p class="form-control-static">{$detail['driverinfo']['service_number']}</p>
+                        </div>
+
+                        <label class="col-sm-2 control-label">服务分数:</label>
+                        <div class="col-sm-5">
+                            <p class="form-control-static">{$detail['driverinfo']['service_mark']}</p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">车型:</label>
+                        <div class="col-sm-3">
+                            <p class="form-control-static">{$detail['car']['title']}</p>
+                        </div>
+
+                        <label class="col-sm-2 control-label">车牌号:</label>
+                        <div class="col-sm-5">
+                            <p class="form-control-static">{$detail['plate_number']}</p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">账户余额:</label>
+                        <div class="col-sm-3">
+                            <p class="form-control-static">{$detail['driverinfo']['balance']}</p>
+                        </div>
+                        <label class="col-sm-2 control-label">接单地址:</label>
+                        <div class="col-sm-3">
+                            <p class="form-control-static">{$detail['driverinfo']['address']}</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="tab-pane fade" id="drivers">
+                <div class="form-group" style="display: flex;justify-content: center;align-items: center">
+                    <label class="col-sm-3 control-label" >身份证正面:</label>
+                    <div class="col-sm-3" style="margin-bottom: 20px">
+                        <div class="input-group">
+                            <a href="__CDN__{$detail['front_IDcard_image']}" target="_blank">
+                                <image  style="width: 50px;height: 50px" src="__CDN__{$detail['front_IDcard_image']}"></image>
+                            </a>
+                        </div>
+                    </div>
+                    <label class="col-sm-3 control-label">身份证反面:</label>
+                    <div class="col-sm-3" style="margin-bottom: 20px">
+                        <div class="input-group">
+                            <a href="__CDN__{$detail['contrary_IDcard_image']}" target="_blank">
+                                <image  style="width: 50px;height: 50px" src="__CDN__{$detail['contrary_IDcard_image']}"></image>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group" style="display: flex;justify-content: center;align-items: center" >
+                    <label class="col-sm-3 control-label" >行驶证:</label>
+                    <div class="col-sm-3" style="margin-bottom: 20px">
+                        <a href="__CDN__{$detail['drivers_license']}" target="_blank">
+                            <image  style="width: 50px;height: 50px" src="__CDN__{$detail['drivers_license']}"></image>
+                        </a>
+                    </div>
+                    <label class="col-sm-3 control-label">车身照:</label>
+                    <div class="col-sm-3" style="margin-bottom: 20px">
+                        <a href="__CDN__{$detail['car_image']}" target="_blank">
+                            <image  style="width: 50px;height: 50px" src="__CDN__{$detail['car_image']}"></image>
+                        </a>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,42 @@
+.map {
+    width: 100%;
+    height: 500rpx;
+    position: relative;
+}
+
+.box {
+    background: #ffffff;
+    padding: 0 20rpx 0 6rpx;
+    border-radius: 35px;
+    position: absolute;
+    left: 40rpx;
+    bottom: 30rpx;
+}
+
+.order-status-img {
+    width: 64rpx;
+    height: 64rpx;
+}
+
+.des {
+    font-size: 30rpx;
+    font-weight: bold;
+    margin: 0 20rpx 0 10rpx;
+}
+
+.r-img {
+    width: 13rpx;
+    height: 22rpx;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rows {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

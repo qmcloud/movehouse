@@ -1,0 +1,45 @@
+page {
+    background: #ffffff;
+}
+
+.logo-img {
+    width: 190rpx;
+    height: 190rpx;
+    margin-top: 80rpx;
+}
+
+.font-box {
+    width: 100%;
+    padding-left: 60rpx;
+}
+
+.font-one {
+    margin-top: 150rpx;
+    font-size: 36rpx;
+}
+
+.font-two {
+    color: #9a9a9a;
+    margin-top: 30rpx;
+}
+
+.wechat-img {
+    width: 63rpx;
+    height: 51rpx;
+    margin-right: 20rpx;
+}
+
+.confirm-btn {
+    width: 670rpx;
+    height: 90rpx;
+    font-size: 36rpx;
+    font-weight: bold;
+    background: #ffffff;
+    border: 1px solid #2c282e;
+    border-radius: 35px;
+    margin-top: 140rpx;
+}
+
+.confirm-btn:after {
+    border: 0;
+}
