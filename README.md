@@ -1,67 +1,48 @@
-# movehouse
-FastAdmin是一款基于ThinkPHP5+Bootstrap的极速后台开发框架。
+# 搬家拉货货运物流app小程序
 
 
 ## 主要特性
 
-* 基于`Auth`验证的权限管理系统
-    * 支持无限级父子级权限继承，父级的管理员可任意增删改子级管理员及权限设置
-    * 支持单管理员多角色
-    * 支持管理子级数据或个人数据
-* 强大的一键生成功能
-    * 一键生成CRUD,包括控制器、模型、视图、JS、语言包、菜单、回收站等
-    * 一键压缩打包JS和CSS文件，一键CDN静态资源部署
-    * 一键生成控制器菜单和规则
-    * 一键生成API接口文档
-* 完善的前端功能组件开发
-    * 基于`AdminLTE`二次开发
-    * 基于`Bootstrap`开发，自适应手机、平板、PC
-    * 基于`RequireJS`进行JS模块管理，按需加载
-    * 基于`Less`进行样式开发
-    * 基于`Bower`进行前端组件包管理
-* 强大的插件扩展功能，在线安装卸载升级插件
-* 通用的会员模块和API模块
-* 共用同一账号体系的Web端会员中心权限验证和API接口会员权限验证
-* 二级域名部署支持，同时域名支持绑定到插件
-* 多语言支持，服务端及客户端支持
-* 强大的第三方模块支持([CMS](https://www.fastadmin.net/store/cms.html)、[博客](https://www.fastadmin.net/store/blog.html)、[知识付费问答](https://www.fastadmin.net/store/ask.html)、[在线投票系统](https://www.fastadmin.net/store/vote.html))
-* 支持CMS、博客、知识付费问答无缝整合[Xunsearch全文搜索](https://www.fastadmin.net/store/xunsearch.html)
-* 第三方小程序支持([预订小程序](https://www.fastadmin.net/store/ball.html)、[问答小程序](https://www.fastadmin.net/store/questions.html)、[活动报名小程序](https://www.fastadmin.net/store/huodong.html)、[商城小程序](https://www.fastadmin.net/store/xshop.html)、[博客小程序](https://www.fastadmin.net/store/blog.html))
-* 整合第三方短信接口(阿里云、腾讯云短信)
-* 无缝整合第三方云存储(七牛、阿里云OSS、又拍云)功能
-* 第三方富文本编辑器支持(Summernote、Kindeditor、百度编辑器)
-* 第三方登录(QQ、微信、微博)整合
-* 第三方支付(微信、支付宝)无缝整合，微信支持PC端扫码支付
-* 丰富的插件应用市场
+微信小程序 货运快狗搬家物流V1.0.11 小程序前端+后端
+更新动态：
 
-## 安装使用
+版本号：1.0.11 - 运营版
 
-https://doc.fastadmin.net
+本次更新后需重新提交小程序审核
+优化抢单后重新推送消息
+修复站长大帝反馈的问题
 
-## 在线演示
+版本号：1.0.10 - 运营版
+本次更新无需更新小程序
+后台新增添加司机
+精简司机所上传的图片
+(1) banner点击注册司机
 
-https://demo.fastadmin.net
+(2)右滑动态选择车型
+(3)同城、跨城切换选择不同服务，给用户提供多选择
+(4)选择车型后显示车辆图片载重、尺寸容量等信息
+(5)点击跳转输入地址位置信息，选择送达位置，选择预约时间，简单快捷，方便用户实时输入内容
+(6)选择车型地点后自动显示出起步价
+ 
+司机端设计
+(1)采用tab选项卡设计
+(2)注重简洁接单内容的显示，采用了卡片式设计更人性化
+(3)接单按钮和接单中使用色彩反差效果
+(4)派送中的个人信息名字和电话◆ 号码都显示出来，以便司机与用户实时联系对话，更有备注和取货信息方便及时查看
 
-用户名：admin
+个人中心
+(1) 顶部为卡片式个人信息，显示内容包括头像、名字、接单量以及总收入
+(2) 中间部分依旧采用列表样式，五大选项功能订单详情、修改手机号、车辆信息、钱包、联系客服
+(3) 一键式回到用户程序页面，本次小程序采用了双系统式设计，司机用户互相跳转，提高快捷使用率
 
-密　码：123456
-
-提　示：演示站数据无法进行修改，请下载源码安装体验全部功能
 
 ## 界面截图
-![控制台](https://gitee.com/uploads/images/2017/0411/113717_e99ff3e7_10933.png "控制台")
 
 ## 问题反馈
 
 在使用中有任何问题，请使用以下联系方式联系我们
 
-交流社区: https://ask.fastadmin.net
-
-QQ群: [636393962](https://jq.qq.com/?_wv=1027&k=487PNBb)(满) [708784003](https://jq.qq.com/?_wv=1027&k=5ObjtwM)(满) [964776039](https://jq.qq.com/?_wv=1027&k=59qjU2P)(3群) [749803490](https://jq.qq.com/?_wv=1027&k=5tczi88)(满) [767103006](https://jq.qq.com/?_wv=1027&k=5Z1U751)(满) [675115483](https://jq.qq.com/?_wv=1027&k=54I6mts)(6群)
-
-Github: https://github.com/karsonzhang/fastadmin
-
-Gitee: https://gitee.com/karson/fastadmin
+微信：BCFind5 （添加时请备注好信息）
 
 ## 特别鸣谢
 
@@ -84,10 +65,9 @@ SelectPage: https://github.com/TerryZ/SelectPage
 
 ## 版权信息
 
-FastAdmin遵循Apache2开源协议发布，并提供免费使用。
+遵循Apache2开源协议发布，并提供免费使用。
 
 本项目包含的第三方源码和二进制文件之版权信息另行标注。
 
-版权所有Copyright © 2017-2020 by FastAdmin (https://www.fastadmin.net)
 
 All rights reserved。
