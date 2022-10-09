@@ -1,5 +1,0 @@
-module.exports = ({
-    horizontal: true,
-    animation: true,
-    search: true,
-});
