@@ -36,6 +36,13 @@
 (2) 中间部分依旧采用列表样式，五大选项功能订单详情、修改手机号、车辆信息、钱包、联系客服
 (3) 一键式回到用户程序页面，本次小程序采用了双系统式设计，司机用户互相跳转，提高快捷使用率
 
+## 搬家演示
+客户端：https://app.onionnews.cn/moveuser
+司机端：https://app.onionnews.cn/movedriver
+后台管理：https://move.onionnews.cn/pjsONbXFua.php/order?ref=addtabs
+账号: admin
+密码：admin123 
+
 ## 界面截图
 ![image](https://github.com/DOUBLE-Baller/movehouse/blob/master/img/微信截图_20230813181337.png?raw=true)
 ![image](https://github.com/DOUBLE-Baller/movehouse/blob/master/img/微信截图_20230813181407.png?raw=true)
@@ -49,7 +56,7 @@
 
 在使用中有任何问题，请使用以下联系方式联系我们
 
-微信：BCFind5 （添加时请备注好信息）
+微信：BCFind5 （添加时请备注好信息，否则不加）
 
 ## 特别鸣谢
 
