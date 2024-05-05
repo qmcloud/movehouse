@@ -38,9 +38,9 @@
 
 ## 搬家演示
 
-客户端：https://app.onionnews.cn/moveuser
+客户端：https://app.onionnews.cn
 
-司机端：https://app.onionnews.cn/movedriver
+司机端：https://app.onionnews.cn
 
 后台管理：https://move.onionnews.cn/pjsONbXFua.php/order?ref=addtabs
 
